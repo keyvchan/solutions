@@ -8,13 +8,8 @@ func countBits(n int) []int {
 	for i := 0; i < n+1; i++ {
 
 		counts := 0
-		for num := i; num != 0; {
-			if num%2 == 1 {
-				counts++
-			}
-			num = num / 2
-		}
-		ans[i] = counts
+
+		ans[i] = counts + ans[i/2] + i%2
 
 	}
 
