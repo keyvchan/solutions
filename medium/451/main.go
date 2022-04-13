@@ -36,7 +36,7 @@ func frequencySort(s string) string {
 	s1.Grow(len(s))
 
 	for _, s := range sorted_counts {
-		s1.Write([]byte(strings.Repeat(string(s.k), s.v)))
+		s1.WriteString(strings.Repeat(string(s.k), s.v))
 	}
 
 	return s1.String()
