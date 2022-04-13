@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"sort"
+	"strings"
+)
 
 func main() {
 	fmt.Println(frequencySort("tree"))
@@ -8,30 +12,32 @@ func main() {
 	fmt.Println(frequencySort("Aabb"))
 }
 
+type counts struct {
+	k rune
+	v int
+}
+
 func frequencySort(s string) string {
-	bucket := make([][]rune, len(s)+1)
 	counts_map := make(map[rune]int)
 	for _, v := range s {
-		if _, ok := counts_map[v]; ok {
-			counts_map[v] = counts_map[v] + 1
-		} else {
-			counts_map[v] = 1
-		}
-	}
-	for k, v := range counts_map {
-		bucket[v] = append(bucket[v], k)
-	}
-	var s1 string
-	for bucket_idx := len(bucket) - 1; bucket_idx >= 0; bucket_idx-- {
-		if bucket[bucket_idx] == nil {
-			continue
-		}
-		for _, v := range bucket[bucket_idx] {
-			for i := 0; i < counts_map[v]; i++ {
-				s1 = s1 + string(v)
-			}
-		}
+		counts_map[v] = counts_map[v] + 1
 	}
 
-	return s1
+	sorted_counts := make([]counts, len(counts_map))
+
+	for k, v := range counts_map {
+		sorted_counts = append(sorted_counts, counts{k, v})
+	}
+	sort.Slice(sorted_counts, func(i, j int) bool {
+		return sorted_counts[i].v > sorted_counts[j].v
+	})
+
+	var s1 strings.Builder
+	s1.Grow(len(s))
+
+	for _, s := range sorted_counts {
+		s1.Write([]byte(strings.Repeat(string(s.k), s.v)))
+	}
+
+	return s1.String()
 }
