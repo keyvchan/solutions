@@ -1,28 +1,26 @@
 package main
 
-func main() {
+import "fmt"
 
+func main() {
+	array := Constructor([]int{-2, 0, 3, -5, 2, -1})
+	fmt.Println(array.SumRange(0, 2))
 }
 
 type NumArray struct {
-	array []int
+	array   []int
+	sum_map map[int]int
 }
 
 func Constructor(nums []int) NumArray {
-	return NumArray{nums}
+	sum_map := make(map[int]int)
+	for i, v := range nums {
+		sum_map[i] = sum_map[i-1] + v
+	}
+	fmt.Println(sum_map)
+	return NumArray{nums, sum_map}
 }
 
 func (this *NumArray) SumRange(left int, right int) int {
-	new_array := this.array[left : right+1]
-	sum := 0
-	for _, v := range new_array {
-		sum += v
-	}
-	return sum
+	return this.sum_map[right] - this.sum_map[left-1]
 }
-
-/**
- * Your NumArray object will be instantiated and called as such:
- * obj := Constructor(nums);
- * param_1 := obj.SumRange(left,right);
- */
