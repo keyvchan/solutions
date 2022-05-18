@@ -31,7 +31,10 @@ func canPartition(nums []int) bool {
 			if k+num == sum/2 {
 				return true
 			} else {
-				newdp[k+num] = true
+				// check if k+sum is exist in dp
+				if _, ok := dp[k+num]; !ok {
+					newdp[k+num] = true
+				}
 			}
 		}
 		// merge two dp
