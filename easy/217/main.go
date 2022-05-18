@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"sort"
 )
 
 func main() {
@@ -11,15 +10,14 @@ func main() {
 }
 
 func containsDuplicate(nums []int) bool {
-	sort.Ints(nums)
 
-	// make sure last not equal to first
-	last := nums[0] - 1
-	for _, num := range nums {
-		if last == num {
+	set := map[int]bool{}
+
+	for _, v := range nums {
+		if _, ok := set[v]; ok {
 			return true
 		}
-		last = num
+		set[v] = true
 	}
 
 	return false
