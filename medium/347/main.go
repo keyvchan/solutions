@@ -28,7 +28,7 @@ func topKFrequent(nums []int, k int) []int {
 	for _, val := range count_map {
 		vals = append(vals, val)
 	}
-	sort.Sort(sort.IntSlice(vals))
+	sort.Ints(vals)
 	vals = vals[len(vals)-k:]
 
 	var results []int
