@@ -1,6 +1,12 @@
 * Index
 
 ** Array and Hash
-   - [ ] {:easy/217/217:* Contains Duplicate}[# Contains Duplicate] 
-   - [ ] {:easy/242/242:* Valid Anagram}[# Valid Anagram] 
-   - [ ] {:easy/1/1:* Two Sum}[# Two Sum]
+   - [x] {:easy/217/217:* Contains Duplicate}[# Contains Duplicate] 
+   - [x] {:easy/242/242:* Valid Anagram}[# Valid Anagram] 
+   - [-] {:easy/1/1:* Two Sum}[# Two Sum]
+   - [-] {:medium/49/49:* Group Anagrams}[# Group Anagrams] 
+   - [-] {:medium/347/347:* Top K Frequent}[# Top K Frequent] 
+   - [-] {:medium/238/238:* Product of Array Except Self}[# Product of Array Except Self] 
+
+** Two Pointers
+   - [-] {:easy/125/125:* Valid Palindrome}[# Valid Palindrome] 
