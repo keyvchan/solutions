@@ -8,6 +8,7 @@
    - [-] {:medium/347/347:* Top K Frequent}[# Top K Frequent]
    - [-] {:medium/238/238:* Product of Array Except Self}[# Product of Array Except Self]
    - [-] {:medium/36/36:* Valid Sudoku}[# Valid Sudoku] 
+   - [-] {:medium/271/271:* Encode and Decode Strings}[Encode and Decode Strings] 
 
 ** Two Pointers
    - [-] {:easy/125/125:* Valid Palindrome}[# Valid Palindrome]
