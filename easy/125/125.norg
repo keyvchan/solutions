@@ -1,5 +1,5 @@
 * Valid Palindrome
-** Two-pointer
+** Two-pointer and Modified String
 
    remove all non-alphanumeric characters, then use two pointers
 
@@ -29,7 +29,7 @@
    @end
 
 ** Time and Memory Optimize
-   use a new string to store the modified string
+   use a new string to store the modified string.
 
    Runtime: 247 ms, faster than 8.18% of Go online submissions for Valid Palindrome.
    Memory Usage: 8.9 MB, less than 9.16% of Go online submissions for Valid Palindrome.
@@ -57,3 +57,43 @@
    }
    @end
 
+** Don't modify the string, skip invalid char
+   use two pointers to skip invalid char
+
+   Runtime: 0 ms, faster than 100.00% of Go online submissions for Valid Palindrome.
+   Memory Usage: 2.8 MB, less than 69.51% of Go online submissions for Valid Palindrome.
+
+   @code go
+   func isAlphanumeric(s byte) bool {
+     if s >= 'a' && s <= 'z' || s >= '0' && s <= '9' {
+       return true
+     }
+     return false
+   }
+
+   func isPalindrome(s string) bool {
+
+     // remove all non-alphanumeric characters
+     s = strings.ToLower(s)
+
+     for i, j := 0, len(s)-1; i < j; {
+       // check s[i] is alphanumeric
+       if !isAlphanumeric(s[i]) {
+         i += 1
+         continue
+       }
+       if !isAlphanumeric(s[j]) {
+         j -= 1
+         continue
+       }
+
+       if s[i] != s[j] {
+         return false
+       } else {
+         i += 1
+         j -= 1
+       }
+     }
+
+     return true
+   @end
