@@ -1,0 +1,59 @@
+* Valid Palindrome
+** Two-pointer
+
+   remove all non-alphanumeric characters, then use two pointers
+
+   Runtime: 728 ms, faster than 5.15% of Go online submissions for Valid Palindrome.
+   Memory Usage: 27.9 MB, less than 5.51% of Go online submissions for Valid Palindrome.
+
+   @code go
+   func isPalindrome(s string) bool {
+
+     // remove all non-alphanumeric characters
+     s = strings.ToLower(s)
+     for i := 0; i < len(s); i++ {
+       if (s[i] < 'a' || s[i] > 'z') && (s[i] < '0' || s[i] > '9') {
+         s = s[:i] + s[i+1:]
+         i--
+       }
+     }
+
+     for i, j := 0, len(s)-1; i < j; i, j = i+1, j-1 {
+       if s[i] != s[j] {
+         return false
+       }
+     }
+
+     return true
+   }
+   @end
+
+** Time and Memory Optimize
+   use a new string to store the modified string
+
+   Runtime: 247 ms, faster than 8.18% of Go online submissions for Valid Palindrome.
+   Memory Usage: 8.9 MB, less than 9.16% of Go online submissions for Valid Palindrome.
+
+   @code go
+   func isPalindrome(s string) bool {
+
+     // remove all non-alphanumeric characters
+     s = strings.ToLower(s)
+     new_string := ""
+     for i := 0; i < len(s); i++ {
+       if s[i] >= 'a' && s[i] <= 'z' || s[i] >= '0' && s[i] <= '9' {
+         // append to new string
+         new_string += string(s[i])
+       }
+     }
+
+     for i, j := 0, len(new_string)-1; i < j; i, j = i+1, j-1 {
+       if new_string[i] != new_string[j] {
+         return false
+       }
+     }
+
+     return true
+   }
+   @end
+
