@@ -1,4 +1,4 @@
-* Result
+* Contains Duplicate
 
 ** First Thought(Sort + check adjacent)
 
@@ -34,15 +34,15 @@
    @code go
    func containsDuplicate(nums []int) bool {
 
-	set := map[int]bool{}
+     set := map[int]bool{}
 
-	for _, v := range nums {
-		if _, ok := set[v]; ok {
-			return true
-		}
-		set[v] = true
-	}
+     for _, v := range nums {
+       if _, ok := set[v]; ok {
+         return true
+       }
+       set[v] = true
+     }
 
-	return false
+     return false
    }
    @end
