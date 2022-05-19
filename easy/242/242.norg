@@ -1,0 +1,40 @@
+* Result
+
+** Hash map
+
+   Use hash map to sotre the count of each word, check another string and change the count
+
+   @code go
+   func isAnagram(s string, t string) bool {
+     if len(s) != len(t) {
+       return false
+     }
+
+     set := map[rune]int{}
+
+     for _, b := range s {
+       set[b] += 1
+     }
+     fmt.Println(set)
+
+     for _, b := range t {
+       fmt.Println(set)
+       if _, ok := set[b]; !ok {
+         return false
+       } else {
+         set[b] -= 1
+         if set[b] == 0 {
+           delete(set, b)
+         }
+       }
+     }
+
+     return true
+   }
+   @end
+
+   @document
+    Runtime: 12 ms, faster than 32.17% of Go online submissions for Valid Anagram.
+    Memory Usage: 2.8 MB, less than 34.06% of Go online submissions for Valid Anagram.
+   @end
+
