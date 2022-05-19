@@ -1,6 +1,6 @@
 * Contains Duplicate
 
-** First Thought(Sort + check adjacent)
+** Sort + check adjacent
 
    Sort the array, then check adjacent.
 
