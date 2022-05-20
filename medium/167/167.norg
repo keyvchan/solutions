@@ -1,0 +1,22 @@
+* Two Sum || - Input Array is Sorted
+
+** Hash map
+   Use hash map to store visited value
+
+   *Trick*: Duplicates
+   ~ Scan from start to end, 
+   ~ Check `target-num` in hash map, 
+   ~ If not, inserted, 
+   ~ If yes, return the index of the value
+   ~~ We don't need to check the index, since key in map is smaller than current index
+
+*** Result
+**** *Time Complexity*: O(n)
+     Since we just scan the whole array once, and query the map is O(1), so total shoule be O(n)
+**** *Space Complexity*: O(n)
+     We will use a map to store all the nums, so the space complexity is O(n)
+
+**** Evaluation
+     Runtime: 7 ms, faster than 97.65% of Go online submissions for Two Sum II - Input Array Is Sorted.
+     Memory Usage: 5.5 MB, less than 50.03% of Go online submissions for Two Sum II - Input Array Is
+*** Code: {@ main.go}[main.go]
