@@ -3,7 +3,7 @@
 ** Hash map
    Use hash map to store visited value
 
-   *Trick*: Duplicates
+   *Step*: 
    ~ Scan from start to end, 
    ~ Check `target-num` in hash map, 
    ~ If not, inserted, 
