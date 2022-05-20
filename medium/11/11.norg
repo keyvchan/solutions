@@ -21,4 +21,7 @@
 
 *** Code: {@ main.go}[main.go]
 
+*** Questions:
+    local optimum and global optimum. The solution above gives the global optimum.
+
 
