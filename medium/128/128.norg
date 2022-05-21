@@ -6,7 +6,6 @@
     *Execcted Time limit*
 *** Code: {@ main.go}[Brute Force]
 
-  ** 
 *** Result
     Runtime: 745 ms, faster than 7.18% of Go online submissions for Longest Consecutive Sequence.
     Memory Usage: 14.5 MB, less than 5.22% of Go online submissions for Longest Consecutive
