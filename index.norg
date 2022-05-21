@@ -22,3 +22,6 @@
    - [ ] {:medium/3/3:* Longest Substring Without Repeating Characters}[# Longest Substring Without Repeating Characters]
    - [ ] {:medium/424/424:* Longest Repeating Character Replacement}[# Longest Repeating Character Replacement]
 
+** Stack
+   - [x]  {:easy/20/20:* Valid Parentheses}[# Valid Parentheses]
+

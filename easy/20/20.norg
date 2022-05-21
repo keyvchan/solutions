@@ -1,0 +1,17 @@
+* Valid Parentheses
+
+** Stack
+   Use a stack check left side of parentheses
+
+   *NOTE:*
+   - `"){"`: when left side is right parenthesis, it must be invalid
+   - `"((`: Don't have right parenthesis, so it's invalid
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+*** Result
+    Runtime: 0 ms, faster than 100.00% of Go online submissions for Valid Parentheses.
+    Memory Usage: 2.2 MB, less than 25.07% of Go online submissions for Valid Parentheses.
+*** Code: 
+    - Go: {@ main.go}[main.go]
