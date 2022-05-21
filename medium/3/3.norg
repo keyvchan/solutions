@@ -1,0 +1,16 @@
+* Longest Substring Without Repeating Characters
+
+** Sliding Window
+   Use two pointers to record the start and end of the current substring. If duplicate, slide left pointer to the index of
+
+*** Complexity
+    Time: O(n), delete all index before duplicate is potentially O(n), total O(n^2)
+    Space: O(1)
+
+*** Result:
+    Runtime: 52 ms, faster than 27.22% of Go online submissions for Longest Substring Without Repeating Characters.
+    Memory Usage: 2.8 MB, less than 75.33% of Go online submissions for Longest Substring Without Repeating Characters.
+
+*** Code: {@ main.go}[main.go]
+
+
