@@ -24,4 +24,5 @@
 
 ** Stack
    - [x]  {:easy/20/20:* Valid Parentheses}[# Valid Parentheses]
+   - [x]  {:easy/155/155:* Min Stack}[# Min Stack]
 

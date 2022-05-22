@@ -1,0 +1,17 @@
+* Min Stack
+
+** Array
+   Use two array to store the stack
+   - Data Array: store the data, push/pop
+   - Min Array: store the min value, update when push/pop
+
+** Complexity
+   - Time: O(1)
+   - Space: O(n)
+
+** Result:
+   Runtime: 28 ms, faster than 42.99% of Go online submissions for Min Stack.
+   Memory Usage: 8.5 MB, less than 51.58% of Go online submissions for Min Stack.
+
+** Code:
+   - Go: {@ main.go}[main.go]
