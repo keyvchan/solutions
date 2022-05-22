@@ -1,4 +1,4 @@
-* Two Sum || - Input Array is Sorted
+* Two Sum II - Input Array is Sorted
 
 ** Hash map
    Use hash map to store visited value
