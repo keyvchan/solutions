@@ -25,15 +25,15 @@ func binary_search(a []int, target int) bool {
 		return true
 	}
 
-	if int(len(a)/2) == 0 {
+	if len(a)/2 == 0 {
 		return false
 	}
 	left := false
 	right := false
-	if a[int(len(a)/2)] <= target {
-		left = binary_search(a[int(len(a)/2):], target)
+	if a[len(a)/2] <= target {
+		left = binary_search(a[len(a)/2:], target)
 	} else {
-		right = binary_search(a[:int(len(a)/2)], target)
+		right = binary_search(a[:len(a)/2], target)
 	}
 
 	return left || right
