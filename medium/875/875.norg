@@ -1,0 +1,17 @@
+* Koko Eating Bananas
+
+** Binary Search (Kind like brute force)
+
+*** Algorithm:
+    `Min = 0`, `Max = max(piles)`. Binary Search for `k`. Calculate k each time.
+
+*** Complexity:
+    - Time: binary search O(log(n)), n = max(piles)
+    - Space: O(1)
+
+*** Result:
+    - Runtime: 62 ms, faster than 36.67% of Go online submissions for Koko Eating Bananas.
+    - Memory Usage: 6.6 MB, less than 95.83% of Go online submissions for Koko Eating Bananas.
+
+*** Code:
+    - Go: {@ main.go}[main.go]
