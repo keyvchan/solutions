@@ -26,6 +26,7 @@
 ** Stack
    - [x]  {:easy/20/20:* Valid Parentheses}[# Valid Parentheses]
    - [x]  {:easy/155/155:* Min Stack}[# Min Stack]
+   - [ ]  {:medium/150/150:* Evaluate Reverse Polish Notation}[# Evaluate Reverse Polish Notation]
 
 ** Binary Search
    - [ ]  {:easy/704/704:* Binary Search}[# Binary Search]
