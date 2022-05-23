@@ -32,3 +32,4 @@
    - [x]  {:easy/704/704:* Binary Search}[# Binary Search]
    - [x]  {:medium/74/74:* Search a 2D Matrix}[# Search a 2D Matrix]
    - [ ]  {:medium/875/875:* Koko Eating Bananas}[# Koko Eating Bananas]
+   - [ ]  {:medium/33/33:* Search in Rotated Sorted Array}[# Search in Rotated Sorted Array]
