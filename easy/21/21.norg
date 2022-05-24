@@ -1,0 +1,17 @@
+* Merge Two Sorted Lists
+
+** Two pointer
+
+*** Description
+    Use for loop to iterate through the two lists, compare the value of the two pointers, and add the smaller one to the result list.
+
+*** Complexity
+    Time: O(n)
+    Space: O(n), since we need a new list to store the result.
+
+*** Result
+    - Runtime: 9 ms, faster than 8.76% of Go online submissions for Merge Two Sorted Lists.
+    - Memory Usage: 2.6 MB, less than 10.04% of Go online submissions for Merge Two Sorted Lists.
+
+*** Code
+    - Go: {@ main.go}[main.go]
