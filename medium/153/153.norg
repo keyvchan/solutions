@@ -1,0 +1,34 @@
+* Find Minimum in Rotated Sorted Array
+
+** Stable Sort
+
+*** Details
+    Sort the whole array, then find the minimum element.
+    *NOTE*: we need to use a stable sort algorithm.
+
+*** Complexity
+    - Time: O(nlogn)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 5 ms, faster than 25.66% of Go online submissions for Find Minimum in Rotated Sorted Array.
+    - Memory Usage: 2.5 MB, less than 68.69% of Go online submissions for Find Minimum in Rotated Sorted Array.
+
+*** Code
+    - Go: {@ main.go}[main.go]
+
+** Binary Search 
+
+*** Details
+    Use binary search, each step compare to the last element.
+
+*** Complexity
+    - Time: O(logn)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 4 ms, faster than 43.81% of Go online submissions for Find Minimum in Rotated Sorted Array.
+    - Memory Usage: 2.6 MB, less than 67.65% of Go online submissions for Find Minimum in Rotated Sorted Array.
+
+*** Code
+    - Go: {@ main.go}[main.go]
