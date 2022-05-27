@@ -1,0 +1,18 @@
+* Invert Binary Tree
+
+** Recursive
+
+*** Algorithm
+    Use recursion to traverse the tree.
+    Go trick, `a, b = b, a`
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 2 ms, faster than 47.60% of Go online submissions for Invert Binary Tree.
+    - Memory Usage: 2.1 MB, less than 100.00% of Go online submissions for Invert Binary Tree.
+
+*** Code:
+    - Go: {@ main.go}[main.go]
