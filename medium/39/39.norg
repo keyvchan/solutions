@@ -1,0 +1,17 @@
+* Combination Sum
+
+** Simple Backtracking
+
+*** Algorithm
+    Brute force decsion tree, return on `sum > target || len(candidates) == 0`
+
+*** Time Complexity
+    - Time: O(n^n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 16 ms, faster than 9.78% of Go online submissions for Combination Sum.
+    - Memory Usage: 6.9 MB, less than 6.34% of Go online submissions for Combination Sum.
+
+*** Code:
+    - Go: {@ main.go}[main.go]
