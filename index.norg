@@ -42,6 +42,7 @@
 
 ** Tree
    - [x]  {:easy/226/225:* Invert Binary Tree}[# Invert Binary Tree]
+   - [ ]  {:easy/104/104:* Maximum Depth of Binary Tree}[# Maximum Depth of Binary Tree]
 
 ** Backtracking
    - [x]  {:medium/78/78:* Subsets}[# Subsets]
