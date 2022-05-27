@@ -39,3 +39,6 @@
    - [x]  {:easy/206/206:* Reverse Linked List}[# Reverse Linked List]
    - [ ]  {:easy/21/21:* Merge Two Sorted Lists}[# Merge Two Sorted Lists]
    - [x]  {:medium/143/143:* Reorder List}[# Reorder List]
+
+** Backtracking
+   - [x]  {:medium/78/78:* Subsets}[# Subsets]
