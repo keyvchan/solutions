@@ -40,6 +40,7 @@
    - [ ]  {:easy/21/21:* Merge Two Sorted Lists}[# Merge Two Sorted Lists]
    - [x]  {:medium/143/143:* Reorder List}[# Reorder List]
    - [-]  {:medium/19/19:* Rename Nth Node From End of List}[# Rename Nth Node From End of List]
+   - [x]  {:medium/2/2:* Add Two Numbers}[# Add Two Numbers]
 
 ** Tree
    - [x]  {:easy/226/225:* Invert Binary Tree}[# Invert Binary Tree]
