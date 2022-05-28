@@ -42,6 +42,7 @@
    - [-]  {:medium/19/19:* Rename Nth Node From End of List}[# Rename Nth Node From End of List]
    - [x]  {:medium/2/2:* Add Two Numbers}[# Add Two Numbers]
    - [x]  {:easy/141/141:* Linked List Cycle}[# Linked List Cycle]
+   - [x]  {:medium/146/146:* LRU Cache}[# LRU Cache]
 
 ** Tree
    - [x]  {:easy/226/225:* Invert Binary Tree}[# Invert Binary Tree]

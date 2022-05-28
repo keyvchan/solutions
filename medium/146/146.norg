@@ -1,0 +1,28 @@
+* LRU Cache
+
+** Design
+
+*** LRU Cache
+    - least: a list, the tail is always be the least recently used
+    - least_index: a map, store all the index of the least recently used, incase we update the leasts
+    - capacity: the capacity of the cache
+    - store: a map, store the key-value pair
+
+*** Get
+    - if the key is in the store, move accessed key in leasts and return the value
+    - if the key is not in the store, return -1
+
+*** Set
+    - if the key is in the store, update the value and move the key in leasts
+    - if the key is not in the store, insert the key in leasts, we consider the capacity here
+
+*** Complexity
+    - Time: Get and Set should be all O(1)
+    - Space: leasts is O(n), store is O(n), least_index is O(n), capacity is O(1)
+
+*** Result
+    - Runtime: 899 ms, faster than 31.72% of Go online submissions for LRU Cache.
+    - Memory Usage: 82.2 MB, less than 38.07% of Go online submissions for LRU Cache.
+
+*** Code
+    - Go: {@ main.go}[main.go]
