@@ -1,0 +1,19 @@
+* Balanced Binary Tree
+
+** Buttom up approach
+
+*** Algorithm
+    Start from buttom, reutrn `height+1`, if not balanced, `panic`
+
+    *Trick*: Use `panic` to exit recursion immediately, then use `recover` to prevent crash
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 12 ms, faster than 26.10% of Go online submissions for Balanced Binary Tree.
+    - Memory Usage: 5.8 MB, less than 21.69% of Go online submissions for Balanced Binary Tree.
+
+*** Code:
+    - Go: {@ main.go}[main.go]
