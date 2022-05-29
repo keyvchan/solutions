@@ -1,0 +1,17 @@
+* Car Fleet
+
+** Stack
+
+*** Algorithm
+    Use stack store time, check time each iteration
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 226 ms, faster than 60.26% of Go online submissions for Car Fleet.
+    - Memory Usage: 12.9 MB, less than 34.61% of Go online submissions for Car Fleet.
+
+*** Code
+    - Go: {@ main.go}[main.go]
