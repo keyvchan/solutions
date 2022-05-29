@@ -1,0 +1,17 @@
+* Daily Temeratures
+
+** Brute Force
+
+*** Algorithm
+    Use two for loops to iterate through the array, find every result
+
+*** Complexity
+    - Time: O(n^2)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 1243 ms, faster than 10.48% of Go online submissions for Daily Temperatures.
+    - Memory Usage: 9.4 MB, less than 66.75% of Go online submissions for Daily Temperatures.
+
+*** Code
+    - Go: {@ brute-force.go}[brute-force.go]
