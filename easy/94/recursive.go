@@ -41,9 +41,7 @@ func inorderTraversal(root *TreeNode) []int {
 		if leftNodes[i].Right != nil {
 			fmt.Println("right", leftNodes[i].Right.Val)
 			orders_nodes := inorderTraversal(leftNodes[i].Right)
-			for _, v := range orders_nodes {
-				orders = append(orders, v)
-			}
+			orders = append(orders, orders_nodes...)
 		}
 	}
 	fmt.Println(orders)
