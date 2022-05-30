@@ -60,4 +60,5 @@
 
 ** 1-D Dynamic Programming
    - [x]  {:easy/70/70:* Climbing Stairs}[# Climbing Stairs]
+   - [x]  {:easy/746/746:* Min Cost Climbing Stairs}[# Min Cost Climbing Stairs]
 

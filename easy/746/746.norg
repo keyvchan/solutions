@@ -1,0 +1,33 @@
+* Min Cost Climbing Stairs
+
+** DP + map
+*** Algorithm
+    Store every positon's min cost in a map, scan the array from backwards
+
+    `cost[i] = cost[i+1] + cost[i+2]`
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 9 ms, faster than 18.47% of Go online submissions for Min Cost Climbing Stairs.
+    - Memory Usage: 4.8 MB, less than 11.98% of Go online submissions for Min Cost Climbing Stairs.
+
+*** Code
+    - Go: {@ main.go}[main.go]
+
+** Constant memory
+*** Algorithm
+    Use only two variable store last and second last min cost
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 8 ms, faster than 28.29% of Go online submissions for Min Cost Climbing Stairs.
+    - Memory Usage: 2.9 MB, less than 56.78% of Go online submissions for Min Cost Climbing Stairs.
+*** Code
+    - Go: {@ constant.go}[constant.go]
+
