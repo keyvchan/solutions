@@ -1,0 +1,16 @@
+* House Robber II
+
+** DP + MAP
+*** Algorithm
+    Check `nums[:len(nums)-1]` and `nums[1:]`, get maxium
+
+*** Complexity
+    Time: O(n)
+    Space: O(n)
+
+*** Result
+    - Runtime: 0 ms, faster than 100.00% of Go online submissions for House Robber II.
+    - Memory Usage: 2.4 MB, less than 6.16% of Go online submissions for House Robber II.
+
+*** Code
+    - Go: {@ main.go}[main.go]
