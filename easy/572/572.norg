@@ -1,0 +1,16 @@
+* Subtree of Another Tree
+** Two Recursion
+*** Algorithm
+    Find all the nodes with same value in the original tree, then check the subtree is same
+
+*** Complexity
+    - Time: O(n^2)
+    - Time: O(n)
+
+*** Result
+    - Runtime: 33 ms, faster than 6.16% of Go online submissions for Subtree of Another Tree.
+    - Memory Usage: 6.8 MB, less than 68.97% of Go online submissions for Subtree of Another Tree.
+
+*** Code
+    - Go: {@ ./mian.go}[main.go]
+
