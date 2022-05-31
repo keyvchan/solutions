@@ -64,3 +64,6 @@
    - [x]  {:medium/198/198:* House Robber}[# House Robber]
    - [ ]  {:medium/213/213:* House Robber II}[# House Robber II]
 
+** Greedy
+   - [ ]  {:easy/53/53:* Maximum Subarray}[Maximum Subarray]
+
