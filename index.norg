@@ -65,5 +65,6 @@
    - [ ]  {:medium/213/213:* House Robber II}[# House Robber II]
 
 ** Greedy
-   - [ ]  {:easy/53/53:* Maximum Subarray}[Maximum Subarray]
+   - [ ]  {:easy/53/53:* Maximum Subarray}[# Maximum Subarray]
+   - [x]  {:medium/55/55:* Jump Game}[# Jump Game]
 
