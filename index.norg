@@ -52,6 +52,7 @@
    - [ ]  {:easy/110/110:* Balanced Binary Tree}[# Balanced Binary Tree]
    - [ ]  {:easy/572/572:* Subtree of Another Tree}[# Subtree of Another Tree]
    - [x]  {:easy/235/235:* Lowest Common Ancestor of a Binary Search Tree}[# Lowest Common Ancestor of a Binary Search Tree]
+   - [x]  {:medium/102/102:* Binary Tree Level Order Traversal}[# Binary Tree Level Order Traversal]
 
 ** Backtracking
    - [x]  {:medium/78/78:* Subsets}[# Subsets]
