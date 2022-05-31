@@ -1,0 +1,23 @@
+* Check If a String Contains All Binary Codes of Size K
+
+** Sliding Window
+
+*** Algorithm
+    Use sliding window to match k length binary string
+    Noticed that the distinct substrings counts must be $2^k$
+
+*** Complexity
+    Time: O(n)
+    Space: O(k), since we use map to store distinct substrings
+
+*** Edge Cases
+    - The slice is end inclusive, so the exit condition is `right == len(s) + 1`, the right can be equal to len(s)
+    - When `len(s) < k`, there is no way to match k length binary string, it always false
+
+*** Result
+    - Runtime: 135 ms, faster than 78.26% of Go online submissions for Check If a String Contains All Binary Codes of Size K.
+    - Memory Usage: 12.2 MB, less than 73.91% of Go online submissions for Check If a String Contains All Binary Codes of Size K.
+
+*** Code
+    - Go: {@ main.go}[main.go]
+
