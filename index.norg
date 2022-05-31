@@ -51,6 +51,7 @@
    - [ ]  {:easy/104/104:* Maximum Depth of Binary Tree}[# Maximum Depth of Binary Tree]
    - [ ]  {:easy/110/110:* Balanced Binary Tree}[# Balanced Binary Tree]
    - [ ]  {:easy/572/572:* Subtree of Another Tree}[# Subtree of Another Tree]
+   - [x]  {:easy/235/235:* Lowest Common Ancestor of a Binary Search Tree}[# Lowest Common Ancestor of a Binary Search Tree]
 
 ** Backtracking
    - [x]  {:medium/78/78:* Subsets}[# Subsets]
