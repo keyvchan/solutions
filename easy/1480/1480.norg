@@ -1,0 +1,17 @@
+* Running Sum of 1d Array
+
+** DP
+
+*** Algorithm
+    `DP[i] = DP[i-1] + nums[i]`
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 6 ms, faster than 19.84% of Go online submissions for Running Sum of 1d Array.
+    - Memory Usage: 2.8 MB, less than 47.22% of Go online submissions for Running Sum of 1d Array.
+
+*** Code
+    - Go: {@ main.go}[main.go]

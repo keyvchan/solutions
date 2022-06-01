@@ -65,6 +65,7 @@
    - [ ]  {:medium/90/90:* Subsets II}[# Subsets II]
 
 ** 1-D Dynamic Programming
+   - [x]  {:easy/1480/1480:* Running Sum of 1d Array}[# Running Sum of 1d Array]
    - [x]  {:easy/70/70:* Climbing Stairs}[# Climbing Stairs]
    - [x]  {:easy/746/746:* Min Cost Climbing Stairs}[# Min Cost Climbing Stairs]
    - [x]  {:medium/198/198:* House Robber}[# House Robber]
