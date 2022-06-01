@@ -15,3 +15,22 @@
 
 *** Code
     - Go: {@ brute-force.go}[brute-force.go]
+
+** Stack
+
+*** Algorithm
+    Use a stack store all temperatures that are greater than the current temperature.
+    Scan from back to front, if the current temperature is greater than the top of the stack, remove it and push to the stack.
+
+*** Complexity
+    - Time: O(n), which n is the length of temperatures
+    - Space: O(n), stack size is n
+
+*** Result
+    - Runtime: 401 ms, faster than 17.44% of Go online submissions for Daily Temperatures.
+    - Memory Usage: 9.9 MB, less than 38.46% of Go online submissions for Daily Temperatures.
+
+*** Code
+    - Go: {@ stack.go}[stack.go]
+
+
