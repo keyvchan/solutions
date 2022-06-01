@@ -13,8 +13,11 @@ type TreeNode struct {
 }
 
 func rightSideView(root *TreeNode) []int {
+	if root == nil {
+		return []int{}
+	}
 	// bfs
-	res := []int{}
+	res := []int{root.Val}
 	queue := list.New()
 	queue.PushBack(root)
 
@@ -23,19 +26,21 @@ func rightSideView(root *TreeNode) []int {
 		// take node from queue
 		for queue_len > 0 {
 			elememt := queue.Remove(queue.Front())
-			if elememt != nil {
-				queue.PushBack(elememt.(*TreeNode).Left)
-			}
-			if elememt != nil {
-				queue.PushBack(elememt.(*TreeNode).Right)
+			if elememt.(*TreeNode) != nil {
+				if elememt.(*TreeNode).Left != nil {
+					queue.PushBack(elememt.(*TreeNode).Left)
+				}
+				if elememt.(*TreeNode).Right != nil {
+					queue.PushBack(elememt.(*TreeNode).Right)
+				}
 			}
 			queue_len -= 1
 		}
-		// back of queue is the rightest node
-		res = append(res, queue.Back().Value.(*TreeNode).Val)
-		if queue_len == 0 {
+		if queue.Len() == 0 {
 			break
 		}
+		// back of queue is the rightest node
+		res = append(res, queue.Back().Value.(*TreeNode).Val)
 	}
 
 	return res
