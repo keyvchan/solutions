@@ -1,0 +1,17 @@
+* Binary Tree Right Side View
+
+** BFS
+*** Algorithm
+    Use a queue to BFS the tree.
+    In every level, we only need the last element in the queue.
+
+*** Complexity
+    Time: O(n)
+    Space: O(n)
+
+*** Result
+    - Runtime: 10 ms, faster than 5.12% of Go online submissions for Binary Tree Right Side View.
+    - Memory Usage: 2.4 MB, less than 13.48% of Go online submissions for Binary Tree Right Side View.
+
+*** Code
+    - Go: {@ main.go}[main.go]
