@@ -1,0 +1,25 @@
+* Trapping Rain Water
+
+** Two Pointers
+
+*** Algorithm
+
+    Noticed that the water trapped is the minimum of the height of the left and right wall. 
+    So we want to scan from /left to right/ find all sections that left wall *lower* than right, that area can be full filled regradless how much the walls in between.
+    After one iteration, there are possible cases that the right side of the `peak` of right wall still have area can be full filled.
+    So we basically /reverse/ scan the portion of peak to the end of heights, find all the area then add to total.
+
+*** Edge Cases
+    - The input array only have one element, return 0
+
+*** Complexity
+    Time: O(n)
+    Space: O(1)
+
+*** Result
+    - Runtime: 14 ms, faster than 42.54% of Go online submissions for Trapping Rain Water.
+    - Memory Usage: 5.2 MB, less than 37.56% of Go online submissions for Trapping Rain Water.
+
+*** Code
+    - Go: {@ main.go}[main.go]
+
