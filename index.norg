@@ -1,82 +1,85 @@
 * Index
 
-** Array and Hash
-   - [x] {:easy/217/217:* Contains Duplicate}[# Contains Duplicate]
-   - [x] {:easy/242/242:* Valid Anagram}[# Valid Anagram]
-   - [-] {:easy/1/1:* Two Sum}[# Two Sum]
-   - [-] {:medium/49/49:* Group Anagrams}[# Group Anagrams]
-   - [-] {:medium/347/347:* Top K Frequent}[# Top K Frequent]
-   - [-] {:medium/238/238:* Product of Array Except Self}[# Product of Array Except Self]
-   - [-] {:medium/36/36:* Valid Sudoku}[# Valid Sudoku] 
-   - [-] {:medium/271/271:* Encode and Decode Strings}[# Encode and Decode Strings] 
-   - [-] {:medium/128/128:* Longest Consecutive Sequence}[# Longest Consecutive Sequence] 
+** Algorithm
 
-** Two Pointers
-   - [-] {:easy/125/125:* Valid Palindrome}[# Valid Palindrome]
-   - [-] {:medium/167/167:* Two Sum II - Input Array is Sorted}[# Two Sum II - Input Array is Sorted] 
-   - [ ] {:medium/15/15:* Three Sum}[# Three Sum]
-   - [-] {:medium/11/11:* Container With Most Water}[# Container With Most Water]
-   - [x] {:hard/42/42:* Trapping Rain Water}[# Trapping Rain Water]
+*** Array and Hash
+    - [x] {:easy/217/217:* Contains Duplicate}[# Contains Duplicate]
+    - [x] {:easy/242/242:* Valid Anagram}[# Valid Anagram]
+    - [-] {:easy/1/1:* Two Sum}[# Two Sum]
+    - [-] {:medium/49/49:* Group Anagrams}[# Group Anagrams]
+    - [-] {:medium/347/347:* Top K Frequent}[# Top K Frequent]
+    - [-] {:medium/238/238:* Product of Array Except Self}[# Product of Array Except Self]
+    - [-] {:medium/36/36:* Valid Sudoku}[# Valid Sudoku] 
+    - [-] {:medium/271/271:* Encode and Decode Strings}[# Encode and Decode Strings] 
+    - [-] {:medium/128/128:* Longest Consecutive Sequence}[# Longest Consecutive Sequence] 
 
-** Sliding Window
-   - [ ] {:easy/121/121:* Best Time to Buy and Sell Stock}[# Best Time to Buy and Sell Stock]
-   - [ ] {:medium/3/3:* Longest Substring Without Repeating Characters}[# Longest Substring Without Repeating Characters]
-   - [ ] {:medium/424/424:* Longest Repeating Character Replacement}[# Longest Repeating Character Replacement]
-   - [ ] {:medium/567/567:* Permutation in String}[# Permutation in String]
-   - [ ] {:medium/1461/1461:* Check If a String Contains All Binary Codes of Size K}[# Check If a String Contains All Binary Codes of Size K]
+*** Two Pointers
+    - [-] {:easy/125/125:* Valid Palindrome}[# Valid Palindrome]
+    - [-] {:medium/167/167:* Two Sum II - Input Array is Sorted}[# Two Sum II - Input Array is Sorted] 
+    - [ ] {:medium/15/15:* Three Sum}[# Three Sum]
+    - [-] {:medium/11/11:* Container With Most Water}[# Container With Most Water]
+    - [x] {:hard/42/42:* Trapping Rain Water}[# Trapping Rain Water]
 
-** Stack
-   - [x]  {:easy/20/20:* Valid Parentheses}[# Valid Parentheses]
-   - [x]  {:easy/155/155:* Min Stack}[# Min Stack]
-   - [ ]  {:medium/150/150:* Evaluate Reverse Polish Notation}[# Evaluate Reverse Polish Notation]
-   - [x]  {:medium/22/22:* Generate Parentheses}[# Generate Parentheses]
-   - [-]  {:739:* Daily Temeratures}[# Daily Temeratures]
-   - [ ]  {:medium/853/853:* Car Fleet}[# Car Fleet]
+*** Sliding Window
+    - [ ] {:easy/121/121:* Best Time to Buy and Sell Stock}[# Best Time to Buy and Sell Stock]
+    - [ ] {:medium/3/3:* Longest Substring Without Repeating Characters}[# Longest Substring Without Repeating Characters]
+    - [ ] {:medium/424/424:* Longest Repeating Character Replacement}[# Longest Repeating Character Replacement]
+    - [ ] {:medium/567/567:* Permutation in String}[# Permutation in String]
+    - [ ] {:medium/1461/1461:* Check If a String Contains All Binary Codes of Size K}[# Check If a String Contains All Binary Codes of Size K]
 
-** Binary Search
-   - [x]  {:easy/704/704:* Binary Search}[# Binary Search]
-   - [x]  {:medium/74/74:* Search a 2D Matrix}[# Search a 2D Matrix]
-   - [ ]  {:medium/875/875:* Koko Eating Bananas}[# Koko Eating Bananas]
-   - [ ]  {:medium/33/33:* Search in Rotated Sorted Array}[# Search in Rotated Sorted Array]
-   - [ ]  {:medium/153/153:* Find Minimum in Rotated Sorted Array}[# Find Minimum in Rotated Sorted Array]
+*** Stack
+    - [x]  {:easy/20/20:* Valid Parentheses}[# Valid Parentheses]
+    - [x]  {:easy/155/155:* Min Stack}[# Min Stack]
+    - [ ]  {:medium/150/150:* Evaluate Reverse Polish Notation}[# Evaluate Reverse Polish Notation]
+    - [x]  {:medium/22/22:* Generate Parentheses}[# Generate Parentheses]
+    - [-]  {:739:* Daily Temeratures}[# Daily Temeratures]
+    - [ ]  {:medium/853/853:* Car Fleet}[# Car Fleet]
 
-** Linked List
-   - [x]  {:easy/206/206:* Reverse Linked List}[# Reverse Linked List]
-   - [ ]  {:easy/21/21:* Merge Two Sorted Lists}[# Merge Two Sorted Lists]
-   - [x]  {:medium/143/143:* Reorder List}[# Reorder List]
-   - [-]  {:medium/19/19:* Rename Nth Node From End of List}[# Rename Nth Node From End of List]
-   - [x]  {:medium/2/2:* Add Two Numbers}[# Add Two Numbers]
-   - [x]  {:easy/141/141:* Linked List Cycle}[# Linked List Cycle]
-   - [x]  {:medium/146/146:* LRU Cache}[# LRU Cache]
+*** Binary Search
+    - [x]  {:easy/704/704:* Binary Search}[# Binary Search]
+    - [x]  {:medium/74/74:* Search a 2D Matrix}[# Search a 2D Matrix]
+    - [ ]  {:medium/875/875:* Koko Eating Bananas}[# Koko Eating Bananas]
+    - [ ]  {:medium/33/33:* Search in Rotated Sorted Array}[# Search in Rotated Sorted Array]
+    - [ ]  {:medium/153/153:* Find Minimum in Rotated Sorted Array}[# Find Minimum in Rotated Sorted Array]
 
-** Tree
-   - [x]  {:easy/226/225:* Invert Binary Tree}[# Invert Binary Tree]
-   - [ ]  {:easy/104/104:* Maximum Depth of Binary Tree}[# Maximum Depth of Binary Tree]
-   - [ ]  {:easy/110/110:* Balanced Binary Tree}[# Balanced Binary Tree]
-   - [ ]  {:easy/572/572:* Subtree of Another Tree}[# Subtree of Another Tree]
-   - [x]  {:easy/235/235:* Lowest Common Ancestor of a Binary Search Tree}[# Lowest Common Ancestor of a Binary Search Tree]
-   - [x]  {:medium/102/102:* Binary Tree Level Order Traversal}[# Binary Tree Level Order Traversal]
-   - [x]  {:medium/199/199:* Binary Tree Right Side View}[# Binary Tree Right Side View]
-   - [x]  {:medium/1448/1448:* Count Good Nodes in Binary Tree}[# Count Good Nodes in Binary Tree]
+*** Linked List
+    - [x]  {:easy/206/206:* Reverse Linked List}[# Reverse Linked List]
+    - [ ]  {:easy/21/21:* Merge Two Sorted Lists}[# Merge Two Sorted Lists]
+    - [x]  {:medium/143/143:* Reorder List}[# Reorder List]
+    - [-]  {:medium/19/19:* Rename Nth Node From End of List}[# Rename Nth Node From End of List]
+    - [x]  {:medium/2/2:* Add Two Numbers}[# Add Two Numbers]
+    - [x]  {:easy/141/141:* Linked List Cycle}[# Linked List Cycle]
+    - [x]  {:medium/146/146:* LRU Cache}[# LRU Cache]
 
-** Heap/Priority Queue
-   - [x]  {:easy/703/703:* Kth Largest Element in an Stream}[# Kth Largest Element in an Stream]
+*** Tree
+    - [x]  {:easy/226/225:* Invert Binary Tree}[# Invert Binary Tree]
+    - [ ]  {:easy/104/104:* Maximum Depth of Binary Tree}[# Maximum Depth of Binary Tree]
+    - [ ]  {:easy/110/110:* Balanced Binary Tree}[# Balanced Binary Tree]
+    - [ ]  {:easy/572/572:* Subtree of Another Tree}[# Subtree of Another Tree]
+    - [x]  {:easy/235/235:* Lowest Common Ancestor of a Binary Search Tree}[# Lowest Common Ancestor of a Binary Search Tree]
+    - [x]  {:medium/102/102:* Binary Tree Level Order Traversal}[# Binary Tree Level Order Traversal]
+    - [x]  {:medium/199/199:* Binary Tree Right Side View}[# Binary Tree Right Side View]
+    - [x]  {:medium/1448/1448:* Count Good Nodes in Binary Tree}[# Count Good Nodes in Binary Tree]
 
-** Backtracking
-   - [x]  {:medium/78/78:* Subsets}[# Subsets]
-   - [x]  {:medium/39/39:* Combination Sum}[# Combination Sum]
-   - [x]  {:medium/46/46:* Permutation}[# Permutation]
-   - [ ]  {:medium/90/90:* Subsets II}[# Subsets II]
+*** Heap/Priority Queue
+    - [x]  {:easy/703/703:* Kth Largest Element in an Stream}[# Kth Largest Element in an Stream]
+    - [x]  {:easy/1046/1046:* Last Stone Weight}[# Last Stone Weight]
 
-** 1-D Dynamic Programming
-   - [x]  {:easy/1480/1480:* Running Sum of 1d Array}[# Running Sum of 1d Array]
-   - [x]  {:easy/70/70:* Climbing Stairs}[# Climbing Stairs]
-   - [x]  {:easy/746/746:* Min Cost Climbing Stairs}[# Min Cost Climbing Stairs]
-   - [x]  {:medium/198/198:* House Robber}[# House Robber]
-   - [ ]  {:medium/213/213:* House Robber II}[# House Robber II]
-   - [ ]  {:medium/5/5:* Longest Palindromic Substring}[# Longest Palindromic Substring]
+*** Backtracking
+    - [x]  {:medium/78/78:* Subsets}[# Subsets]
+    - [x]  {:medium/39/39:* Combination Sum}[# Combination Sum]
+    - [x]  {:medium/46/46:* Permutation}[# Permutation]
+    - [ ]  {:medium/90/90:* Subsets II}[# Subsets II]
 
-** Greedy
-   - [ ]  {:easy/53/53:* Maximum Subarray}[# Maximum Subarray]
-   - [x]  {:medium/55/55:* Jump Game}[# Jump Game]
+*** 1-D Dynamic Programming
+    - [x]  {:easy/1480/1480:* Running Sum of 1d Array}[# Running Sum of 1d Array]
+    - [x]  {:easy/70/70:* Climbing Stairs}[# Climbing Stairs]
+    - [x]  {:easy/746/746:* Min Cost Climbing Stairs}[# Min Cost Climbing Stairs]
+    - [x]  {:medium/198/198:* House Robber}[# House Robber]
+    - [ ]  {:medium/213/213:* House Robber II}[# House Robber II]
+    - [ ]  {:medium/5/5:* Longest Palindromic Substring}[# Longest Palindromic Substring]
+
+*** Greedy
+    - [ ]  {:easy/53/53:* Maximum Subarray}[# Maximum Subarray]
+    - [x]  {:medium/55/55:* Jump Game}[# Jump Game]
 
