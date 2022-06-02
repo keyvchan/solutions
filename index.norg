@@ -13,6 +13,9 @@
     - [-] {:medium/271/271:* Encode and Decode Strings}[# Encode and Decode Strings] 
     - [-] {:medium/128/128:* Longest Consecutive Sequence}[# Longest Consecutive Sequence] 
 
+*** 2D Array
+    - [x] {:easy/867/867:* Transpose Matrix}[# Transpose Matrix]
+
 *** Two Pointers
     - [-] {:easy/125/125:* Valid Palindrome}[# Valid Palindrome]
     - [-] {:medium/167/167:* Two Sum II - Input Array is Sorted}[# Two Sum II - Input Array is Sorted] 
