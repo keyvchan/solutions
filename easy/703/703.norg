@@ -1,0 +1,16 @@
+* Kth Largest Element in an Stream
+
+** Heap
+*** Algorithm
+    Use min heap store the k largest elements
+
+*** Complexity
+    Time: O(nlogk)
+    Space: O(k)
+
+*** Result
+    - Runtime: 35 ms, faster than 74.62% of Go online submissions for Kth Largest Element in a Stream.
+    - Memory Usage: 7.8 MB, less than 70.78% of Go online submissions for Kth Largest Element in a Stream.
+
+*** Code
+    - Go: {@ main.go}[main.go]
