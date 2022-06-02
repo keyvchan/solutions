@@ -86,3 +86,5 @@
     - [ ]  {:easy/53/53:* Maximum Subarray}[# Maximum Subarray]
     - [x]  {:medium/55/55:* Jump Game}[# Jump Game]
 
+*** Math & Geometry
+    - [x]  {:easy/202/202:* Happy Number}[# Happy Number]

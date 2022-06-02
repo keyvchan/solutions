@@ -1,0 +1,22 @@
+* Happy Number
+
+** Edge Cases
+   - A number is happy if it is 1
+
+** Atoi and Itoa
+
+*** Algorithm
+    Use Atoi to convert string to int
+    Use Itoa to convert int to string
+    Use a map to store existed results
+
+*** Complexity
+    Time: O(n)
+    Space: O(n)
+
+*** Result
+    - Runtime: 4 ms, faster than 23.57% of Go online submissions for Happy Number.
+    - Memory Usage: 2.2 MB, less than 20.95% of Go online submissions for Happy Number.
+
+*** Code
+    - Go: {@ main.go}[main.go]
