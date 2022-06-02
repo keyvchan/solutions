@@ -88,3 +88,6 @@
 
 *** Math & Geometry
     - [x]  {:easy/202/202:* Happy Number}[# Happy Number]
+
+*** Bit Manipulation
+    - [x]  {:easy/1290/1290:* Convert Binary Number in a Linked List to Integer}[# Convert Binary Number in a Linked List to Integer]
