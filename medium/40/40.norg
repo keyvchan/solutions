@@ -1,0 +1,20 @@
+* Combination Sum II
+
+** Edge Case
+   - Sum > Target, we should return immediately
+   - Sum == Target, we should return immediately, even len(candidates) != 0
+
+** Sort + Backtracking
+   In {:medium/90/90:* Subsets II}[# Subsets II], we list all possible combinations, so we just need to pick the sum equal to target in the combinations.
+   {** Edge Case}[## Edge Case] should be handled in the backtracking.
+
+*** Complexity 
+    - Time: O(2^n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 26 ms, faster than 5.92% of Go online submissions for Combination Sum II.
+    - Memory Usage: 8.4 MB, less than 7.10% of Go online submissions for Combination Sum II.
+
+*** Code
+    - Go: {@ main.go}[main.go]
