@@ -1,0 +1,35 @@
+* Kth Largest Element in an Array
+
+** Heap
+
+*** Algorithm
+    1. Build a max heap
+    2. Remove the root node
+    3. Repeat
+
+*** Complexity
+    - Time: O(n*log(n))
+    - Space: O(1)
+
+*** Result
+    - Runtime: 8 ms, faster than 73.08% of Go online submissions for Kth Largest Element in an Array.
+    - Memory Usage: 3.5 MB, less than 52.28% of Go online submissions for Kth Largest Element in an Array.
+
+** Code
+   - Go: {@ main.go}[main.go]
+
+** Sort
+*** Algorithm
+    Sort
+
+*** Complexity
+    - Time: O(n*log(n))
+    - Space: O(1)
+
+*** Result
+    - Runtime: 10 ms, faster than 57.83% of Go online submissions for Kth Largest Element in an Array.
+    - Memory Usage: 3.4 MB, less than 89.89% of Go online submissions for Kth Largest Element in an Array.
+
+*** Code
+    - Go: {@ main.go}[main.go]
+
