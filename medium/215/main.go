@@ -32,10 +32,7 @@ func (pq PriorityQueue) Swap(i, j int) {
 }
 
 func findKthLargest(nums []int, k int) int {
-	pq := make(PriorityQueue, len(nums))
-	for i, val := range nums {
-		pq[i] = val
-	}
+	pq := PriorityQueue(nums)
 	heap.Init(&pq)
 
 	largest := 0
