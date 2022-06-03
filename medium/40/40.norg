@@ -18,3 +18,15 @@
 
 *** Code
     - Go: {@ main.go}[main.go]
+
+** Optimization
+
+*** Algorithm
+    Optimize, code is more consistent.
+
+*** Result
+    - Runtime: 16 ms, faster than 9.17% of Go online submissions for Combination Sum II.
+    - Memory Usage: 6.9 MB, less than 7.10% of Go online submissions for Combination Sum II.
+
+*** Code
+    - Go: {@ ./optimized.go}[optimized.go]
