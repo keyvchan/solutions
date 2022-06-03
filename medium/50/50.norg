@@ -2,5 +2,5 @@
 
 ** Edge Case
    - If n is 0, return 1
-    - If n is 1, return x
+   - If n is 1, return x
    - If n is `INT_MAX`, return infinity
