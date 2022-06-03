@@ -15,6 +15,7 @@
 
 *** 2D Array
     - [x] {:easy/867/867:* Transpose Matrix}[# Transpose Matrix]
+    - [-] {:medium/304/304:* Range Sum Query 2D - Immutable}[# Range Sum Query 2D - Immutable]
 
 *** Two Pointers
     - [-] {:easy/125/125:* Valid Palindrome}[# Valid Palindrome]
