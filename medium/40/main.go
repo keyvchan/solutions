@@ -34,7 +34,7 @@ func backtracking(candidates []int, current []int, current_sum int, last int, re
 	}
 
 	// copy current
-	new_current := make([]int, len(current))
+	new_current := make([]int, len(current), len(current)+1)
 	copy(new_current, current)
 	backtracking(candidates[1:], append(new_current, candidates[0]), current_sum+candidates[0], candidates[0], result, target)
 
