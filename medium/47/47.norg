@@ -1,0 +1,22 @@
+* Permutations II
+
+** Edge Case
+   - `[0,3,3,0,3]`, sort it first
+   - Copy the array when save to the result
+
+** Sort + Backtracking
+
+*** Algorithm
+    Sort the array and use backtracking to generate all permutations
+    Skip duplicates
+
+*** Complexity
+    Time: O(n!)
+    Space: O(n!)
+
+*** Result
+    - Runtime: 7 ms, faster than 51.75% of Go online submissions for Permutations II.
+    - Memory Usage: 4.2 MB, less than 40.60% of Go online submissions for Permutations II.
+*** Code
+    - Go: {@ main.go}[main.go]
+
