@@ -1,5 +1,6 @@
 # Index
-## Array and Hash
+## Algorithm
+### Array and Hash
 - [# Contains Duplicate](easy/217/217.md#contains-duplicate)
 - [# Valid Anagram](easy/242/242.md#valid-anagram)
 - [# Two Sum](easy/1/1.md#two-sum)
@@ -9,14 +10,76 @@
 - [# Valid Sudoku](medium/36/36.md#valid-sudoku) 
 - [# Encode and Decode Strings](medium/271/271.md#encode-and-decode-strings) 
 - [# Longest Consecutive Sequence](medium/128/128.md#longest-consecutive-sequence) 
-## Two Pointers
+### 2D Array
+- [# Transpose Matrix](easy/867/867.md#transpose-matrix)
+- [# Range Sum Query 2D - Immutable](medium/304/304.md#range-sum-query-2d-immutable)
+### Two Pointers
 - [# Valid Palindrome](easy/125/125.md#valid-palindrome)
-- [# Two Sum || - Input Array is Sorted](medium/167/167.md#two-sum-input-array-is-sorted) 
+- [# Two Sum II - Input Array is Sorted](medium/167/167.md#two-sum-ii-input-array-is-sorted) 
 - [# Three Sum](medium/15/15.md#three-sum)
 - [# Container With Most Water](medium/11/11.md#container-with-most-water)
-## Sliding Window
+- [# Trapping Rain Water](hard/42/42.md#trapping-rain-water)
+### Sliding Window
 - [# Best Time to Buy and Sell Stock](easy/121/121.md#best-time-to-buy-and-sell-stock)
 - [# Longest Substring Without Repeating Characters](medium/3/3.md#longest-substring-without-repeating-characters)
 - [# Longest Repeating Character Replacement](medium/424/424.md#longest-repeating-character-replacement)
-## Stack
+- [# Permutation in String](medium/567/567.md#permutation-in-string)
+- [# Check If a String Contains All Binary Codes of Size K](medium/1461/1461.md#check-if-a-string-contains-all-binary-codes-of-size-k)
+### Stack
 - [# Valid Parentheses](easy/20/20.md#valid-parentheses)
+- [# Min Stack](easy/155/155.md#min-stack)
+- [# Evaluate Reverse Polish Notation](medium/150/150.md#evaluate-reverse-polish-notation)
+- [# Generate Parentheses](medium/22/22.md#generate-parentheses)
+- [# Daily Temeratures](739.md#daily-temeratures)
+- [# Car Fleet](medium/853/853.md#car-fleet)
+### Binary Search
+- [# Binary Search](easy/704/704.md#binary-search)
+- [# Search a 2D Matrix](medium/74/74.md#search-a-2d-matrix)
+- [# Koko Eating Bananas](medium/875/875.md#koko-eating-bananas)
+- [# Search in Rotated Sorted Array](medium/33/33.md#search-in-rotated-sorted-array)
+- [# Find Minimum in Rotated Sorted Array](medium/153/153.md#find-minimum-in-rotated-sorted-array)
+### Linked List
+- [# Reverse Linked List](easy/206/206.md#reverse-linked-list)
+- [# Merge Two Sorted Lists](easy/21/21.md#merge-two-sorted-lists)
+- [# Reorder List](medium/143/143.md#reorder-list)
+- [# Rename Nth Node From End of List](medium/19/19.md#rename-nth-node-from-end-of-list)
+- [# Add Two Numbers](medium/2/2.md#add-two-numbers)
+- [# Linked List Cycle](easy/141/141.md#linked-list-cycle)
+- [# Find the Duplicate Number](medium/287/287.md#find-the-duplicate-number) 
+- [# LRU Cache](medium/146/146.md#lru-cache)
+### Tree
+- [# Invert Binary Tree](easy/226/225.md#invert-binary-tree)
+- [# Maximum Depth of Binary Tree](easy/104/104.md#maximum-depth-of-binary-tree)
+- [# Balanced Binary Tree](easy/110/110.md#balanced-binary-tree)
+- [# Subtree of Another Tree](easy/572/572.md#subtree-of-another-tree)
+- [# Lowest Common Ancestor of a Binary Search Tree](easy/235/235.md#lowest-common-ancestor-of-a-binary-search-tree)
+- [# Binary Tree Level Order Traversal](medium/102/102.md#binary-tree-level-order-traversal)
+- [# Binary Tree Right Side View](medium/199/199.md#binary-tree-right-side-view)
+- [# Count Good Nodes in Binary Tree](medium/1448/1448.md#count-good-nodes-in-binary-tree)
+### Heap/Priority Queue
+- [# Kth Largest Element in an Stream](easy/703/703.md#kth-largest-element-in-an-stream)
+- [# Last Stone Weight](easy/1046/1046.md#last-stone-weight)
+- [# K Closest Points to the Origin](medium/973/973.md#k-closest-points-to-the-origin)
+- [# Kth Largest Element in an Array](medium/215/215.md#kth-largest-element-in-an-array)
+### Backtracking
+- [# Subsets](medium/78/78.md#subsets)
+- [# Combination Sum](medium/39/39.md#combination-sum)
+- [# Permutation](medium/46/46.md#permutation)
+- [# Permutations II](47.md#permutations-ii)
+- [# Subsets II](medium/90/90.md#subsets-ii)
+- [# Combination Sum II](medium/40/40.md#combination-sum-ii)
+### 1-D Dynamic Programming
+- [# Running Sum of 1d Array](easy/1480/1480.md#running-sum-of-1d-array)
+- [# Climbing Stairs](easy/70/70.md#climbing-stairs)
+- [# Min Cost Climbing Stairs](easy/746/746.md#min-cost-climbing-stairs)
+- [# House Robber](medium/198/198.md#house-robber)
+- [# House Robber II](medium/213/213.md#house-robber-ii)
+- [# Longest Palindromic Substring](medium/5/5.md#longest-palindromic-substring)
+### Greedy
+- [# Maximum Subarray](easy/53/53.md#maximum-subarray)
+- [# Jump Game](medium/55/55.md#jump-game)
+### Math & Geometry
+- [# Happy Number](easy/202/202.md#happy-number)
+- [# Pow(x, n)](medium/50/50.md#powx-n)
+### Bit Manipulation
+- [# Convert Binary Number in a Linked List to Integer](easy/1290/1290.md#convert-binary-number-in-a-linked-list-to-integer)
