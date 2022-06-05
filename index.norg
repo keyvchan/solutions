@@ -87,7 +87,8 @@
     - [x] {:easy/746/746:* Min Cost Climbing Stairs}[# Min Cost Climbing Stairs]
     - [x] {:medium/198/198:* House Robber}[# House Robber]
     - [ ] {:medium/213/213:* House Robber II}[# House Robber II]
-    - [ ] {:medium/5/5:* Longest Palindromic Substring}[# Longest Palindromic Substring]
+    - [x] {:medium/5/5:* Longest Palindromic Substring}[# Longest Palindromic Substring]
+    - [x]  {:medium/647/647:* Palindromic Substrings}[# Palindromic Substrings]
 
 *** Greedy
     - [ ] {:easy/53/53:* Maximum Subarray}[# Maximum Subarray]
