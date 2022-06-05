@@ -65,6 +65,7 @@
     - [x] {:medium/102/102:* Binary Tree Level Order Traversal}[# Binary Tree Level Order Traversal]
     - [x] {:medium/199/199:* Binary Tree Right Side View}[# Binary Tree Right Side View]
     - [x] {:medium/1448/1448:* Count Good Nodes in Binary Tree}[# Count Good Nodes in Binary Tree]
+    - [x] {:medium/230/230:* Kth Smallest Element in a BST}[# Kth Smallest Element in a BST]
 
 *** Heap/Priority Queue
     - [x] {:easy/703/703:* Kth Largest Element in an Stream}[# Kth Largest Element in an Stream]
