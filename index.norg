@@ -32,68 +32,77 @@
     - [ ] {:medium/1461/1461:* Check If a String Contains All Binary Codes of Size K}[# Check If a String Contains All Binary Codes of Size K]
 
 *** Stack
-    - [x]  {:easy/20/20:* Valid Parentheses}[# Valid Parentheses]
-    - [x]  {:easy/155/155:* Min Stack}[# Min Stack]
-    - [ ]  {:medium/150/150:* Evaluate Reverse Polish Notation}[# Evaluate Reverse Polish Notation]
-    - [x]  {:medium/22/22:* Generate Parentheses}[# Generate Parentheses]
-    - [-]  {:739:* Daily Temeratures}[# Daily Temeratures]
-    - [ ]  {:medium/853/853:* Car Fleet}[# Car Fleet]
+    - [x] {:easy/20/20:* Valid Parentheses}[# Valid Parentheses]
+    - [x] {:easy/155/155:* Min Stack}[# Min Stack]
+    - [ ] {:medium/150/150:* Evaluate Reverse Polish Notation}[# Evaluate Reverse Polish Notation]
+    - [x] {:medium/22/22:* Generate Parentheses}[# Generate Parentheses]
+    - [-] {:739:* Daily Temeratures}[# Daily Temeratures]
+    - [ ] {:medium/853/853:* Car Fleet}[# Car Fleet]
 
 *** Binary Search
-    - [x]  {:easy/704/704:* Binary Search}[# Binary Search]
-    - [x]  {:medium/74/74:* Search a 2D Matrix}[# Search a 2D Matrix]
-    - [ ]  {:medium/875/875:* Koko Eating Bananas}[# Koko Eating Bananas]
-    - [ ]  {:medium/33/33:* Search in Rotated Sorted Array}[# Search in Rotated Sorted Array]
-    - [ ]  {:medium/153/153:* Find Minimum in Rotated Sorted Array}[# Find Minimum in Rotated Sorted Array]
+    - [x] {:easy/704/704:* Binary Search}[# Binary Search]
+    - [x] {:medium/74/74:* Search a 2D Matrix}[# Search a 2D Matrix]
+    - [ ] {:medium/875/875:* Koko Eating Bananas}[# Koko Eating Bananas]
+    - [ ] {:medium/33/33:* Search in Rotated Sorted Array}[# Search in Rotated Sorted Array]
+    - [ ] {:medium/153/153:* Find Minimum in Rotated Sorted Array}[# Find Minimum in Rotated Sorted Array]
 
 *** Linked List
-    - [x]  {:easy/206/206:* Reverse Linked List}[# Reverse Linked List]
-    - [ ]  {:easy/21/21:* Merge Two Sorted Lists}[# Merge Two Sorted Lists]
-    - [x]  {:medium/143/143:* Reorder List}[# Reorder List]
-    - [-]  {:medium/19/19:* Rename Nth Node From End of List}[# Rename Nth Node From End of List]
-    - [x]  {:medium/2/2:* Add Two Numbers}[# Add Two Numbers]
-    - [x]  {:easy/141/141:* Linked List Cycle}[# Linked List Cycle]
-    - [x]  {:medium/146/146:* LRU Cache}[# LRU Cache]
+    - [x] {:easy/206/206:* Reverse Linked List}[# Reverse Linked List]
+    - [ ] {:easy/21/21:* Merge Two Sorted Lists}[# Merge Two Sorted Lists]
+    - [x] {:medium/143/143:* Reorder List}[# Reorder List]
+    - [-] {:medium/19/19:* Rename Nth Node From End of List}[# Rename Nth Node From End of List]
+    - [x] {:medium/2/2:* Add Two Numbers}[# Add Two Numbers]
+    - [x] {:easy/141/141:* Linked List Cycle}[# Linked List Cycle]
+    - [x] {:medium/287/287:* Find the Duplicate Number}[# Find the Duplicate Number] 
+    - [x] {:medium/146/146:* LRU Cache}[# LRU Cache]
 
 *** Tree
-    - [x]  {:easy/226/225:* Invert Binary Tree}[# Invert Binary Tree]
-    - [ ]  {:easy/104/104:* Maximum Depth of Binary Tree}[# Maximum Depth of Binary Tree]
-    - [ ]  {:easy/110/110:* Balanced Binary Tree}[# Balanced Binary Tree]
-    - [ ]  {:easy/572/572:* Subtree of Another Tree}[# Subtree of Another Tree]
-    - [x]  {:easy/235/235:* Lowest Common Ancestor of a Binary Search Tree}[# Lowest Common Ancestor of a Binary Search Tree]
-    - [x]  {:medium/102/102:* Binary Tree Level Order Traversal}[# Binary Tree Level Order Traversal]
-    - [x]  {:medium/199/199:* Binary Tree Right Side View}[# Binary Tree Right Side View]
-    - [x]  {:medium/1448/1448:* Count Good Nodes in Binary Tree}[# Count Good Nodes in Binary Tree]
+    - [x] {:easy/226/225:* Invert Binary Tree}[# Invert Binary Tree]
+    - [ ] {:easy/104/104:* Maximum Depth of Binary Tree}[# Maximum Depth of Binary Tree]
+    - [ ] {:easy/110/110:* Balanced Binary Tree}[# Balanced Binary Tree]
+    - [ ] {:easy/572/572:* Subtree of Another Tree}[# Subtree of Another Tree]
+    - [x] {:easy/235/235:* Lowest Common Ancestor of a Binary Search Tree}[# Lowest Common Ancestor of a Binary Search Tree]
+    - [x] {:medium/102/102:* Binary Tree Level Order Traversal}[# Binary Tree Level Order Traversal]
+    - [x] {:medium/199/199:* Binary Tree Right Side View}[# Binary Tree Right Side View]
+    - [x] {:medium/1448/1448:* Count Good Nodes in Binary Tree}[# Count Good Nodes in Binary Tree]
 
 *** Heap/Priority Queue
-    - [x]  {:easy/703/703:* Kth Largest Element in an Stream}[# Kth Largest Element in an Stream]
-    - [x]  {:easy/1046/1046:* Last Stone Weight}[# Last Stone Weight]
-    - [x]  {:medium/973/973:* K Closest Points to the Origin}[# K Closest Points to the Origin]
-    - [x]  {:medium/215/215:* Kth Largest Element in an Array}[# Kth Largest Element in an Array]
+    - [x] {:easy/703/703:* Kth Largest Element in an Stream}[# Kth Largest Element in an Stream]
+    - [x] {:easy/1046/1046:* Last Stone Weight}[# Last Stone Weight]
+    - [x] {:medium/973/973:* K Closest Points to the Origin}[# K Closest Points to the Origin]
+    - [x] {:medium/215/215:* Kth Largest Element in an Array}[# Kth Largest Element in an Array]
 
 *** Backtracking
+<<<<<<< HEAD
     - [x]  {:medium/78/78:* Subsets}[# Subsets]
     - [x]  {:medium/39/39:* Combination Sum}[# Combination Sum]
     - [x]  {:medium/46/46:* Permutation}[# Permutation]
     - [x]  {:47:* Permutations II}[# Permutations II]
     - [x]  {:medium/90/90:* Subsets II}[# Subsets II]
     - [ ]  {:medium/40/40:* Combination Sum II}[# Combination Sum II]
+=======
+    - [x] {:medium/78/78:* Subsets}[# Subsets]
+    - [x] {:medium/39/39:* Combination Sum}[# Combination Sum]
+    - [x] {:medium/46/46:* Permutation}[# Permutation]
+    - [x] {:medium/90/90:* Subsets II}[# Subsets II]
+    - [ ] {:medium/40/40:* Combination Sum II}[# Combination Sum II]
+>>>>>>> acbb5d0 (287: done)
 
 *** 1-D Dynamic Programming
-    - [x]  {:easy/1480/1480:* Running Sum of 1d Array}[# Running Sum of 1d Array]
-    - [x]  {:easy/70/70:* Climbing Stairs}[# Climbing Stairs]
-    - [x]  {:easy/746/746:* Min Cost Climbing Stairs}[# Min Cost Climbing Stairs]
-    - [x]  {:medium/198/198:* House Robber}[# House Robber]
-    - [ ]  {:medium/213/213:* House Robber II}[# House Robber II]
-    - [ ]  {:medium/5/5:* Longest Palindromic Substring}[# Longest Palindromic Substring]
+    - [x] {:easy/1480/1480:* Running Sum of 1d Array}[# Running Sum of 1d Array]
+    - [x] {:easy/70/70:* Climbing Stairs}[# Climbing Stairs]
+    - [x] {:easy/746/746:* Min Cost Climbing Stairs}[# Min Cost Climbing Stairs]
+    - [x] {:medium/198/198:* House Robber}[# House Robber]
+    - [ ] {:medium/213/213:* House Robber II}[# House Robber II]
+    - [ ] {:medium/5/5:* Longest Palindromic Substring}[# Longest Palindromic Substring]
 
 *** Greedy
-    - [ ]  {:easy/53/53:* Maximum Subarray}[# Maximum Subarray]
-    - [x]  {:medium/55/55:* Jump Game}[# Jump Game]
+    - [ ] {:easy/53/53:* Maximum Subarray}[# Maximum Subarray]
+    - [x] {:medium/55/55:* Jump Game}[# Jump Game]
 
 *** Math & Geometry
-    - [x]  {:easy/202/202:* Happy Number}[# Happy Number]
-    - [ ]  {:medium/50/50:* Pow(x, n)}[# Pow(x, n)]
+    - [x] {:easy/202/202:* Happy Number}[# Happy Number]
+    - [ ] {:medium/50/50:* Pow(x, n)}[# Pow(x, n)]
 
 *** Bit Manipulation
-    - [x]  {:easy/1290/1290:* Convert Binary Number in a Linked List to Integer}[# Convert Binary Number in a Linked List to Integer]
+    - [x] {:easy/1290/1290:* Convert Binary Number in a Linked List to Integer}[# Convert Binary Number in a Linked List to Integer]

@@ -1,0 +1,6 @@
+* Validate Binary Search Tree
+
+** Edge Cases
+   - `[2,2,2]` 
+    - All keys in subtree must follow BST rules
+
