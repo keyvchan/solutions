@@ -81,6 +81,7 @@
     - [x] {:medium/90/90:* Subsets II}[# Subsets II]
     - [ ] {:medium/40/40:* Combination Sum II}[# Combination Sum II]
     - [x] {:medium/79/79:* Word Search}[# Word Search]
+    - [x] {:medium/17/17:* Letter Combinations of a Phone Number}[# Letter Combinations of a Phone Number]
 
 *** 1-D Dynamic Programming
     - [x] {:easy/1480/1480:* Running Sum of 1d Array}[# Running Sum of 1d Array]
