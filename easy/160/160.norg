@@ -1,0 +1,18 @@
+* Intersection of Two Linked Lists
+
+** Hash Map
+
+*** Algorithm
+    Use a hash map to store the values of the linked list.
+
+
+*** Complexity
+    Time: O(m+n)
+    Space: O(n)
+
+*** Result
+    - Runtime: 43 ms, faster than 52.91% of Go online submissions for Intersection of Two Linked Lists.
+    - Memory Usage: 7.7 MB, less than 21.80% of Go online submissions for Intersection of Two Linked Lists.
+
+*** Code
+    - Go: {@ main.go}[main.go]
