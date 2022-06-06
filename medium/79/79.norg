@@ -1,0 +1,19 @@
+* Word Search
+
+** Edge Cases:
+   - len(target) == 1
+   - board don't have enough length
+
+** Backtracking
+
+*** Algorithm
+    Check left right up down, use map tracking visited position
+
+*** Complexity
+
+*** Result
+    - Runtime: 571 ms, faster than 21.53% of Go online submissions for Word Search.
+    - Memory Usage: 2.4 MB, less than 18.83% of Go online submissions for Word Search.
+
+*** Code
+    - Go: {@ main.go}[main.go]
