@@ -1,0 +1,13 @@
+* Remove Palindromic Subsequences
+
+** 0, 1, 2
+
+*** Algorithm
+    Consider that the result must be in 0, 1, 2
+
+*** Complexity
+    Time: O(n)
+    Space: O(1)
+
+*** Code
+    - Go: {@ main.go}[main.go]

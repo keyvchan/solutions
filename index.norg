@@ -101,6 +101,7 @@
 *** Math & Geometry
     - [x] {:easy/202/202:* Happy Number}[# Happy Number]
     - [ ] {:medium/50/50:* Pow(x, n)}[# Pow(x, n)]
+    - [ ] {:easy/1332/1332:* Remove Palindromic Subsequences}[# Remove Palindromic Subsequences]
 
 *** Bit Manipulation
     - [x] {:easy/1290/1290:* Convert Binary Number in a Linked List to Integer}[# Convert Binary Number in a Linked List to Integer]
