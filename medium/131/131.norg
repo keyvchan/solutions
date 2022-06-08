@@ -1,0 +1,18 @@
+* Palindrome Partitioning
+
+** DP + Backtracking
+
+*** Algorithm
+    Use HashMap to store all the palindrome string
+    Use backtracking to check all substrings from current position
+
+*** Complexity
+    Time: O(n^2)
+    Space: O(n)
+
+*** Result
+    - Runtime: 585 ms, faster than 10.04% of Go online submissions for Palindrome Partitioning.
+    - Memory Usage: 29.3 MB, less than 7.11% of Go online submissions for Palindrome Partitioning.
+
+*** Code
+    - Go: {@ main.go}[main.go]

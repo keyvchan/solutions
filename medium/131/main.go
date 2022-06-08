@@ -5,45 +5,65 @@ import (
 )
 
 func main() {
-	fmt.Println(partition("aab"))
+	fmt.Println(partition("abbab"))
 }
 
-func isPalin(s string) bool {
-	reverse := func(s string) string {
-		r := []rune(s)
-		for i, j := 0, len(r)-1; i < len(r)/2; i, j = i+1, j-1 {
-			r[i], r[j] = r[j], r[i]
-		}
-		return string(r)
-	}
-
-	new_string := reverse(s)
-	if new_string == s {
-		return true
+func backtracking(s string, rest string, current_string []string, result *[][]string, all_palin map[string]bool) {
+	if all_palin[s] {
+		current_string = append(current_string, s)
 	} else {
-		return false
+		return
+	}
+	if len(rest) == 0 {
+		*result = append(*result, current_string)
+		return
+	}
+
+	// backtracking all substrings of s
+	for i := range rest {
+		// copy current_string to avoid changing the original
+		new_current_string := make([]string, len(current_string))
+		copy(new_current_string, current_string)
+		backtracking(rest[:i+1], rest[i+1:], new_current_string, result, all_palin)
 	}
 }
 
-func backtracking(s string, current_string string, all_palin *[][]string) {
-
-	if isPalin(current_string) {
-		*all_palin = append(*all_palin, []string{current_string})
+func checkPalindrome(s string, i int, j int, all_palin map[string]bool) {
+	for i >= 0 && j < len(s) {
+		fmt.Println(i, j)
+		if s[i] == s[j] {
+			all_palin[s[i:j+1]] = true
+		} else {
+			break
+		}
+		i--
+		j++
 	}
-
-	for i, v := range s {
-		current_string += string(v)
-		backtracking(s[i+1:], current_string, all_palin)
-		current_string = current_string[:len(current_string)-1]
-	}
-
 }
 
 func partition(s string) [][]string {
 
-	all_palin := [][]string{}
+	all_palin := map[string]bool{}
 
-	backtracking(s, "", &all_palin)
+	// find all palindromes
+	for i := 0; i < len(s); i++ {
+		// odd
+		checkPalindrome(s, i, i, all_palin)
+		checkPalindrome(s, i, i+1, all_palin)
 
-	return all_palin
+	}
+	fmt.Println(all_palin)
+
+	result := [][]string{}
+	// check every substring is a palindrome
+	// backtracking all substrings of s
+	current_string := []string{}
+	for i := range s {
+		// copy current_string to avoid changing the original
+		new_current_string := make([]string, len(current_string))
+		copy(new_current_string, current_string)
+		backtracking(s[:i+1], s[i+1:], new_current_string, &result, all_palin)
+	}
+
+	return result
 }
