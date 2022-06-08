@@ -12,6 +12,7 @@
     - [-] {:medium/36/36:* Valid Sudoku}[# Valid Sudoku] 
     - [-] {:medium/271/271:* Encode and Decode Strings}[# Encode and Decode Strings] 
     - [-] {:medium/128/128:* Longest Consecutive Sequence}[# Longest Consecutive Sequence] 
+    - [ ] {:easy/88/88:* Merge Sorted Array}[# Merge Sorted Array]
 
 *** 2D Array
     - [x] {:easy/867/867:* Transpose Matrix}[# Transpose Matrix]
