@@ -1,0 +1,21 @@
+* Number of Islands
+
+** Hash Map + DFS
+*** Algorithm
+    ~ Create a hash map to store the coordinates of explored positions
+    ~ DFS on every unexplored and not-water position
+    ~~ explored left and right, up and down
+    ~~ If not explored, add to hash map and mark as explored
+    ~~ If water, return
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 30 ms, faster than 12.01% of Go online submissions for Number of Islands.
+    - Memory Usage: 7 MB, less than 17.26% of Go online submissions for Number of Islands.
+
+*** Code
+    - Go: {@ main.go}
+
