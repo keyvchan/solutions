@@ -1,0 +1,17 @@
+* Pacific Atlantic Water Flow
+
+** Brute Force
+
+*** Algorithm
+    Check all cells
+
+*** Complexity
+    - Time: O((n*m)^2)
+    - Space: O(n*m)
+
+*** Result
+    - Runtime: 1320 ms, faster than 5.37% of Go online submissions for Pacific Atlantic Water Flow.
+    - Memory Usage: 8.4 MB, less than 19.01% of Go online submissions for Pacific Atlantic Water Flow.
+
+*** Code
+    - Go: {@ main.go}
