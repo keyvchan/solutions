@@ -4,12 +4,12 @@ import "fmt"
 
 func main() {
 	solve([][]byte{
-		{'X', 'X', 'X', 'X'},
-		{'X', 'O', 'O', 'X'},
-		{'X', 'X', 'O', 'X'},
-		{'X', 'O', 'X', 'X'},
+		{'O', 'O', 'X', 'O', 'O'},
+		{'X', 'O', 'X', 'X', 'X'},
+		{'X', 'X', 'X', 'O', 'X'},
+		{'X', 'X', 'X', 'X', 'X'},
+		{'X', 'O', 'X', 'X', 'X'},
 	})
-
 }
 
 type Position struct {
@@ -41,9 +41,7 @@ func solve(board [][]byte) {
 	// all positions can't be flaped
 	all_positions := map[Position]bool{}
 	for i := 0; i < len(board[0]); i++ {
-		if board[0][i] == 'O' {
-			// create a new map
-
+		if board[0][i] == 'O' && !all_positions[Position{0, i}] {
 			visited := map[Position]bool{}
 			dfs(board, 0, i, visited)
 			// add all positions to the map
@@ -51,9 +49,8 @@ func solve(board [][]byte) {
 				all_positions[k] = true
 			}
 		}
-		if board[len(board)-1][i] == 'O' {
-			// create a new map
 
+		if board[len(board)-1][i] == 'O' && !all_positions[Position{len(board) - 1, i}] {
 			visited := map[Position]bool{}
 			dfs(board, len(board)-1, i, visited)
 			// add all positions to the map
@@ -62,9 +59,9 @@ func solve(board [][]byte) {
 			}
 		}
 	}
+
 	for i := 0; i < len(board); i++ {
-		if board[i][0] == 'O' {
-			// create a new map
+		if board[i][0] == 'O' && !all_positions[Position{i, 0}] {
 
 			visited := map[Position]bool{}
 			dfs(board, i, 0, visited)
@@ -73,8 +70,7 @@ func solve(board [][]byte) {
 				all_positions[k] = true
 			}
 		}
-		if board[i][len(board[0])-1] == 'O' {
-			// create a new map
+		if board[i][len(board[0])-1] == 'O' && !all_positions[Position{i, len(board[0]) - 1}] {
 
 			visited := map[Position]bool{}
 			dfs(board, i, len(board[0])-1, visited)
@@ -84,8 +80,8 @@ func solve(board [][]byte) {
 			}
 		}
 	}
-
 	fmt.Println(all_positions)
+
 	// edit board
 	for i := 0; i < len(board); i++ {
 		for j := 0; j < len(board[0]); j++ {

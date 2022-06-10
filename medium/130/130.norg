@@ -3,17 +3,18 @@
 ** Edge Case
    - The shape is not square
 
-** Brute Force
+** DP
 *** Algorithm
     Check all borders of the grid, DFS from `O` in borders, add all connected cell to not edited map
 
 *** Complexity
-    - Time: O(n^2)
-    - Space: O(n^2)
+    - Time: O(n*m)
+    - Space: O(n*m)
 
 *** Result
-    - Runtime: 234 ms, faster than 5.15% of Go online submissions for Surrounded Regions.
-    - Memory Usage: 7.8 MB, less than 20.60% of Go online submissions for Surrounded Regions.
+    - Runtime: 18 ms, faster than 91.85% of Go online submissions for Surrounded Regions.
+    - Memory Usage: 6.3 MB, less than 84.12% of Go online submissions for Surrounded Regions.
 
 *** Code
     - Go: {@ main.go}
+
