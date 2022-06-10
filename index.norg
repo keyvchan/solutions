@@ -93,6 +93,7 @@
     - [x] {:medium/200/200:* Number of Islands}[# Number of Islands]
     - [x] {:medium/695/695:* Max Area of Island}[# Max Area of Island]
     - [-] {:medium/417/417:* Pacific Atlantic Water Flow}[# Pacific Atlantic Water Flow]
+    - [-] {:medium/130/130:* Surrounded Regions}[# Surrounded Regions]
 
 *** 1-D Dynamic Programming
     - [x] {:easy/1480/1480:* Running Sum of 1d Array}[# Running Sum of 1d Array]
