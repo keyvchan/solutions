@@ -95,6 +95,7 @@
     - [-] {:medium/417/417:* Pacific Atlantic Water Flow}[# Pacific Atlantic Water Flow]
     - [-] {:medium/130/130:* Surrounded Regions}[# Surrounded Regions]
     - [-] {:medium/994/994:* Rotting Oranges}[# Rotting Oranges]
+    - [x] {:medium/286/286:* Walls and Gates}[# Walls and Gates]
 
 *** 1-D Dynamic Programming
     - [x] {:easy/1480/1480:* Running Sum of 1d Array}[# Running Sum of 1d Array]
