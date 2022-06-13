@@ -106,6 +106,7 @@
     - [x] {:medium/5/5:* Longest Palindromic Substring}[# Longest Palindromic Substring]
     - [x] {:medium/647/647:* Palindromic Substrings}[# Palindromic Substrings]
     - [ ] {:medium/91/91:* Decode Ways}[# Decode Ways]
+    - [ ] {:medium/322/322:* Coin Change}[# Coin Change]
 
 *** Greedy
     - [ ] {:easy/53/53:* Maximum Subarray}[# Maximum Subarray]
