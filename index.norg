@@ -100,6 +100,7 @@
 
 *** 1-D Dynamic Programming
     - [x] {:easy/509/509:* Fibonacci Number}[# Fibonacci Number]
+    - [x] {:easy/1137/1137:* N-th Tribonacci Number}[# N-th Tribonacci Number]
     - [x] {:easy/1480/1480:* Running Sum of 1d Array}[# Running Sum of 1d Array]
     - [x] {:easy/70/70:* Climbing Stairs}[# Climbing Stairs]
     - [x] {:easy/746/746:* Min Cost Climbing Stairs}[# Min Cost Climbing Stairs]
