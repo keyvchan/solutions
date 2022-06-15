@@ -99,6 +99,7 @@
     - [x] {:medium/207/207:* Course Schedule}[# Course Schedule]
 
 *** 1-D Dynamic Programming
+    - [x] {:easy/509/509:* Fibonacci Number}[# Fibonacci Number]
     - [x] {:easy/1480/1480:* Running Sum of 1d Array}[# Running Sum of 1d Array]
     - [x] {:easy/70/70:* Climbing Stairs}[# Climbing Stairs]
     - [x] {:easy/746/746:* Min Cost Climbing Stairs}[# Min Cost Climbing Stairs]
