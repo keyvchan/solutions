@@ -97,6 +97,7 @@
     - [-] {:medium/994/994:* Rotting Oranges}[# Rotting Oranges]
     - [x] {:medium/286/286:* Walls and Gates}[# Walls and Gates]
     - [x] {:medium/207/207:* Course Schedule}[# Course Schedule]
+    - [-] {:medium/210/210:* Course Schedule II}[# Course Schedule II]
 
 *** 1-D Dynamic Programming
     - [x] {:easy/509/509:* Fibonacci Number}[# Fibonacci Number]
