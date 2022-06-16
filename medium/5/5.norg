@@ -1,5 +1,9 @@
 * Longest Palindromic Substring
 
+** Edge Cases
+   - Odd and even length substring
+   - Avoiding reassign of substring in every iteration
+
 ** DP, but TLE :(
 
 *** Algorithm
