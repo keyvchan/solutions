@@ -1,0 +1,22 @@
+* Maximum Sum Circular Subarray
+
+** Edge Cases
+   - All numbers is negative
+
+** DP
+*** Algorithm
+   Kadane's algorithm, keep tracking the max sum and min sum
+
+   When $max_sum > 0$, compare `max_sum` and `min_sum`
+   When $max_sum < 0$, return max_sum
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 128 ms, faster than 7.07% of Go online submissions for Maximum Sum Circular Subarray.
+    - Memory Usage: 7.4 MB, less than 71.72% of Go online submissions for Maximum Sum Circular Subarray.
+
+*** Code
+    - Go: {@ main.go}
