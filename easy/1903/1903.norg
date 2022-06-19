@@ -1,0 +1,18 @@
+* Largest Odd Number in String
+
+** Back to front
+
+*** Algorithm
+    Scan from back to front, find the first odd number.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 21 ms, faster than 9.30% of Go online submissions for Largest Odd Number in String.
+    - Memory Usage: 6.8 MB, less than 55.81% of Go online submissions for Largest Odd Number in String.
+
+*** Code
+    - Go: {@ main.go}
+
