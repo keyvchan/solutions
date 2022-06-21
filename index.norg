@@ -120,6 +120,9 @@
     - [-] {:medium/45/45:* Jump Game II}[# Jump Game II]
     - [-] {:medium/134/134:* Gas Station}[# Gas Station]
 
+*** Interval
+    - [ ] {:medium/57/57:* Insert Interval}[# Insert Interval]
+
 *** Math & Geometry
     - [x] {:easy/202/202:* Happy Number}[# Happy Number]
     - [x] {:easy/1903/1903:* Largest Odd Number in String}[# Largest Odd Number in String]
