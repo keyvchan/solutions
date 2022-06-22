@@ -119,6 +119,7 @@
     - [x] {:medium/55/55:* Jump Game}[# Jump Game]
     - [-] {:medium/45/45:* Jump Game II}[# Jump Game II]
     - [-] {:medium/134/134:* Gas Station}[# Gas Station]
+    - [x] {:medium/1642/1642:* Furthest Building You Can Reach}[# Furthest Building You Can Reach] 
 
 *** Interval
     - [ ] {:medium/57/57:* Insert Interval}[# Insert Interval]
