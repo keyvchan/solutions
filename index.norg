@@ -28,7 +28,6 @@
     - [x] {:hard/42/42:* Trapping Rain Water}[# Trapping Rain Water]
 
 *** Sliding Window
-    - [ ] {:easy/121/121:* Best Time to Buy and Sell Stock}[# Best Time to Buy and Sell Stock]
     - [ ] {:medium/3/3:* Longest Substring Without Repeating Characters}[# Longest Substring Without Repeating Characters]
     - [ ] {:medium/424/424:* Longest Repeating Character Replacement}[# Longest Repeating Character Replacement]
     - [ ] {:medium/567/567:* Permutation in String}[# Permutation in String]
@@ -103,6 +102,7 @@
     - [-] {:medium/210/210:* Course Schedule II}[# Course Schedule II]
 
 *** 1-D Dynamic Programming
+    #contexts = [DP[i] = DP[i-1] + DP[i-2]]
     - [x] {:easy/509/509:* Fibonacci Number}[# Fibonacci Number]
     - [x] {:easy/1137/1137:* N-th Tribonacci Number}[# N-th Tribonacci Number]
     - [x] {:easy/1480/1480:* Running Sum of 1d Array}[# Running Sum of 1d Array]
@@ -117,7 +117,9 @@
     - [ ] {:medium/152/152:* Maximum Product Subarray}[# Maximum Product Subarray]
     - [x] {:easy/53/53:* Maximum Subarray}[# Maximum Subarray]
     - [ ] {:medium/918/918:* Maximum Sum Circular Subarray}[# Maximum Sum Circular Subarray]
+    #contexts = [O(n^2) optimization, max of DP[i] + DP[j] ]
     - [-] {:medium/1014/1014:* Best Sightseeing Pair}[# Best Sightseeing Pair] 
+    - [ ] {:easy/121/121:* Best Time to Buy and Sell Stock}[# Best Time to Buy and Sell Stock]
 
 *** Greedy
     - [x] {:medium/55/55:* Jump Game}[# Jump Game]

@@ -1,13 +1,31 @@
 * Best Time to Buy and Sell Stock
 
 ** One Pass
-   Loop through the array, keeping track of the min price and max profit.
+*** Algorithm
+    Loop through the array, keeping track of the min price and max profit.
+
+*** Complexity:
+    - Runtime: O(n)
+    - Space: O(1)
 
 *** Result
-    Runtime: O(n)
-    Space: O(1)
-
-    Runtime: 187 ms, faster than 27.94% of Go online submissions for Best Time to Buy and Sell Stock.
-    Memory Usage: 9 MB, less than 35.93% of Go online submissions for Best Time to Buy and Sell Stock.
+    - Runtime: 187 ms, faster than 27.94% of Go online submissions for Best Time to Buy and Sell Stock.
+    - Memory Usage: 9 MB, less than 35.93% of Go online submissions for Best Time to Buy and Sell Stock.
 
 *** Code: {@ main.go}[main.go]
+
+** DP
+
+*** Algorithm
+    Start from the end, check the i+1 can be the max sell price.
+
+*** Complexity
+    - Runtime: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 119 ms, faster than 96.20% of Go online submissions for Best Time to Buy and Sell Stock.
+    - Memory Usage: 8.8 MB, less than 60.24% of Go online submissions for Best Time to Buy and Sell Stock.
+
+*** Code
+    - Go: {@ main.go}
