@@ -1,0 +1,17 @@
+* Best Sightseeing Pair
+
+** DP
+*** Algorithm
+    Check from index 1, check index i-1 can be left max.
+    Calculate max.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 55 ms, faster than 82.35% of Go online submissions for Best Sightseeing Pair.
+    - Memory Usage: 6.9 MB, less than 83.53% of Go online submissions for Best Sightseeing Pair.
+
+*** Code
+    - Go: {@ main.go}

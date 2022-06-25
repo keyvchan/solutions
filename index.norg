@@ -117,6 +117,7 @@
     - [ ] {:medium/152/152:* Maximum Product Subarray}[# Maximum Product Subarray]
     - [x] {:easy/53/53:* Maximum Subarray}[# Maximum Subarray]
     - [ ] {:medium/918/918:* Maximum Sum Circular Subarray}[# Maximum Sum Circular Subarray]
+    - [-] {:medium/1014/1014:* Best Sightseeing Pair}[# Best Sightseeing Pair] 
 
 *** Greedy
     - [x] {:medium/55/55:* Jump Game}[# Jump Game]
