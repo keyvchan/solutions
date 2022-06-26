@@ -1,0 +1,17 @@
+* Maxium Points You Can Obtain From Cards
+
+** DP + Reverse Thinking
+
+*** Algorithm
+    Thinking reversely, the question is asking the maxium points, so we can find the minium points we can get from a continous subarray.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 91 ms, faster than 38.94% of Go online submissions for Maximum Points You Can Obtain from Cards.
+    - Memory Usage: 9 MB, less than 44.25% of Go online submissions for Maximum Points You Can Obtain from Cards.
+
+*** Code
+    - Go: {@ main.go}

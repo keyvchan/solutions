@@ -114,6 +114,7 @@
     - [x] {:medium/647/647:* Palindromic Substrings}[# Palindromic Substrings]
     - [ ] {:medium/91/91:* Decode Ways}[# Decode Ways]
     - [ ] {:medium/322/322:* Coin Change}[# Coin Change]
+    - [x] {:medium/1423/1423:* Maxium Points You Can Obtain From Cards}[Maxium Points You Can Obtain From Cards] 
     - [ ] {:medium/152/152:* Maximum Product Subarray}[# Maximum Product Subarray]
     - [x] {:easy/53/53:* Maximum Subarray}[# Maximum Subarray]
     - [ ] {:medium/918/918:* Maximum Sum Circular Subarray}[# Maximum Sum Circular Subarray]
