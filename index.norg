@@ -4,6 +4,7 @@
 
 *** Array and Hash
     - [x] {:easy/217/217:* Contains Duplicate}[# Contains Duplicate]
+    - [x] {:easy/2255/2255:* Count Prefixes of a Given String}[# Count Prefixes of a Given String] 
     - [-] {:easy/1160/1160:* Find Words That Can be Formed Characters}[# Find Words That Can be Formed Characters] 
     - [x] {:easy/242/242:* Valid Anagram}[# Valid Anagram]
     - [-] {:easy/1/1:* Two Sum}[# Two Sum]
