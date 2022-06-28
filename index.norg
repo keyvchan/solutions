@@ -125,6 +125,7 @@
     #contexts = [Caching]
     - [-] {:medium/309/309:* Best Time to Buy and Sell Stock with Cooldown}[# Best Time to Buy and Sell Stock with Cooldown] 
     - [x] {:medium/714/714:* Best Time to Buy and Sell Stock with Transaction Fee}[# Best Time to Buy and Sell Stock with Transaction Fee] 
+    - [ ] {:medium/139/139:* Word Break}[# Word Break] 
 
 *** Greedy
     - [x] {:medium/55/55:* Jump Game}[# Jump Game]
