@@ -144,6 +144,7 @@
     - [ ] {:medium/50/50:* Pow(x, n)}[# Pow(x, n)]
     - [ ] {:easy/1332/1332:* Remove Palindromic Subsequences}[# Remove Palindromic Subsequences]
     - [x] {:easy/263/263:* Ugly Number}[# Ugly Number] 
+    - [x] {:easy/118/118:* Pascal's Triangle}[# Pascal's Triangle] 
 
 *** Bit Manipulation
     - [x] {:easy/1290/1290:* Convert Binary Number in a Linked List to Integer}[# Convert Binary Number in a Linked List to Integer]
