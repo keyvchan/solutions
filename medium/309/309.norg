@@ -1,0 +1,18 @@
+* Best Time to Buy and Sell Stock with Cooldown
+
+** DP
+
+*** Algorithm
+    In every index, we can either buy or sell.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 9 ms, faster than 24.42% of Go online submissions for Best Time to Buy and Sell Stock with Cooldown.
+    - Memory Usage: 4.2 MB, less than 12.79% of Go online submissions for Best Time to Buy and Sell Stock with Cooldown.
+
+*** Code
+    - Go: {@ main.go}
+
