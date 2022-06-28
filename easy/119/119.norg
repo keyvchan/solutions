@@ -1,0 +1,17 @@
+* Pascal's Triangle II
+
+** Brute Force
+
+*** Algorithm
+    Storing last row in order to get the next row
+
+*** Complexity
+    - Time: O(n^2)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 2 ms, faster than 45.37% of Go online submissions for Pascal's Triangle II.
+    - Memory Usage: 2 MB, less than 36.73% of Go online submissions for Pascal's Triangle II.
+
+*** Code
+    - Go: {@ main.go}
