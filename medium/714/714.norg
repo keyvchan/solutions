@@ -1,0 +1,23 @@
+* Best Time to Buy and Sell Stock with Transaction Fee
+
+** DP
+
+*** Algorithm
+    In every index, we can either buy or sell.
+    Use a map to store the max profit we can get at each index.
+
+    @table
+    | (index, buy) | max_profit |
+    - 
+    @end
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 672 ms, faster than 5.26% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee.
+    - Memory Usage: 25.4 MB, less than 6.01% of Go online submissions for Best Time to Buy and Sell Stock with Transaction Fee.
+
+*** Code
+    - Go: {@ main.go}

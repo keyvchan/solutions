@@ -123,7 +123,8 @@
     - [ ] {:easy/121/121:* Best Time to Buy and Sell Stock}[# Best Time to Buy and Sell Stock]
     - [ ] {:medium/122/122:* Best Time to Buy and Sell Stock II}[# Best Time to Buy and Sell Stock II] 
     #contexts = [Caching]
-    - [ ] {:medium/309/309:* Best Time to Buy and Sell Stock with Cooldown}[# Best Time to Buy and Sell Stock with Cooldown] 
+    - [-] {:medium/309/309:* Best Time to Buy and Sell Stock with Cooldown}[# Best Time to Buy and Sell Stock with Cooldown] 
+    - [x] {:medium/714/714:* Best Time to Buy and Sell Stock with Transaction Fee}[# Best Time to Buy and Sell Stock with Transaction Fee] 
 
 *** Greedy
     - [x] {:medium/55/55:* Jump Game}[# Jump Game]
