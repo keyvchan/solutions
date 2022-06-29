@@ -131,6 +131,9 @@
     #contexts = [DP[i] = max(1, DP[i+1], ... DP[i+k])]
     - [-] {:medium/300/300:* Longest Increasing Subsequence}[# Longest Increasing Subsequence] 
 
+*** 2-D Dynamic Programming
+    - [x] {:medium/62/62:* Unique Paths }[# Unique Paths ] 
+
 *** Greedy
     - [x] {:medium/55/55:* Jump Game}[# Jump Game]
     - [-] {:medium/45/45:* Jump Game II}[# Jump Game II]
