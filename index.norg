@@ -119,6 +119,7 @@
     - [ ] {:medium/152/152:* Maximum Product Subarray}[# Maximum Product Subarray]
     - [x] {:easy/53/53:* Maximum Subarray}[# Maximum Subarray]
     - [ ] {:medium/918/918:* Maximum Sum Circular Subarray}[# Maximum Sum Circular Subarray]
+    - [-] {:medium/416/416:* Partition Equal Subset Sum}[# Partition Equal Subset Sum] 
     #contexts = [O(n^2) optimization, max of DP[i] + DP[j] ]
     - [-] {:medium/1014/1014:* Best Sightseeing Pair}[# Best Sightseeing Pair] 
     - [ ] {:easy/121/121:* Best Time to Buy and Sell Stock}[# Best Time to Buy and Sell Stock]
