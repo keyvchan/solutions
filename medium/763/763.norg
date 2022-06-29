@@ -1,0 +1,36 @@
+* Partition Labels
+
+** Brute Force
+
+*** Algorithm
+    For every char in string, check if rest of the string contains the same char.
+
+*** Complexity
+    - Time: O(n^2)
+    - Space: O(1)
+
+*** Code
+    - Go: {@ main.go}
+
+** Greedy
+
+*** Algorithm
+    Use a map to store the count of each char in the string.
+    Use another map to store visited chars.
+
+    When we encounter a char, if it is not in the visited map, we add it to the visited map.
+    Then we decrement the count of the char in the map.
+    When the count reaches 0, delete the char from encountered map.
+    When `len(encountered) == 0`, we know we have a partition.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+*** Result
+    - Runtime: 4 ms, faster than 42.59% of Go online submissions for Partition Labels.
+    - Memory Usage: 2.1 MB, less than 64.81% of Go online submissions for Partition Labels.
+
+*** Code
+    - Go: {@ greddy.go}
+
+

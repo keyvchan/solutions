@@ -138,6 +138,7 @@
     - [x] {:medium/846/846:* Hand of Straights}[# Hand of Straights] 
     - [ ] {:medium/1899/1899:* Merge Triplets to Form Target Triplet}[# Merge Triplets to Form Target Triplet] 
     - [-] {:medium/406/406:* Queue Reconstruction by Height}[# Queue Reconstruction by Height] 
+    - [x]  {:medium/763/763:* Partition Labels}[# Partition Labels] 
 
 *** Interval
     - [ ] {:medium/57/57:* Insert Interval}[# Insert Interval]
