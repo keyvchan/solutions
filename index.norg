@@ -128,6 +128,7 @@
     - [-] {:medium/309/309:* Best Time to Buy and Sell Stock with Cooldown}[# Best Time to Buy and Sell Stock with Cooldown] 
     - [x] {:medium/714/714:* Best Time to Buy and Sell Stock with Transaction Fee}[# Best Time to Buy and Sell Stock with Transaction Fee] 
     - [ ] {:medium/139/139:* Word Break}[# Word Break] 
+    - [x] {:medium/1048/1048:* Longest String Chain}[# Longest String Chain] 
     #contexts = [DP[i] = max(1, DP[i+1], ... DP[i+k])]
     - [-] {:medium/300/300:* Longest Increasing Subsequence}[# Longest Increasing Subsequence] 
 
