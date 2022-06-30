@@ -1,0 +1,37 @@
+* Minimum Moves to Equal Array Elements
+
+** Brute Force
+
+*** Algorithm
+    - Use a map to store num frequency
+    - Sort and iterate through the array
+    - Reduce the frequency of the current element, and increase the frequency of the n+1
+    - If len(map) == 1, return count
+
+*** Complexity
+    - Time: O(n^2)
+    - Space: O(n)
+
+*** Code
+    - Go: {@ main.go}
+
+
+** Reverse thinking
+
+*** Algorithm
+
+    In every iteration, instead of increase n-1 elements, decreast 1 elements until all elements are equal.
+
+*** Complexity
+    - Time: Sort should be O(nlogn), Get the result should be O(n)
+    - Space: Sort do take extra space, O(n) or O(1)
+
+*** Result
+    - Runtime: 98 ms, faster than 7.69% of Go online submissions for Minimum Moves to Equal Array Elements.
+    - Memory Usage: 6.8 MB, less than 76.92% of Go online submissions for Minimum Moves to Equal Array Elements.
+
+*** Code
+    - Go: {@ rev.go}
+
+
+

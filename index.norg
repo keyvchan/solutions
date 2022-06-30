@@ -156,6 +156,7 @@
     - [x] {:easy/263/263:* Ugly Number}[# Ugly Number] 
     - [x] {:easy/118/118:* Pascal's Triangle}[# Pascal's Triangle] 
     - [x] {:easy/119/119:* Pascal's Triangle II}[# Pascal's Triangle II] 
+    - [-] {:medium/453/453:* Minimum Moves to Equal Array Elements}[# Minimum Moves to Equal Array Elements] 
 
 *** Bit Manipulation
     - [x] {:easy/1290/1290:* Convert Binary Number in a Linked List to Integer}[# Convert Binary Number in a Linked List to Integer]
