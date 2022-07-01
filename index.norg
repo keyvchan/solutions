@@ -136,6 +136,7 @@
     - [x] {:medium/62/62:* Unique Paths }[# Unique Paths ] 
 
 *** Greedy
+    - [x] {:easy/1710/1710:* Maximum Units on a Truck}[# Maximum Units on a Truck] 
     - [x] {:medium/55/55:* Jump Game}[# Jump Game]
     - [-] {:medium/45/45:* Jump Game II}[# Jump Game II]
     - [-] {:medium/134/134:* Gas Station}[# Gas Station]

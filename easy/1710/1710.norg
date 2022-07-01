@@ -1,0 +1,17 @@
+* Maximum Units on a Truck
+
+** Greedy
+*** Algorithm
+
+    Always picks the box with the most units, until the truck is full.
+
+*** Complexity: 
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 27 ms, faster than 73.15% of Go online submissions for Maximum Units on a Truck.
+    - Memory Usage: 6.2 MB, less than 87.04% of Go online submissions for Maximum Units on a Truck.
+
+*** Code
+    - Go: {@ main.go}
