@@ -133,7 +133,8 @@
     - [-] {:medium/300/300:* Longest Increasing Subsequence}[# Longest Increasing Subsequence] 
 
 *** 2-D Dynamic Programming
-    - [x] {:medium/62/62:* Unique Paths }[# Unique Paths ] 
+    - [x] {:medium/62/62:* Unique Paths }[# Unique Paths] 
+    - [x] {:medium/63/63:* Unique Paths II}[# Unique Paths II] 
 
 *** Greedy
     - [x] {:easy/1710/1710:* Maximum Units on a Truck}[# Maximum Units on a Truck] 
@@ -144,7 +145,7 @@
     - [x] {:medium/846/846:* Hand of Straights}[# Hand of Straights] 
     - [ ] {:medium/1899/1899:* Merge Triplets to Form Target Triplet}[# Merge Triplets to Form Target Triplet] 
     - [-] {:medium/406/406:* Queue Reconstruction by Height}[# Queue Reconstruction by Height] 
-    - [x]  {:medium/763/763:* Partition Labels}[# Partition Labels] 
+    - [x] {:medium/763/763:* Partition Labels}[# Partition Labels] 
 
 *** Interval
     - [ ] {:medium/57/57:* Insert Interval}[# Insert Interval]
