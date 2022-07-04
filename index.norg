@@ -22,6 +22,7 @@
     - [-] {:medium/304/304:* Range Sum Query 2D - Immutable}[# Range Sum Query 2D - Immutable]
 
 *** Two Pointers
+    - [x] {:easy/392/392:* Is Subsequence}[# Is Subsequence] 
     - [-] {:easy/125/125:* Valid Palindrome}[# Valid Palindrome]
     - [-] {:medium/167/167:* Two Sum II - Input Array is Sorted}[# Two Sum II - Input Array is Sorted] 
     - [ ] {:medium/15/15:* Three Sum}[# Three Sum]
