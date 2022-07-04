@@ -1,0 +1,25 @@
+* Longest Common Subsequence
+
+** Edge Case
+   - The chars in string could be duplicated
+
+** Iterative DP
+
+*** Algorithm
+    - Initialize a 2D array
+    - Loop through the string
+    - Loop through the other string
+    -- If the current char is the same, add 1 to the diagonal cell
+    -- Else, add the max of the current cell and the cell above
+    - Return the last cell
+
+*** Complexity
+    - Time: O(m * n)
+    - Space: O(m * n)
+
+*** Result
+    - Runtime: 10 ms, faster than 53.03% of Go online submissions for Longest Common Subsequence.
+    - Memory Usage: 11 MB, less than 77.46% of Go online submissions for Longest Common Subsequence.
+
+*** Code
+    - Go: {@ main.go}

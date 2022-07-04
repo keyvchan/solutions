@@ -142,6 +142,7 @@
 *** 2-D Dynamic Programming
     - [x] {:medium/62/62:* Unique Paths }[# Unique Paths] 
     - [x] {:medium/63/63:* Unique Paths II}[# Unique Paths II] 
+    - [-] {:medium/1143/1143:* Longest Common Subsequence}[# Longest Common Subsequence] 
 
 *** Greedy
     - [x] {:easy/1710/1710:* Maximum Units on a Truck}[# Maximum Units on a Truck] 
