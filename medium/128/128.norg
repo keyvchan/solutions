@@ -1,15 +1,36 @@
 * Longest Consecutive Sequence
+
+** Edge Case
+   - The nums in array is unique?
+
 ** Brute force
-   Use hashmap store all numbers, loop sorted array and check every number and number+1, count it
+   Use hashmap store all numbers, loop sorted array and check every number and number+1, count it.
+   Don't sort, check number left and right, if number+1 or number-1 is in hashmap, count it.
 
 *** Result:
-    *Execcted Time limit*
-*** Code: {@ main.go}[Brute Force]
+    - Runtime: 745 ms, faster than 7.18% of Go online submissions for Longest Consecutive Sequence.
+    - Memory Usage: 14.5 MB, less than 5.22% of Go online submissions for Longest Consecutive
+
+*** Code: 
+    - Go: {@ main.go}[Brute Force]
+
+** DP
+
+*** ALgorithm
+    Similar to brute force solution, but don't check for every number.
+    Noticed that the number in previous sequence is not possible to be present in next sequence. So when we increase the count, can delete the current number safely.
+
+*** Complexity
+    - Time: Sort O(nlogn) + O(n)
+    - Space: O(n)
 
 *** Result
-    Runtime: 745 ms, faster than 7.18% of Go online submissions for Longest Consecutive Sequence.
-    Memory Usage: 14.5 MB, less than 5.22% of Go online submissions for Longest Consecutive
-** Optimized, reduce recalculation
-   don't sort, check number left and right, if number+1 or number-1 is in hashmap, count it
-*** Code: {@ main.go}[main.go]
+    - Runtime: 88 ms, faster than 79.87% of Go online submissions for Longest Consecutive Sequence.
+    - Memory Usage: 9.1 MB, less than 91.41% of Go online submissions for Longest Consecutive Sequence.
+
+*** Code
+
+    - Go: {@ dp.go}
+
+
 
