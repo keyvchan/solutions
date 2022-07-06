@@ -1,10 +1,10 @@
 * Coin Change
 
 ** DP
-   *** Algorithm
-   Compute every `DP[i]`
+*** Algorithm
+    Compute every `DP[i]`
 
-   `DP[i] = min(DP[i-coin] + DP[coin] for coin in coins)`
+    `DP[i] = min(DP[i-coin] + DP[coin] for coin in coins)`
 
 *** Complexity
     - Time: O(n)
@@ -16,3 +16,19 @@
 
 *** Code
     - Go: {@ main.go}
+
+** Up-Bottom DP
+
+*** Algorithm
+    Use a cache to store the result of max steps of rest amount
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 341 ms, faster than 9.47% of Go online submissions for Coin Change.
+    - Memory Usage: 8.8 MB, less than 8.31% of Go online submissions for Coin Change.
+
+*** Code
+    - Go: {@ dp.go}
