@@ -153,7 +153,9 @@ version: 0.0.11
     - [x] {:medium/62/62:* Unique Paths }[# Unique Paths] 
     - [x] {:medium/63/63:* Unique Paths II}[# Unique Paths II] 
     - [-] {:medium/1143/1143:* Longest Common Subsequence}[# Longest Common Subsequence] 
+    #contexts = [using two variable as key in cache]
     - [-] {:medium/518/518:* Coin Change 2}[# Coin Change 2] 
+    - [x] {:medium/494/494:* Target Sum}[# Target Sum] 
 
 *** Greedy
     - [x] {:easy/1710/1710:* Maximum Units on a Truck}[# Maximum Units on a Truck] 
