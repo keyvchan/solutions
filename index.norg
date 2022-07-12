@@ -183,6 +183,7 @@ version: 0.0.11
     - [x] {:easy/119/119:* Pascal's Triangle II}[# Pascal's Triangle II] 
     - [-] {:medium/453/453:* Minimum Moves to Equal Array Elements}[# Minimum Moves to Equal Array Elements] 
     - [-] {:medium/215/215:* Kth Largest Element in an Array}[# Kth Largest Element in an Array] 
+    - [x] {:medium/48/48:* Rotate Image}[# Rotate Image] 
 
 *** Bit Manipulation
     - [x] {:easy/1290/1290:* Convert Binary Number in a Linked List to Integer}[# Convert Binary Number in a Linked List to Integer]

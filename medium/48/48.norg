@@ -1,0 +1,18 @@
+* Rotate Image
+
+** Transpose and mirror
+
+*** Algorithm
+    Noticed that when the image transpose then mirror, the result is what we want.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 1 ms, faster than 62.65% of Go online submissions for Rotate Image.
+    - Memory Usage: 2.1 MB, less than 83.48% of Go online submissions for Rotate Image.
+
+*** Code
+    - Go: {@ main.go}
+
