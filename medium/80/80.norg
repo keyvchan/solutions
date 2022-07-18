@@ -1,0 +1,17 @@
+* Remove Duplicates from Sorted Array II
+
+** Shift pointer
+
+*** Algorithm
+    Similar to {:easy/26/26:* Remove Duplicates from Sorted Array}[Remove Duplicates from Sorted Array], but we also tracking duplicates numbers.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 2 ms, faster than 89.05% of Go online submissions for Remove Duplicates from Sorted Array II.
+    - Memory Usage: 3 MB, less than 21.17% of Go online submissions for Remove Duplicates from Sorted Array II.
+
+*** Code
+    - Go: {@ main.go}

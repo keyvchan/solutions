@@ -27,6 +27,7 @@ version: 0.0.11
     - [ ] {:easy/88/88:* Merge Sorted Array}[# Merge Sorted Array]
     - [x] {:medium/451/451:* Sort Characters By Frequency}[# Sort Characters By Frequency] 
     - [x] {:easy/26/26:* Remove Duplicates from Sorted Array}[Remove Duplicates from Sorted Array]
+    - [x] {:medium/80/80:* Remove Duplicates from Sorted Array II}[Remove Duplicates from Sorted Array I]
 
 *** 2D Array
     - [x] {:easy/867/867:* Transpose Matrix}[# Transpose Matrix]
