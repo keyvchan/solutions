@@ -35,6 +35,7 @@ version: 0.0.11
 
 *** Two Pointers
     - [x] {:easy/392/392:* Is Subsequence}[# Is Subsequence] 
+    - [-] {:medium/792/792:* Number of Matching Subsequences}[Number of Matching Subsequences]
     - [-] {:easy/125/125:* Valid Palindrome}[# Valid Palindrome]
     - [-] {:medium/167/167:* Two Sum II - Input Array is Sorted}[# Two Sum II - Input Array is Sorted] 
     - [ ] {:medium/15/15:* Three Sum}[# Three Sum]
