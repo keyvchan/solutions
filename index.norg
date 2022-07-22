@@ -82,6 +82,7 @@ version: 0.0.11
     - [x] {:medium/287/287:* Find the Duplicate Number}[# Find the Duplicate Number] 
     - [x] {:medium/146/146:* LRU Cache}[# LRU Cache]
     - [x] {:easy/83/83:* Remove Duplicates from Sorted List}[Remove Duplicates from Sorted List]
+    - [x] {:medium/86/86:* Partition List}[Partition List]
 
 *** Tree
     - [x] {:easy/226/225:* Invert Binary Tree}[# Invert Binary Tree]
