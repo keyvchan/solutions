@@ -103,6 +103,7 @@ version: 0.0.11
     - [x] {:easy/1046/1046:* Last Stone Weight}[# Last Stone Weight]
     - [x] {:medium/973/973:* K Closest Points to the Origin}[# K Closest Points to the Origin]
     - [x] {:medium/215/215:* Kth Largest Element in an Array}[# Kth Largest Element in an Array]
+    - [x] {:medium/870/870:* Advantage Shuffle}[Advantage Shuffle]
 
 *** Backtracking
     - [x] {:medium/78/78:* Subsets}[# Subsets]
