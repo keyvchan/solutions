@@ -64,6 +64,7 @@ version: 0.0.11
 *** Binary Search
     - [x] {:easy/704/704:* Binary Search}[# Binary Search]
     - [x] {:medium/74/74:* Search a 2D Matrix}[# Search a 2D Matrix]
+    - [x] {:medium/240/240:* Search a 2D Matrix II}[Search a 2D Matrix II]
     - [ ] {:medium/875/875:* Koko Eating Bananas}[# Koko Eating Bananas]
     - [ ] {:medium/33/33:* Search in Rotated Sorted Array}[# Search in Rotated Sorted Array]
     - [ ] {:medium/153/153:* Find Minimum in Rotated Sorted Array}[# Find Minimum in Rotated Sorted Array]
