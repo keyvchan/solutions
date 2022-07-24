@@ -95,6 +95,7 @@ version: 0.0.11
     - [x] {:medium/199/199:* Binary Tree Right Side View}[# Binary Tree Right Side View]
     - [x] {:medium/1448/1448:* Count Good Nodes in Binary Tree}[# Count Good Nodes in Binary Tree]
     - [x] {:medium/230/230:* Kth Smallest Element in a BST}[# Kth Smallest Element in a BST]
+    - [x] {:medium/1161/1161:* Maximum Level Sum of a Binary Tree}[Maximum Level Sum of a Binary Tree]
 
 *** Trie
     - [ ] {:medium/208/208:* Implement Trie (Prefix Tree)}[# Implement Trie (Prefix Tree)]
