@@ -84,6 +84,7 @@ version: 0.0.11
     - [x] {:medium/146/146:* LRU Cache}[# LRU Cache]
     - [x] {:easy/83/83:* Remove Duplicates from Sorted List}[Remove Duplicates from Sorted List]
     - [x] {:medium/86/86:* Partition List}[Partition List]
+    - [x] {:medium/138/138:* Copy List with Random Pointer}[Copy List with Random Pointer]
 
 *** Tree
     - [x] {:easy/226/225:* Invert Binary Tree}[# Invert Binary Tree]
