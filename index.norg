@@ -122,6 +122,7 @@ version: 0.0.11
     - [x] {:medium/200/200:* Number of Islands}[# Number of Islands]
     - [x] {:medium/695/695:* Max Area of Island}[# Max Area of Island]
     - [-] {:medium/417/417:* Pacific Atlantic Water Flow}[# Pacific Atlantic Water Flow]
+    - [x] {:medium/133/133:* Clone Graph}[Clone Graph]
     - [-] {:medium/130/130:* Surrounded Regions}[# Surrounded Regions]
     - [-] {:medium/994/994:* Rotting Oranges}[# Rotting Oranges]
     - [x] {:medium/286/286:* Walls and Gates}[# Walls and Gates]
