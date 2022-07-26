@@ -85,6 +85,7 @@ version: 0.0.11
     - [x] {:easy/83/83:* Remove Duplicates from Sorted List}[Remove Duplicates from Sorted List]
     - [x] {:medium/86/86:* Partition List}[Partition List]
     - [x] {:medium/138/138:* Copy List with Random Pointer}[Copy List with Random Pointer]
+    - [x] {:medium/147/147:* Insertion Sort List}[Insertion Sort List]
 
 *** Tree
     - [x] {:easy/226/225:* Invert Binary Tree}[# Invert Binary Tree]

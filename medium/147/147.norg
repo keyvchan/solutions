@@ -1,0 +1,23 @@
+* Insertion Sort List
+
+** Insertion Sort
+   - The first element is assumed to be sorted.
+   - Take the next element and insert it into the sorted list.
+   - Repeat until the list is sorted.
+
+
+** Insertion Sort
+
+*** Algorithm
+    Follow the algorithm above
+
+*** Complexity
+    - Time: O(n^2)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 37 ms, faster than 10.87% of Go online submissions for Insertion Sort List.
+    - Memory Usage: 3.8 MB, less than 8.70% of Go online submissions for Insertion Sort List.
+
+*** Code
+    - Go: {@ main.go}
