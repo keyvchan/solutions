@@ -1,0 +1,18 @@
+* Flatten Binary Tree to Linked List
+
+** DFS
+
+*** Algorithm
+    Use DFS, pre-order traversal.
+    Store all nodes in a array, then attach them in place.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 3 ms, faster than 65.80% of Go online submissions for Flatten Binary Tree to Linked List.
+    - Memory Usage: 3 MB, less than 16.36% of Go online submissions for Flatten Binary Tree to Linked List.
+
+*** Code
+    - Go: {@ main.go}
