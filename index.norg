@@ -28,6 +28,7 @@ version: 0.0.11
     - [x] {:medium/451/451:* Sort Characters By Frequency}[# Sort Characters By Frequency] 
     - [x] {:easy/26/26:* Remove Duplicates from Sorted Array}[Remove Duplicates from Sorted Array]
     - [x] {:medium/80/80:* Remove Duplicates from Sorted Array II}[Remove Duplicates from Sorted Array I]
+    - [x] {:easy/1389/1389:* Create Target Array in the Given Order}[Create Target Array in the Given Order]
 
 *** 2D Array
     - [x] {:easy/867/867:* Transpose Matrix}[# Transpose Matrix]
