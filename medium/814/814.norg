@@ -1,0 +1,21 @@
+* Binary Tree Pruning
+
+** Note
+   - When only have a root node, should delete it or remain it.
+
+** DFS post order
+
+*** Algorithm
+    Post order traversal:
+    - If the node is 0 and left and right child are nil, delete it.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1), stack does take extra space
+
+*** Result
+    - Runtime: 5 ms, faster than 5.41% of Go online submissions for Binary Tree Pruning.
+    - Memory Usage: 2.4 MB, less than 54.05% of Go online submissions for Binary Tree Pruning.
+
+*** Code
+    - Go: {@ main.go}
