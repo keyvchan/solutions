@@ -30,6 +30,7 @@ version: 0.0.11
     - [x] {:medium/80/80:* Remove Duplicates from Sorted Array II}[Remove Duplicates from Sorted Array I]
     - [x] {:easy/1389/1389:* Create Target Array in the Given Order}[Create Target Array in the Given Order]
     - [-] {:medium/916/916:* Word Subsets}[Word Subsets]
+    - [-] {:medium/848/848:* Shifting Letters}[Shifting Letters]
 
 *** 2D Array
     - [x] {:easy/867/867:* Transpose Matrix}[# Transpose Matrix]
