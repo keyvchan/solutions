@@ -91,6 +91,7 @@ version: 0.0.11
     - [x] {:medium/147/147:* Insertion Sort List}[Insertion Sort List]
 
 *** Tree
+    - [x] {:easy/145/145:* Binary Tree Postorder Traversal}[Binary Tree Postorder Traversal]
     - [x] {:easy/226/225:* Invert Binary Tree}[# Invert Binary Tree]
     - [ ] {:easy/104/104:* Maximum Depth of Binary Tree}[# Maximum Depth of Binary Tree]
     - [ ] {:easy/110/110:* Balanced Binary Tree}[# Balanced Binary Tree]

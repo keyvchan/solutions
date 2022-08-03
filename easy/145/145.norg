@@ -1,0 +1,20 @@
+* Binary Tree Postorder Traversal
+
+** Postorder traversal
+
+*** Algorithm
+
+    DFS(root.left)
+    DFS(root.right)
+    print(root.val)
+
+    *** Complexity
+        - Time: O(n)
+        - Space: O(n)
+
+*** Result
+    - Runtime: 2 ms, faster than 42.46% of Go online submissions for Binary Tree Postorder Traversal.
+    - Memory Usage: 2 MB, less than 38.79% of Go online submissions for Binary Tree Postorder Traversal.
+
+*** Code
+    - Go: {@ main.go}
