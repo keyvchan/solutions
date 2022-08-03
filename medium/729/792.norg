@@ -1,0 +1,22 @@
+* My Calendar I
+
+** Merge Interval
+
+*** Algorithm
+    - Checking overlap, if overlap, return false
+    - Insert the new interval into the list
+    -- If end == interval.start, merge, 
+    -- If start == interval.end, merge,
+    -- Insert it
+    -- Sort the list
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 630 ms, faster than 6.45% of Go online submissions for My Calendar I.
+    - Memory Usage: 7.8 MB, less than 51.61% of Go online submissions for My Calendar I.
+
+*** Code
+    - Go: {@ main.go}

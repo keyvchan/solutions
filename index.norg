@@ -192,6 +192,7 @@ version: 0.0.11
 *** Interval
     - [ ] {:medium/57/57:* Insert Interval}[# Insert Interval]
     - [x] {:medium/56/56:* Merge Intervals}[# Merge Intervals] 
+    - [x] {:medium/729/792:* My Calendar I}[My Calendar I]
 
 *** Math & Geometry
     - [x] {:easy/202/202:* Happy Number}[# Happy Number]
