@@ -1,0 +1,17 @@
+* Diameter of Binary Tree
+
+** DFS
+
+*** Algorithm
+    Calculate the diameter of every nodes.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 8 ms, faster than 46.96% of Go online submissions for Diameter of Binary Tree.
+    - Memory Usage: 4.5 MB, less than 33.97% of Go online submissions for Diameter of Binary Tree.
+
+*** Code
+    - Go: {@ main.go}
