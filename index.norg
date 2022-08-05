@@ -105,6 +105,7 @@ version: 0.0.11
     - [x] {:medium/114/114:* Flatten Binary Tree to Linked List}[Flatten Binary Tree to Linked List]
     - [x] {:medium/814/814:* Binary Tree Pruning}[Binary Tree Pruning]
     - [x] {:easy/543/543:* Diameter of Binary Tree}[Diameter of Binary Tree]
+    - [-] {:medium/105/105:* Construct Binary Tree from Preorder and Inorder Traversal}[Construct Binary Tree from Preorder and Inorder Traversal]
 
 *** Trie
     - [ ] {:medium/208/208:* Implement Trie (Prefix Tree)}[# Implement Trie (Prefix Tree)]
