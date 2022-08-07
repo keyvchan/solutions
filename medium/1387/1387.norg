@@ -1,5 +1,8 @@
 * Sort Integers by The Power Value
 
+** Note:
+   - When power is equal, sort it follows i
+
 ** Brute Force
 
 *** Algorithm
