@@ -31,6 +31,7 @@ version: 0.0.11
     - [x] {:easy/1389/1389:* Create Target Array in the Given Order}[Create Target Array in the Given Order]
     - [-] {:medium/916/916:* Word Subsets}[Word Subsets]
     - [-] {:medium/848/848:* Shifting Letters}[Shifting Letters]
+    - [x] {:medium/1387/1387:* Sort Integers by The Power Value}[Sort Integers by The Power Value]
 
 *** 2D Array
     - [x] {:easy/867/867:* Transpose Matrix}[# Transpose Matrix]
