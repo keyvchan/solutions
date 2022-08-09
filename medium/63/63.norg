@@ -7,7 +7,7 @@
 
 *** Algorithm
 
-    Similar to {:medium/62/62:* Unique Paths }[  Unique Paths], but we only calculate paths when current is not a obstacle.
+    Similar to {:medium/62/62:* Unique Paths }[Unique Paths], but we only calculate paths when current is not a obstacle.
 
 *** Complexity
     - Time: O(m * n)
@@ -16,3 +16,6 @@
 *** Result
     - Runtime: 4 ms, faster than 50.06% of Go online submissions for Unique Paths II.
     - Memory Usage: 3.1 MB, less than 8.46% of Go online submissions for Unique Paths II.
+
+*** Code
+    - Go: {@ main.go}
