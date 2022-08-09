@@ -1,0 +1,22 @@
+* Binary Trees With Factors
+
+** DP
+
+*** Algorithm
+
+    Similar to {:easy/1/1:* Two Sum}[Two Sum], but instead we find the divisors of a number
+    When reminder is not 0, we know that the other number can't be existed.
+
+    Calculate from smallest number to largest number
+
+*** Complexity
+    - Time: O(n^n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 64 ms, faster than 87.50% of Go online submissions for Binary Trees With Factors.
+    - Memory Usage: 4.4 MB, less than 50.00% of Go online submissions for Binary Trees With Factors.
+
+*** Code
+    - Go: {@ main.go}
+

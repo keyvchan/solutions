@@ -173,6 +173,8 @@ version: 0.0.11
     - [x] {:medium/1048/1048:* Longest String Chain}[# Longest String Chain] 
     #contexts = [DP[i] = max(1, DP[i+1], ... DP[i+k])]
     - [-] {:medium/300/300:* Longest Increasing Subsequence}[# Longest Increasing Subsequence] 
+    - [ ] {:medium/823/823:* Binary Trees With Factors}[Binary Trees With Factors]
+
 
 *** 2-D Dynamic Programming
     - [x] {:medium/62/62:* Unique Paths }[# Unique Paths] 
