@@ -1,8 +1,9 @@
 * Walls and Gates
 
 ** BFS
-   *** Algorithm
-   BFS from gates, counts each step
+
+*** Algorithm
+    BFS from gates, counts each step
 
 *** Complexity
     - Time: O(N*m)
