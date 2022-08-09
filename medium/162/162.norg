@@ -1,4 +1,4 @@
-* Find Peak Element
+* Find a Peak Element
 
 ** Note:
    - `nums[i] != nums[i+1]`
