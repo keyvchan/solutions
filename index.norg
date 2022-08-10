@@ -112,6 +112,7 @@ version: 0.0.11
     - [x] {:easy/108/108:* Convert Sorted Array to Binary Search Tree}[Convert Sorted Array to Binary Search Tree]
     - [x] {:medium/109/109:* Convert Sorted List to Binary Search Tree}[Convert Sorted List to Binary Search Tree]
     - [x] {:medium/2196/2196:* Create Binary Tree From Descriptions}[Create Binary Tree From Descriptions]
+    - [x] {:medium/129/129:* Sum Root to Leaf Numbers}[Sum Root to Leaf Numbers]
 
 *** Trie
     - [ ] {:medium/208/208:* Implement Trie (Prefix Tree)}[# Implement Trie (Prefix Tree)]
