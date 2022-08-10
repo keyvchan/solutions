@@ -1,0 +1,17 @@
+* Convert Sorted List to Binary Search Tree
+
+** Brute Force
+
+*** Algorithm
+    Similar to {:easy/108/108:* Convert Sorted Array to Binary Search Tree}[Convert Sorted Array to Binary Search Tree], we can convert linked list to array.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    Runtime: 6 ms, faster than 83.70% of Go online submissions for Convert Sorted List to Binary Search Tree.
+    Memory Usage: 6.5 MB, less than 38.04% of Go online submissions for Convert Sorted List to Binary Search Tree.
+
+*** Code
+    - Go: {@ main.go}
