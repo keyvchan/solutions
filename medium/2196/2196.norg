@@ -1,0 +1,19 @@
+* Create Binary Tree From Descriptions
+
+** hash map
+
+*** Algorithm
+    Use a hash map to store all the nodes, and another map to store the nodes has parent.
+
+    The diff is the root node
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 641 ms, faster than 52.00% of Go online submissions for Create Binary Tree From Descriptions.
+    - Memory Usage: 9.1 MB, less than 48.00% of Go online submissions for Create Binary Tree From Descriptions.
+
+*** Code
+    - Go: {@ main.go}
