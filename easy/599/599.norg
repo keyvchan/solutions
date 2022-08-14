@@ -14,3 +14,6 @@
 *** Result
     - Runtime: 46 ms, faster than 59.32% of Go online submissions for Minimum Index Sum of Two Lists.
     - Memory Usage: 7.6 MB, less than 68.64% of Go online submissions for Minimum Index Sum of Two Lists.
+
+*** Code
+    - Go: {main.go}
