@@ -1,0 +1,18 @@
+* Longest Common Prefix
+
+
+** Brute Force
+
+*** Algorithm
+    Check every char, note the edge cases.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 5 ms, faster than 27.45% of Go online submissions for Longest Common Prefix.
+    - Memory Usage: 2.4 MB, less than 53.13% of Go online submissions for Longest Common Prefix.
+
+*** Code
+    - Go: {@ main.go}
