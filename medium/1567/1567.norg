@@ -1,0 +1,18 @@
+* Maximum Length of Subarray With Positive Product
+
+** Use Charcteristics of Maximum Subarray
+
+*** Algorithm
+    When the subarray have even negtive numbers, the product can't be zero
+    When the subarray have odd negtive numbers, we could delete from back and front, check which have the maxium length.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 125 ms, faster than 60.98% of Go online submissions for Maximum Length of Subarray With Positive Product.
+    - Memory Usage: 10.1 MB, less than 68.29% of Go online submissions for Maximum Length of Subarray With Positive Product.
+
+*** Code
+    - Go:  {@ main.go}

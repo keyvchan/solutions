@@ -35,6 +35,7 @@ version: 0.0.11
     - [x] {:easy/389/389:* Find the Difference}[Find the Difference]
     - [x] {:easy/599/599:* Minimum Index Sum of Two Lists}[Minimum Index Sum of Two Lists]
     - [x] {:easy/14/14:* Longest Common Prefix}[Longest Common Prefix]
+    - [-] {:medium/152/152:* Maximum Product Subarray}[Maximum Product Subarray]
 
 *** 2D Array
     - [x] {:easy/867/867:* Transpose Matrix}[# Transpose Matrix]
