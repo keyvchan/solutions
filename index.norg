@@ -209,6 +209,7 @@ version: 0.0.11
     - [ ] {:medium/57/57:* Insert Interval}[# Insert Interval]
     - [x] {:medium/56/56:* Merge Intervals}[# Merge Intervals] 
     - [x] {:medium/729/792:* My Calendar I}[My Calendar I]
+    - [x] {:easy/1893/1893:* Check if All the Integers in a Range are Covered}[Check if All the Integers in a Range are Covered]
 
 *** Math & Geometry
     - [x] {:easy/202/202:* Happy Number}[# Happy Number]

@@ -1,0 +1,22 @@
+* Check if All the Integers in a Range are Covered
+
+** Note:
+   - The range could be unsorted, and may not continuous
+
+** Merge and search
+
+*** Algorithm
+    - Sort it the ranges
+    - Merge the ranges
+    - Search the merged ranges
+
+*** Complexity
+    - Time: O(nlog(n))
+    - Space: O(n)
+
+*** Result
+    - Runtime: 0 ms, faster than 100.00% of Go online submissions for Check if All the Integers in a Range Are Covered.
+    - Memory Usage: 2.4 MB, less than 90.32% of Go online submissions for Check if All the Integers in a Range Are Covered.
+
+*** Code
+    - Go: {@ main.go}
