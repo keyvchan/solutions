@@ -1,0 +1,17 @@
+* Minimum Deletions to Make Character Frequencies Unique
+
+** Greedy
+
+*** Algorithm
+    Start from most frequent character and delete the least frequent character until all characters are unique.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 77 ms, faster than 34.02% of Go online submissions for Minimum Deletions to Make Character Frequencies Unique.
+    - Memory Usage: 7.5 MB, less than 20.71% of Go online submissions for Minimum Deletions to Make Character Frequencies Unique.
+
+*** Code
+    - Go: {@ main.go}

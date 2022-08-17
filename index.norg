@@ -205,6 +205,7 @@ version: 0.0.11
     - [ ] {:medium/1899/1899:* Merge Triplets to Form Target Triplet}[# Merge Triplets to Form Target Triplet] 
     - [-] {:medium/406/406:* Queue Reconstruction by Height}[# Queue Reconstruction by Height] 
     - [x] {:medium/763/763:* Partition Labels}[# Partition Labels] 
+    - [-] {:medium/1647/1647:* Minimum Deletions to Make Character Frequencies Unique}[Minimum Deletions to Make Character Frequencies Unique]
 
 *** Interval
     - [ ] {:medium/57/57:* Insert Interval}[# Insert Interval]
