@@ -96,6 +96,7 @@ version: 0.0.11
     - [x] {:medium/86/86:* Partition List}[Partition List]
     - [x] {:medium/138/138:* Copy List with Random Pointer}[Copy List with Random Pointer]
     - [x] {:medium/147/147:* Insertion Sort List}[Insertion Sort List]
+    - [x] {:medium/2181/2181:* Merge Nodes in Between Zeros}[Merge Nodes in Between Zeros]
 
 *** Tree
     - [x] {:easy/145/145:* Binary Tree Postorder Traversal}[Binary Tree Postorder Traversal]
