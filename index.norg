@@ -121,6 +121,7 @@ version: 0.0.11
     - [x] {:medium/129/129:* Sum Root to Leaf Numbers}[Sum Root to Leaf Numbers]
     - [x] {:medium/173/173:* Binary Search Tree Iterator}[Binary Search Tree Iterator]
     - [x] {:medium/98/98:* Validate Binary Search Tree}[Validate Binary Search Tree]
+    - [x] {:medium/117/117:* Populating Next Right Pointers in Each Node II}[Populating Next Right Pointers in Each Node II]
 
 *** Trie
     - [ ] {:medium/208/208:* Implement Trie (Prefix Tree)}[# Implement Trie (Prefix Tree)]
