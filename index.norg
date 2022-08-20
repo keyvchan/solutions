@@ -37,6 +37,7 @@ version: 0.0.11
     - [x] {:easy/14/14:* Longest Common Prefix}[Longest Common Prefix]
     - [-] {:medium/152/152:* Maximum Product Subarray}[Maximum Product Subarray]
     - [x] {:easy/804/804:* Unique Morse Code Words}[Unique Morse Code Words]
+    - [x] {:easy/169/169:* Majority Element}[Majority Element]
 
 *** 2D Array
     - [x] {:easy/867/867:* Transpose Matrix}[# Transpose Matrix]
