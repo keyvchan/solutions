@@ -1,14 +1,20 @@
 * Three Sum
-** Loop + Two Pointers
 
-   Observed that A + B + C = 0, using loop take A, then solve two sum
-
-   *NOTE*: 
+** NOTE: 
    ~ The input array is not sorted, so we need to sort it first
    ~ Duplicates, need to shift pointer, also when A > 0, the rest of array can be ignored
 
-** Result
-   Runtime: 22 ms, faster than 99.28% of Go online submissions for 3Sum.
-   Memory Usage: 7.2 MB, less than 87.22% of Go online submissions for 3Sum.
+** Loop + Two Pointers
 
-** Code: {@ main.go}[main.go]
+*** Algorithm
+    Observed that A + B + C = 0, using loop take A, then solve two sum
+
+*** Complexity
+    - Time: O(n^2)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 22 ms, faster than 99.28% of Go online submissions for 3Sum.
+    - Memory Usage: 7.2 MB, less than 87.22% of Go online submissions for 3Sum.
+
+*** Code: {@ main.go}[main.go]
