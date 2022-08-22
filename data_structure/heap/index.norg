@@ -1,0 +1,33 @@
+* Heap
+
+** Heap invariant:
+   - For all i, parent(i) <= i
+
+** Implementation
+   Use a array to implement the priority queue.
+
+   Assume we have a node which index is k
+   - Its left child is 2k+1
+   - Its right child is 2k+2
+
+*** Push
+    - Append the new node to the end of the array
+    - Swap the new node to its right place
+
+*** Pop: Remove the root node
+    - Swap the first node to the end of the array
+    - Delete the last node
+
+*** Remove: Remove the node with the given key
+    - Find the node with the given key
+    - Swap the node with the last node
+    - Delete the last node
+
+    *Optimization:*
+    - Use a hash table to store the index of the node with the given key
+    - Update the map when Pop or Push
+    - map: 
+    -- Key: node value
+    -- Value: indexs
+
+
