@@ -65,6 +65,8 @@ version: 0.0.11
     - [x] {:medium/22/22:* Generate Parentheses}[# Generate Parentheses]
     - [-] {:739:* Daily Temeratures}[# Daily Temeratures]
     - [ ] {:medium/853/853:* Car Fleet}[# Car Fleet]
+    #contexts Monotonic Stack
+    - [-] {:medium/456/456:* 132 Pattern}[132 Pattern]
 
 *** Sort
     #contexts = [pigeonhole sorting]

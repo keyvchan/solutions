@@ -1,0 +1,21 @@
+* 132 Pattern
+
+** Monotonic Decreasing Stack
+
+*** Algorithm
+    `num[i] < num[k] < num[j]`
+    `num[i] < num[j]` && `num[k] < num[j]`
+    For every number, we need to find a i that smaller than it and a j that also smaller than it.
+    Use monotonic stack.
+    Store every number and previous minimum number of every position.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    Runtime: 84 ms, faster than 68.08% of Go online submissions for 132 Pattern.
+    Memory Usage: 12.4 MB, less than 27.66% of Go online submissions for 132 Pattern.
+
+*** Code
+    - Go: {@ main.go}
