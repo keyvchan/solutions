@@ -21,7 +21,7 @@ func finalPrices(prices []int) []int {
 	// compose result
 	result := make([]int, len(prices))
 	for i := 0; i < len(prices); i++ {
-			result[i] = prices[i]
+		result[i] = prices[i]
 		for j := i + 1; j < len(prices); j++ {
 			if prices[i] >= prices[j] {
 				result[i] = prices[i] - prices[j]
