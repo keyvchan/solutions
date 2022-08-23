@@ -100,6 +100,7 @@ version: 0.0.11
     - [x] {:medium/138/138:* Copy List with Random Pointer}[Copy List with Random Pointer]
     - [x] {:medium/147/147:* Insertion Sort List}[Insertion Sort List]
     - [x] {:medium/2181/2181:* Merge Nodes in Between Zeros}[Merge Nodes in Between Zeros]
+    - [x] {:easy/234/234:* Palindrome Linked List}[Palindrome Linked List]
 
 *** Tree
     - [x] {:easy/145/145:* Binary Tree Postorder Traversal}[Binary Tree Postorder Traversal]

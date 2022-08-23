@@ -1,0 +1,17 @@
+* Palindrome Linked List
+
+** Array
+
+*** Algorithm
+    Convert list to a array, then check
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 270 ms, faster than 43.47% of Go online submissions for Palindrome Linked List.
+    - Memory Usage: 10.7 MB, less than 53.69% of Go online submissions for Palindrome Linked List.
+
+*** Code
+    - Go: {@ main.go}
