@@ -67,6 +67,7 @@ version: 0.0.11
     - [ ] {:medium/853/853:* Car Fleet}[# Car Fleet]
     #contexts Monotonic Stack
     - [-] {:medium/456/456:* 132 Pattern}[132 Pattern]
+    - [-] {:easy/1475/1475:* Final Prices With a Special Discount in a Shop}[Final Prices With a Special Discount in a Shop]
 
 *** Sort
     #contexts = [pigeonhole sorting]

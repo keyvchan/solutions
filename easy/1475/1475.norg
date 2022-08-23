@@ -1,0 +1,17 @@
+* Final Prices With a Special Discount in a Shop
+
+** Brute Force
+
+*** Algorithm
+    For every item in the shop, find the next item that `prices[j] > prices[i]`
+
+*** Complexity
+    - Time: O(n^2)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 4 ms, faster than 79.55% of Go online submissions for Final Prices With a Special Discount in a Shop.
+    - Memory Usage: 3.1 MB, less than 43.18% of Go online submissions for Final Prices With a Special Discount in a Shop.
+
+*** Code
+    - Go: {@ main.go}
