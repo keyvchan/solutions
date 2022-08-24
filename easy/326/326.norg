@@ -1,0 +1,17 @@
+* Power of Three
+
+** Math
+
+*** Algorithm
+    If a number can be divided by max power of 3, then it is a power of 3.
+
+*** Complexity
+    - Time: O(1)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 77 ms, faster than 16.51% of Go online submissions for Power of Three.
+    - Memory Usage: 6.4 MB, less than 66.02% of Go online submissions for Power of Three.
+
+*** Code
+    - Go: {@ main.go}
