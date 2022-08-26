@@ -1,0 +1,17 @@
+* Symmetric Tree
+
+*** DFS
+
+*** Algorithm
+    Check if the root.Left and root.Right is same tree
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 0 ms, faster than 100.00% of Go online submissions for Symmetric Tree.
+    - Memory Usage: 2.9 MB, less than 17.73% of Go online submissions for Symmetric Tree.
+
+*** Code
+    - Go: {@ main.go}
