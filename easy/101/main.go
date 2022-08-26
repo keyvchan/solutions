@@ -28,10 +28,10 @@ func dfs(left *TreeNode, Right *TreeNode) bool {
 	if left == nil || Right == nil {
 		return false
 	}
-  if left.Val != Right.Val {
-    return false
-  }
-  return dfs(left.Left, Right.Right) && dfs(left.Right, Right.Left)
+	if left.Val != Right.Val {
+		return false
+	}
+	return dfs(left.Left, Right.Right) && dfs(left.Right, Right.Left)
 
 }
 
