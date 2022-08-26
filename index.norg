@@ -69,6 +69,7 @@ version: 0.0.11
     - [x] {:medium/22/22:* Generate Parentheses}[Generate Parentheses]
     - [-] {:739:* Daily Temeratures}[Daily Temeratures]
     - [ ] {:medium/853/853:* Car Fleet}[Car Fleet]
+    - [x] {:medium/946/946:* Validate Stack Sequences}[Validate Stack Sequences]
     #contexts Monotonic Stack
     - [-] {:medium/456/456:* 132 Pattern}[132 Pattern]
     - [-] {:easy/1475/1475:* Final Prices With a Special Discount in a Shop}[Final Prices With a Special Discount in a Shop]
