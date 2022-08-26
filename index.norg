@@ -158,6 +158,7 @@ version: 0.0.11
     - [x] {:medium/79/79:* Word Search}[Word Search]
     - [x] {:medium/17/17:* Letter Combinations of a Phone Number}[Letter Combinations of a Phone Number]
     - [x] {:medium/491/491:* Increasing Subsequences}[Increasing Subsequences]
+    - [x] {:medium/869/869:* Reordered Power of 2}[Reordered Power of 2]
 
 *** Graphs
     - [x] {:medium/200/200:* Number of Islands}[Number of Islands]
