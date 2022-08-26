@@ -41,6 +41,7 @@ version: 0.0.11
     - [x] {:medium/2149/2149:* Rearrange Array Elements by Sign}[Rearrange Array Elements by Sign]
     - [x] {:easy/383/383:* Ransom Note}[Ransom Note]
     - [-] {:medium/838/838:* Push Dominoes}[Push Dominoes]
+    - [x] {:medium/54/54:* Spiral Matrix}[Spiral Matrix]
 
 *** 2D Array
     - [x] {:easy/867/867:* Transpose Matrix}[Transpose Matrix]

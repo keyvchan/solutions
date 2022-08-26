@@ -1,0 +1,18 @@
+* Spiral Matrix
+
+** Simulation
+
+*** Algorithm
+    Simulate the traversal of the matrix in a clockwise spiral.
+    Use 4 variables to keep track of the limits of row and column
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 0 ms, faster than 100.00% of Go online submissions for Spiral Matrix.
+    - Memory Usage: 1.9 MB, less than 97.66% of Go online submissions for Spiral Matrix.
+
+*** Code
+    - Go: {@ main.go}
