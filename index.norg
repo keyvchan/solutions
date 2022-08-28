@@ -42,6 +42,7 @@ version: 0.0.11
     - [x] {:easy/383/383:* Ransom Note}[Ransom Note]
     - [-] {:medium/838/838:* Push Dominoes}[Push Dominoes]
     - [x] {:medium/54/54:* Spiral Matrix}[Spiral Matrix]
+    - [-] {:medium/151/151:* Reverse Words in a String }[Reverse Words in a String ]
 
 *** 2D Array
     - [x] {:easy/867/867:* Transpose Matrix}[Transpose Matrix]
@@ -255,4 +256,4 @@ version: 0.0.11
     - [x] {:easy/1290/1290:* Convert Binary Number in a Linked List to Integer}[Convert Binary Number in a Linked List to Integer]
     - [x] {:easy/191/191:* Number of 1 Bits}[Number of 1 Bits]
 
-** {:offer/index:* 理to Offer}[理to Offer]
+** {:offer/index:* to Offer}[理to Offer]
