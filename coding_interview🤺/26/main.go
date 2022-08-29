@@ -37,18 +37,23 @@ type TreeNode struct {
 
 func check(A *TreeNode, B *TreeNode) bool {
 	// check same tree
-	if A == nil || B == nil {
-		return true
+	if A == nil {
+		if B == nil {
+			return true
+		} else {
+			return false
+		}
+	} else {
+		if B == nil {
+			return true
+		}
 	}
 
 	if A.Val != B.Val {
 		return false
 	}
 	result1 := check(A.Left, B.Left)
-	fmt.Println(A.Left, B.Left, result1)
 	result2 := check(A.Right, B.Right)
-	fmt.Println(A.Right, B.Right, result2)
-	fmt.Println("Final",result1 && result2)
 	return result1 && result2
 }
 
