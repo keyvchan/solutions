@@ -1,0 +1,24 @@
+* Integer Break
+
+** DP
+
+*** Algorithm
+    A integer can be break into 2 parts
+    The 2 parts can be handled
+    - first part not split, second part split
+    - first part split, second part not split
+    - first part split, second part split
+    - first part not split, second part not split
+
+    Take the max of all these cases
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 4 ms, faster than 10.00% of Go online submissions for Integer Break.
+    - Memory Usage: 2.1 MB, less than 10.00% of Go online submissions for Integer Break.
+
+*** Code
+    - Go: {@ main.go}
