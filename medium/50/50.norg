@@ -4,3 +4,25 @@
    - If n is 0, return 1
    - If n is 1, return x
    - If n is `INT_MAX`, return infinity
+
+** Divide and Conquer
+
+*** Algorithm
+    - Base Case:
+    -- If n is 0, return 1
+    -- If n is 1, return x
+    -- If n is `INT_MAX`, return infinity
+    - Recursive Case:
+    -- If n is even, return Pow(x, n/2) * Pow(x, n/2)
+    -- If n is odd, return Pow(x, (n-1)/2) * Pow(x, (n-1)/2) * x
+
+*** Complexity
+    - Time: O(log n)
+    - Space: O(log n)
+
+*** Result
+    - Runtime: 0 ms, faster than 100.00% of Go online submissions for Pow(x, n).
+    - Memory Usage: 2 MB, less than 22.10% of Go online submissions for Pow(x, n).
+
+*** Code
+    - Go: {@ main.go}

@@ -240,7 +240,7 @@ version: 0.0.11
 *** Math & Geometry
     - [x] {:easy/202/202:* Happy Number}[Happy Number]
     - [x] {:easy/1903/1903:* Largest Odd Number in String}[Largest Odd Number in String]
-    - [ ] {:medium/50/50:* Pow(x, n)}[Pow(x, n)]
+    - [x] {:medium/50/50:* Pow(x, n)}[Pow(x, n)]
     - [ ] {:easy/1332/1332:* Remove Palindromic Subsequences}[Remove Palindromic Subsequences]
     - [x] {:easy/263/263:* Ugly Number}[Ugly Number] 
     - [x] {:easy/118/118:* Pascal's Triangle}[Pascal's Triangle] 
