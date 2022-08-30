@@ -1,0 +1,17 @@
+* All Paths From Source to Target
+
+** DFS
+
+*** Algorithm
+    Use DFS to find all paths from source to target.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 15 ms, faster than 56.32% of Go online submissions for All Paths From Source to Target.
+    - Memory Usage: 7.2 MB, less than 43.16% of Go online submissions for All Paths From Source to Target.
+
+*** Code
+    - Go: {@ main.go}
