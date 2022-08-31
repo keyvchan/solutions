@@ -1,0 +1,19 @@
+* Merge k Sorted Lists
+
+** Brute Force
+
+*** Algorithm
+    Find the smallest element in the lists, and add it to the result list.
+    Remove the smallest element from the list.
+    Repeat until all the lists are empty.
+
+*** Complexity
+    - Time: O(nk^2)
+    - Space: O(1)
+
+*** Result
+    Runtime: 381 ms, faster than 9.19% of Go online submissions for Merge k Sorted Lists.
+    Memory Usage: 5.4 MB, less than 67.40% of Go online submissions for Merge k Sorted Lists.
+
+*** Code
+    - Go: {@ main.go}
