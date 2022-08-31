@@ -18,3 +18,22 @@
     - Memory Usage: 7.2 MB, less than 87.22% of Go online submissions for 3Sum.
 
 *** Code: {@ main.go}[main.go]
+
+** Two Sum
+
+*** Algorithm
+    Use two sum to solve the problem
+
+*** Complexity
+    - Time: O(n^2)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 50 ms, faster than 57.46% of Go online submissions for 3Sum.
+    - Memory Usage: 7.2 MB, less than 93.14% of Go online submissions for 3Sum.
+
+*** Code
+    - Go: {@ twosum.go}
+
+
+
