@@ -1,0 +1,18 @@
+* Letter Tile Possibilities
+
+** Backtracking + Hash Table
+
+*** Algorithm
+    Use a hash table to store the words that have been found.
+    So the resule will be unique.
+
+*** Complexity
+    - Time: O(n^2)
+    - Space: O(n^2)
+
+*** Result
+    - Runtime: 54 ms, faster than 11.11% of Go online submissions for Letter Tile Possibilities.
+    - Memory Usage: 7.3 MB, less than 40.74% of Go online submissions for Letter Tile Possibilities.
+
+*** Code
+    - Go: {@ main.go}
