@@ -169,6 +169,7 @@ version: 0.0.11
     - [x] {:medium/869/869:* Reordered Power of 2}[Reordered Power of 2]
     - [x] {:medium/797/797:* All Paths From Source to Target}[All Paths From Source to Target]
     - [x] {:medium/1079/1079:* Letter Tile Possibilities}[Letter Tile Possibilities]
+    - [x] {:medium/1415/1415:* The k-th Lexicographical String of All Happy Strings of Length n}[The k-th Lexicographical String of All Happy Strings of Length n]
 
 *** Graphs
     - [x] {:medium/200/200:* Number of Islands}[Number of Islands]

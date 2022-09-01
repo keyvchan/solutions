@@ -1,0 +1,19 @@
+* The k-th Lexicographical String of All Happy Strings of Length n
+
+** Backtracking
+
+*** Algorithm
+    - Generate all happy string that length is n.
+    - Sort the happy string.
+    - Reutrn the k-th lexicographical string.
+
+*** Complexity
+    - Time: O(n^2 * k)
+    - Space: O(n^2 * k)
+
+*** Result
+    - Runtime: 57 ms, faster than 5.77% of Go online submissions for The k-th Lexicographical String of All Happy Strings of Length n.
+    - Memory Usage: 7.2 MB, less than 15.38% of Go online submissions for The k-th Lexicographical String of All Happy Strings of Length n.
+
+*** Code
+    - Go: {@ main.go}
