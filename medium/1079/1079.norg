@@ -16,3 +16,19 @@
 
 *** Code
     - Go: {@ main.go}
+
+** Optimized Backtracking
+
+*** Algorithm
+    Sort and use used table to avoid duplicates.
+
+*** Complexity
+    - Time: O(n log n) + O(n!)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 6 ms, faster than 61.11% of Go online submissions for Letter Tile Possibilities.
+    - Memory Usage: 1.9 MB, less than 59.26% of Go online submissions for Letter Tile Possibilities.
+
+*** Code
+    - Go: {@ optimize.go}
