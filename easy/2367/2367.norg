@@ -1,0 +1,20 @@
+* Number of Arithmetic Triplets 
+
+** Hash Map
+
+*** Algorithm
+    Since the array is sorted, and the diff of triplets is fixed, we can use a hash map to store all the elements
+    When we get the number, a valid triplets is determined. 
+    `(num, num+diff, num+2*diff)`, we just check `num+diff` and `num+2*diff` existed.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 3 ms, faster than 58.30% of Go online submissions for Number of Arithmetic Triplets.
+    - Memory Usage: 2.3 MB, less than 38.06% of Go online submissions for Number of Arithmetic Triplets.
+
+*** Code
+    - Go: {@ main.go}
+

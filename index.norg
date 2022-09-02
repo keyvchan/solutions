@@ -44,6 +44,7 @@ version: 0.0.11
     - [x] {:medium/54/54:* Spiral Matrix}[Spiral Matrix]
     - [-] {:medium/151/151:* Reverse Words in a String }[Reverse Words in a String ]
     - [x] {:hard/41/41:* First Missing Positive}[First Missing Positive]
+    - [x] {:easy/2367/2367:* Number of Arithmetic Triplets }[Number of Arithmetic Triplets ]
 
 *** 2D Array
     - [x] {:easy/867/867:* Transpose Matrix}[Transpose Matrix]
