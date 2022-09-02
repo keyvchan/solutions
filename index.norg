@@ -59,6 +59,7 @@ version: 0.0.11
     - [ ] {:medium/15/15:* Three Sum}[Three Sum]
     - [-] {:medium/11/11:* Container With Most Water}[Container With Most Water]
     - [x] {:hard/42/42:* Trapping Rain Water}[Trapping Rain Water]
+    - [x] {:medium/2130/2130:* Maximum Twin Sum of a Linked List}[Maximum Twin Sum of a Linked List]
 
 *** Sliding Window
     - [ ] {:medium/3/3:* Longest Substring Without Repeating Characters}[Longest Substring Without Repeating Characters]
