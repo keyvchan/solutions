@@ -1,0 +1,31 @@
+* Max Consecutive Ones III
+
+** DP
+
+*** Algorithm
+    When we have to make decisions, first thing that coming to mind is using DP
+
+*** Complexity
+    - Time: O(n*k)
+    - Space: O((n^2)*k)
+
+*** Code
+    - Go: {@ dp.go}
+
+** Sliding Window
+
+*** Algorithm
+    Use a sliding window to keep track of the max number of 1s in the window.
+    The 0 in the window can only smaller than k.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 60 ms, faster than 92.91% of Go online submissions for Max Consecutive Ones III.
+    - Memory Usage: 7.6 MB, less than 46.10% of Go online submissions for Max Consecutive Ones III.
+
+*** Code
+    - Go: {@ sliding.go}
+

@@ -71,6 +71,7 @@ version: 0.0.11
     - [x] {:medium/1343/1343:* Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold}[Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold]
     #contexts Variable Window
     - [x] {:easy/485/485:* Max Consecutive Ones}[Max Consecutive Ones]
+    - [x] {:medium/1004/1004:* Max Consecutive Ones III}[Max Consecutive Ones III]
 
 *** Stack
     - [x] {:easy/20/20:* Valid Parentheses}[Valid Parentheses]
