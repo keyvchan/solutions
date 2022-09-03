@@ -182,6 +182,7 @@ version: 0.0.11
     - [x] {:medium/1415/1415:* The k-th Lexicographical String of All Happy Strings of Length n}[The k-th Lexicographical String of All Happy Strings of Length n]
     - [x] {:medium/967/967:* Numbers With Same Consecutive Differences}[Numbers With Same Consecutive Differences]
     - [x] {:medium/784/784:* Letter Case Permutation}[Letter Case Permutation]
+    - [x] {:medium/1219/1219:* Path with Maximum Gold}[Path with Maximum Gold]
 
 *** Graphs
     - [x] {:medium/200/200:* Number of Islands}[Number of Islands]
