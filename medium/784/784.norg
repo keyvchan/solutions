@@ -10,3 +10,6 @@
 *** Result
     - Runtime: 23 ms, faster than 32.17% of Go online submissions for Letter Case Permutation.
     - Memory Usage: 6.7 MB, less than 29.37% of Go online submissions for Letter Case Permutation.
+
+*** Code
+    - Go: {@ main.go}
