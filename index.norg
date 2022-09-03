@@ -175,6 +175,7 @@ version: 0.0.11
     - [x] {:medium/797/797:* All Paths From Source to Target}[All Paths From Source to Target]
     - [x] {:medium/1079/1079:* Letter Tile Possibilities}[Letter Tile Possibilities]
     - [x] {:medium/1415/1415:* The k-th Lexicographical String of All Happy Strings of Length n}[The k-th Lexicographical String of All Happy Strings of Length n]
+    - [x] {:medium/967/967:* Numbers With Same Consecutive Differences}[Numbers With Same Consecutive Differences]
 
 *** Graphs
     - [x] {:medium/200/200:* Number of Islands}[Number of Islands]
