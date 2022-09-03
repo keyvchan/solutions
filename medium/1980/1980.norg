@@ -1,0 +1,17 @@
+* Find Unique Binary String
+
+** Range Find
+
+*** Algorithm
+    Use a hash map to store all 
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 5 ms, faster than 14.71% of Go online submissions for Find Unique Binary String.
+    - Memory Usage: 2.3 MB, less than 33.82% of Go online submissions for Find Unique Binary String.
+
+*** Code
+    - Go: {@ main.go}

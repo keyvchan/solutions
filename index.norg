@@ -46,6 +46,7 @@ version: 0.0.11
     - [x] {:hard/41/41:* First Missing Positive}[First Missing Positive]
     - [x] {:easy/2367/2367:* Number of Arithmetic Triplets }[Number of Arithmetic Triplets ]
     - [x] {:medium/2161/2161:* Partition Array According to Given Pivot}[Partition Array According to Given Pivot]
+    - [x] {:medium/1980/1980:* Find Unique Binary String}[Find Unique Binary String]
 
 *** 2D Array
     - [x] {:easy/867/867:* Transpose Matrix}[Transpose Matrix]
