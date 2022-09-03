@@ -67,7 +67,10 @@ version: 0.0.11
     - [ ] {:medium/424/424:* Longest Repeating Character Replacement}[Longest Repeating Character Replacement]
     - [ ] {:medium/567/567:* Permutation in String}[Permutation in String]
     - [ ] {:medium/1461/1461:* Check If a String Contains All Binary Codes of Size K}[Check If a String Contains All Binary Codes of Size K]
+    #contexts Fixed Window
     - [x] {:medium/1343/1343:* Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold}[Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold]
+    #contexts Variable Window
+    - [x] {:easy/485/485:* Max Consecutive Ones}[Max Consecutive Ones]
 
 *** Stack
     - [x] {:easy/20/20:* Valid Parentheses}[Valid Parentheses]
