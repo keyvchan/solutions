@@ -154,6 +154,7 @@ version: 0.0.11
     - [x] {:medium/426/426:* Convert Binary Search Tree to Sorted Doubly Linked List}[Convert Binary Search Tree to Sorted Doubly Linked List]
     - [x] {:medium/1302/1302:* Deepest Leaves Sum}[Deepest Leaves Sum]
     - [x] {:easy/637/637:* Average Levels of Levels in Binary Tree}[Average Levels of Levels in Binary Tree]
+    - [x] {:medium/429/429:* N-ary Tree Level Order Traversal}[N-ary Tree Level Order Traversal]
 
 *** Trie
     - [ ] {:medium/208/208:* Implement Trie (Prefix Tree)}[Implement Trie (Prefix Tree)]
@@ -231,7 +232,6 @@ version: 0.0.11
     - [-] {:medium/300/300:* Longest Increasing Subsequence}[Longest Increasing Subsequence] 
     - [ ] {:medium/823/823:* Binary Trees With Factors}[Binary Trees With Factors]
     - [x] {:medium/343/343:* Integer Break}[Integer Break]
-
 
 *** 2-D Dynamic Programming
     - [x] {:medium/62/62:* Unique Paths }[Unique Paths] 
