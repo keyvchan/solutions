@@ -145,6 +145,7 @@ version: 0.0.11
     - [x] {:medium/129/129:* Sum Root to Leaf Numbers}[Sum Root to Leaf Numbers]
     - [x] {:medium/173/173:* Binary Search Tree Iterator}[Binary Search Tree Iterator]
     - [x] {:medium/98/98:* Validate Binary Search Tree}[Validate Binary Search Tree]
+    - [x] {:medium/116/116:* Populating Next Right Pointers in Each Node}[Populating Next Right Pointers in Each Node]
     - [x] {:medium/117/117:* Populating Next Right Pointers in Each Node II}[Populating Next Right Pointers in Each Node II]
     - [-] {:medium/654/654:* Maximum Binary Tree}[Maximum Binary Tree] 
     - [x] {:easy/101/101:* Symmetric Tree}[Symmetric Tree]
