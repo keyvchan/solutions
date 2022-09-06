@@ -15,5 +15,9 @@
     - Runtime: 119 ms, faster than 5.80% of Go online submissions for Find Words That Can Be Formed by Characters.
     - Memory Usage: 7.5 MB, less than 31.88% of Go online submissions for Find Words That Can Be Formed by Characters.
 
+    - Runtime: 53 ms, faster than 95.59% of C++ online submissions for Find Words That Can Be Formed by Characters.
+    - Memory Usage: 17.7 MB, less than 81.35% of C++ online submissions for Find Words That Can Be Formed by Characters.
+
 *** Code
     - Go: {@ main.go}
+    - C++: {@ main.cpp}
