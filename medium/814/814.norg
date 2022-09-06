@@ -17,5 +17,9 @@
     - Runtime: 5 ms, faster than 5.41% of Go online submissions for Binary Tree Pruning.
     - Memory Usage: 2.4 MB, less than 54.05% of Go online submissions for Binary Tree Pruning.
 
+    - Runtime: 7 ms, faster than 25.78% of C++ online submissions for Binary Tree Pruning.
+    - Memory Usage: 8.8 MB, less than 64.29% of C++ online submissions for Binary Tree Pruning.
+
 *** Code
     - Go: {@ main.go}
+    - C++: {@ main.cpp}
