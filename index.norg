@@ -277,6 +277,7 @@ version: 0.0.11
     - [x] {:medium/1689/1689:* Partitioning Into Minimum Number of Deci-Binary Numbers}[Partitioning Into Minimum Number of Deci-Binary Numbers]
     - [x] {:easy/326/326:* Power of Three}[Power of Three]
     - [ ] {:medium/264/264:* Ugly Number II}[Ugly Number II]
+    - [-] {:medium/31/31:* Next Permutation}[Next Permutation]
 
 *** Bit Manipulation
     - [x] {:easy/1290/1290:* Convert Binary Number in a Linked List to Integer}[Convert Binary Number in a Linked List to Integer]
