@@ -18,35 +18,34 @@ func max(a, b int) int {
 	return b
 }
 
-func lcs(word1 string, word2 string, memo map[Key]int) int {
-	if word1 == "" || word2 == "" {
+func lcs(word1 string, word2 string, index1 int, index2 int, memo [][]int) int {
+	if index1 == len(word1) || index2 == len(word2) {
 		return 0
 	}
-	if val, ok := memo[Key{word1, word2}]; ok {
+	if val := memo[index1][index2]; val != 0 {
 		return val
 	}
 
 	result := 0
-	if word1[0] == word2[0] {
+	if word1[index1] == word2[index2] {
 		// we could include this character in the LCS
-		result = max(result, lcs(word1[1:], word2[1:], memo)+1)
+		result = max(result, lcs(word1, word2, index1+1, index2+1, memo)+1)
 	} else {
 		// we could not include this character in the LCS
-		result = max(result, lcs(word1[1:], word2, memo))
-		result = max(result, lcs(word1, word2[1:], memo))
+		result = max(result, lcs(word1, word2, index1+1, index2, memo))
+		result = max(result, lcs(word1, word2, index1, index2+1, memo))
 	}
-	memo[Key{word1, word2}] = result
+	memo[index1][index2] = result
 	return result
 }
 
-type Key struct {
-	word1 string
-	word2 string
-}
-
 func minDistance(word1 string, word2 string) int {
-	memo := map[Key]int{}
-	result := lcs(word1, word2, memo)
+	memo := [][]int{}
+	for i := 0; i < len(word1); i++ {
+		memo = append(memo, make([]int, len(word2)))
+	}
+
+	result := lcs(word1, word2, 0, 0, memo)
 
 	return len(word1) + len(word2) - 2*result
 }
