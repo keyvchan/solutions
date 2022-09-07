@@ -208,6 +208,7 @@ version: 0.0.11
     - [x] {:medium/198/198:* House Robber}[House Robber]
     - [ ] {:medium/213/213:* House Robber II}[House Robber II]
     - [x] {:medium/5/5:* Longest Palindromic Substring}[Longest Palindromic Substring]
+    - [-] {:medium/516/516:* Longest Palindromic Subsequence}[Longest Palindromic Subsequence]
     - [x] {:medium/647/647:* Palindromic Substrings}[Palindromic Substrings]
     - [ ] {:medium/91/91:* Decode Ways}[Decode Ways]
     - [ ] {:medium/322/322:* Coin Change}[Coin Change]
