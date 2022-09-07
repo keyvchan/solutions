@@ -240,6 +240,7 @@ version: 0.0.11
     #contexts = [using two variable as key in cache]
     - [-] {:medium/518/518:* Coin Change 2}[Coin Change 2] 
     - [x] {:medium/494/494:* Target Sum}[Target Sum] 
+    - [x] {:hard/115/115:* Distinct Subsequences}[Distinct Subsequences]
     #contexts = [using multiple variable as key in cache]
     - [-] {:medium/97/97:* Interleaving String}[Interleaving String] 
 
