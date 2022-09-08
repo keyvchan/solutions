@@ -121,6 +121,7 @@ version: 0.0.11
     - [x] {:easy/234/234:* Palindrome Linked List}[Palindrome Linked List]
     - [x] {:medium/148/148:* Sort List}[Sort List]
     - [x] {:hard/23/23:* Merge k Sorted Lists}[Merge k Sorted Lists]
+    - [x] {:medium/24/24:* Swap Nodes in Pairs}[Swap Nodes in Pairs]
 
 *** Tree
     - [x] {:easy/145/145:* Binary Tree Postorder Traversal}[Binary Tree Postorder Traversal]

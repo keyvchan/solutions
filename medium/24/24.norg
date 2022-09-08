@@ -1,0 +1,16 @@
+* Swap Nodes in Pairs
+
+** Stack
+*** Algorithm
+    Use a stack store the nodes, and set it to newHead.Next
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 0 ms, faster than 100.00% of Go online submissions for Swap Nodes in Pairs.
+    - Memory Usage: 2.2 MB, less than 5.17% of Go online submissions for Swap Nodes in Pairs.
+
+*** Code
+    - Go: {@ main.go}
