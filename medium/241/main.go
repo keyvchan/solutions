@@ -1,28 +1,51 @@
 package main
 
 import (
-	"errors"
+	"fmt"
 	"strconv"
 )
 
 func main() {
+	fmt.Println(diffWaysToCompute("2-1-1"))
+	fmt.Println(diffWaysToCompute("2*3-4*5"))
 
 }
+func backtracking(expression string, memo map[string][]int) []int {
+	if v, ok := memo[expression]; ok {
+		return v
+	}
 
-func evalute(expression string, last_result int) int {
+	result := []int{}
 	for i := 0; i < len(expression); i++ {
-			// fork the result
-			not_add := evalute(expression[:i], last_result)
-			add_result := evalute(expression[i+1:], last_result)
-
+		if expression[i] == '+' || expression[i] == '-' || expression[i] == '*' {
+			lefts := backtracking(expression[:i], memo)
+			rights := backtracking(expression[i+1:], memo)
+			result_temp := 0
+			for _, left := range lefts {
+				for _, right := range rights {
+					switch expression[i] {
+					case '+':
+						result_temp = left + right
+					case '-':
+						result_temp = left - right
+					default:
+						result_temp = left * right
+					}
+					result = append(result, result_temp)
+				}
+			}
 		}
 	}
-	return 0
+	if len(result) == 0 {
+		num, _ := strconv.Atoi(expression)
+		result = append(result, num)
+	}
+	memo[expression] = result
+	return result
 }
 
 func diffWaysToCompute(expression string) []int {
+	memo := map[string][]int{}
 
-	evalute(expression, 0)
-
-	return nil
+	return backtracking(expression, memo)
 }
