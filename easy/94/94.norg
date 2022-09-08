@@ -15,6 +15,7 @@
 
 *** Code
     - Go: {@ ./recursive.go}[recursive.go]
+    - C++: {@ main.cpp}
 
 ** Iterative
 
