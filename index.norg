@@ -292,4 +292,7 @@ version: 0.0.11
     - [x] {:easy/1290/1290:* Convert Binary Number in a Linked List to Integer}[Convert Binary Number in a Linked List to Integer]
     - [x] {:easy/191/191:* Number of 1 Bits}[Number of 1 Bits]
 
+*** Simulation
+    - [x] {:medium/1441/1441:* Build a Array With Stack Operations}[Build a Array With Stack Operations]
+
 ** {:coding_interview🤺/index:* Coding Interview 🤺}[Coding Interview 🤺] 
