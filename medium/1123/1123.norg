@@ -1,0 +1,22 @@
+* Lowest Common Ancestor of Deepest Leaves
+
+** Understanding the problem
+   We want to find the lowest node in the tree that has all the deepest leaves as descendants. 
+   When the depth of a node's left and right child is equal, we can return it.
+
+** DFS
+
+*** Algorithm
+    When depth of a node's left and right child is equal, we can return it.
+    Otherwise, we return the node with the greater depth.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 12 ms, faster than 52.94% of Go online submissions for Lowest Common Ancestor of Deepest Leaves.
+    - Memory Usage: 5.4 MB, less than 61.76% of Go online submissions for Lowest Common Ancestor of Deepest Leaves.
+
+*** Code
+    - Go: {@ main.go}
