@@ -15,7 +15,9 @@ func main() {
 func backtracking(candidates []int, current []int, current_sum int, result *[][]int, target int) {
 	if current_sum == target {
 		// append current to result
-		*result = append(*result, current)
+		new_current := make([]int, len(current))
+		copy(new_current, current)
+		*result = append(*result, new_current)
 		return
 	}
 	if current_sum > target {
@@ -31,9 +33,10 @@ func backtracking(candidates []int, current []int, current_sum int, result *[][]
 			continue
 		}
 		// copy current
-		new_current := make([]int, len(current), len(current)+1)
-		copy(new_current, current)
-		backtracking(candidates[i+1:], append(new_current, v), current_sum+v, result, target)
+
+		current = append(current, v)
+		backtracking(candidates[i+1:], current, current_sum+v, result, target)
+		current = current[:len(current)-1]
 		prev = v
 
 	}
