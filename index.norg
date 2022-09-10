@@ -251,6 +251,7 @@ version: 0.0.11
     #contexts = [using multiple variable as key in cache]
     - [-] {:medium/97/97:* Interleaving String}[Interleaving String] 
     - [x] {:hard/123/123:* Best Time to Buy and Sell Stocks III}[Best Time to Buy and Sell Stocks III]
+    - [x] {:hard/188/188:* Best Time to Buy and Sell Stock IV}[Best Time to Buy and Sell Stock IV]
 
 *** Greedy
     - [x] {:easy/1710/1710:* Maximum Units on a Truck}[Maximum Units on a Truck] 
