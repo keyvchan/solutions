@@ -294,6 +294,7 @@ version: 0.0.11
 *** Bit Manipulation
     - [x] {:easy/1290/1290:* Convert Binary Number in a Linked List to Integer}[Convert Binary Number in a Linked List to Integer]
     - [x] {:easy/191/191:* Number of 1 Bits}[Number of 1 Bits]
+    - [x] {:medium/393/393:* UTF-8 Validation}[UTF-8 Validation]
 
 *** Simulation
     - [x] {:medium/1441/1441:* Build a Array With Stack Operations}[Build a Array With Stack Operations]

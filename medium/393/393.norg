@@ -1,0 +1,30 @@
+* UTF-8 Validation
+
+** Bit Masking
+
+*** Algorithm
+    The UTF-8 format confirms to the following rules:
+    - 1 byte: `0xxxxxxx`
+    - 2 bytes: `110xxxxx 10xxxxxx`
+    - 3 bytes: `1110xxxx 10xxxxxx 10xxxxxx`
+    - 4 bytes: `11110xxx 10xxxxxx 10xxxxxx 10xxxxxx`
+
+    We can extract the symbols length by checking the first byte.
+    By using bit masking, the mask used is the following:
+    - 1 byte: `1000 0000`
+    - 2 bytes: `1110 0000`
+    - 3 bytes: `1111 0000`
+    - 4 bytes: `1111 1000`
+
+    Then, we check the follow n sequence of bytes to see if they are valid (i.e. `10xxxxxx`, masking `1100 0000`).
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 32 ms, faster than 18.70% of C++ online submissions for UTF-8 Validation.
+    - Memory Usage: 14 MB, less than 38.65% of C++ online submissions for UTF-8 Validation.
+
+*** Code
+    - C++: {@ main.cpp}
