@@ -1,0 +1,18 @@
+* Unique Binary Search Trees
+
+** DP
+
+*** Algorithm
+    Make every node as root, and calculate the number of BSTs for each node.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 1 ms, faster than 66.67% of Go online submissions for Unique Binary Search Trees.
+    - Memory Usage: 1.9 MB, less than 33.33% of Go online submissions for Unique Binary Search Trees.
+
+*** Code
+    - Go: {@ main.go}
+
