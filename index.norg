@@ -279,6 +279,7 @@ version: 0.0.11
     - [x] {:medium/56/56:* Merge Intervals}[Merge Intervals] 
     - [x] {:medium/729/792:* My Calendar I}[My Calendar I]
     - [x] {:easy/1893/1893:* Check if All the Integers in a Range are Covered}[Check if All the Integers in a Range are Covered]
+    - [x] {:medium/2195/2195:* Append K Integers With Minimal Sum}[Append K Integers With Minimal Sum]
 
 *** Math & Geometry
     - [x] {:easy/202/202:* Happy Number}[Happy Number]
