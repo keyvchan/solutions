@@ -8,9 +8,9 @@
     DFS(root.right)
     print(root.val)
 
-    *** Complexity
-        - Time: O(n)
-        - Space: O(n)
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
 
 *** Result
     - Runtime: 2 ms, faster than 42.46% of Go online submissions for Binary Tree Postorder Traversal.
