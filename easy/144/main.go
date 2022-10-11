@@ -27,6 +27,7 @@ func preorderTraversal(root *TreeNode) []int {
 			stack.PushBack(root)
 			result = append(result, root.Val)
 			root = root.Left
+			continue
 		}
 		root = stack.Remove(stack.Back()).(*TreeNode)
 		root = root.Right
