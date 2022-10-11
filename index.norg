@@ -27,7 +27,7 @@ version: 0.0.11
     - [ ] {:easy/88/88:* Merge Sorted Array}[Merge Sorted Array]
     - [x] {:medium/451/451:* Sort Characters By Frequency}[Sort Characters By Frequency] 
     - [x] {:easy/26/26:* Remove Duplicates from Sorted Array}[Remove Duplicates from Sorted Array]
-    - [x] {:medium/80/80:* Remove Duplicates from Sorted Array II}[Remove Duplicates from Sorted Array I]
+    - [x] {:medium/80/80:* Remove Duplicates from Sorted Array II}[Remove Duplicates from Sorted Array II]
     - [x] {:easy/1389/1389:* Create Target Array in the Given Order}[Create Target Array in the Given Order]
     - [-] {:medium/916/916:* Word Subsets}[Word Subsets]
     - [-] {:medium/848/848:* Shifting Letters}[Shifting Letters]
@@ -84,6 +84,7 @@ version: 0.0.11
     - [-] {:739:* Daily Temeratures}[Daily Temeratures]
     - [ ] {:medium/853/853:* Car Fleet}[Car Fleet]
     - [x] {:medium/946/946:* Validate Stack Sequences}[Validate Stack Sequences]
+    - [x] {:medium/82/82:* Remove Duplicates from Sorted Linked List II}[Remove Duplicates from Sorted Linked List II]
     #contexts Monotonic Stack
     - [-] {:medium/456/456:* 132 Pattern}[132 Pattern]
     - [-] {:easy/1475/1475:* Final Prices With a Special Discount in a Shop}[Final Prices With a Special Discount in a Shop]
