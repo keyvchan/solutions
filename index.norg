@@ -126,6 +126,7 @@ version: 0.0.11
     - [x] {:hard/23/23:* Merge k Sorted Lists}[Merge k Sorted Lists]
     - [x] {:medium/24/24:* Swap Nodes in Pairs}[Swap Nodes in Pairs]
     - [x] {:medium/237/237:* Delete Node in a Linked List}[Delete Node in a Linked List]
+    - [x] {:medium/2095/2095:* Delete the Middle Node of a Linked List}[Delete the Middle Node of a Linked List]
 
 *** Tree
     - [x] {:easy/144/144:* Binary Tree Preorder Traversal}[Binary Tree Preorder Traversal]
