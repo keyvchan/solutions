@@ -14,7 +14,7 @@ version: 0.0.15
 
 *** Array and Hash
     - [x] {:easy/217/217:* Contains Duplicate}[Contains Duplicate]
-    - [-] {:easy/219/219:* Contains Duplicate II}[Contains Duplicate II]
+    - [x] {:easy/219/219:* Contains Duplicate II}[Contains Duplicate II]
     - [x] {:easy/2255/2255:* Count Prefixes of a Given String}[Count Prefixes of a Given String] 
     - [x] {:easy/1160/1160:* Find Words That Can be Formed Characters}[Find Words That Can be Formed Characters] 
     - [x] {:easy/242/242:* Valid Anagram}[Valid Anagram]

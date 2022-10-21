@@ -15,3 +15,22 @@
 
 *** Code
     - Go: {@ main.go}
+
+** Hash Set
+
+*** Algorithm
+    Use hash set store `K+1` element.
+    In every iteration, remove the element at `i-K-1` and check `nums[i]` the add it.
+
+*** Complexity
+    - Time: O(n)
+    - Memory: O(k)
+
+*** Result
+    - Time: 250ms, 31.8%
+    - Memory: 9.5MB, 87.84%
+
+*** Code
+    - Go: {@ hash.go}
+
+
