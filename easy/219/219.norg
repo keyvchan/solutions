@@ -1,0 +1,17 @@
+* Contains Duplicate II
+
+** Brute Force
+
+*** Algorithm
+    For every `nums[i]`, check if there is a duplicate in `[i+1, i+k]`
+
+*** Complexity
+    - Time: O(nk)
+    - Space: O(1)
+
+*** Result
+    - Time: 1590ms, 5.7%
+    - Memory: 8.8MB, 94.93%
+
+*** Code
+    - Go: {@ main.go}
