@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2022-11-08
+updated: 2022-11-10
 version: 0.0.15
 @end
 
@@ -91,6 +91,7 @@ version: 0.0.15
     #contexts Monotonic Stack
     - [-] {:medium/456/456:* 132 Pattern}[132 Pattern]
     - [-] {:easy/1475/1475:* Final Prices With a Special Discount in a Shop}[Final Prices With a Special Discount in a Shop]
+    - [x] {:easy/1047/1047:* Remove All Adjacent Duplicates In String}[Remove All Adjacent Duplicates In String]
 
 *** Sort
     #contexts = [pigeonhole sorting]
