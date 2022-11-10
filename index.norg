@@ -206,6 +206,7 @@ version: 0.0.15
     - [x] {:medium/241/241:* Different Ways to Add Parentheses}[Different Ways to Add Parentheses]
     - [x] {:medium/1593/1593:* Split a String Into the Max Number of Unique Substrings}[Split a String Into the Max Number of Unique Substrings]
     - [x] {:easy/1995/1995:* Count Special Quadruplets}[Count Special Quadruplets]
+    - [x] {:medium/2120/2120:* Execution of All Suffix Instructions Staying in a Grid}[Execution of All Suffix Instructions Staying in a Grid]
 
 *** Graphs
     - [x] {:medium/200/200:* Number of Islands}[Number of Islands]

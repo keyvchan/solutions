@@ -1,0 +1,18 @@
+* Execution of All Suffix Instructions Staying in a Grid
+
+** Recursion
+
+*** Algorithm
+    Recursion on every suffix instruction, counts its steps
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 80 ms, faster than 35.29% of Go online submissions for Execution of All Suffix Instructions Staying in a Grid.
+    - Memory Usage: 4 MB, less than 76.47% of Go online submissions for Execution of All Suffix Instructions Staying in a Grid.
+
+*** Code
+    - Go: {@ main.go}
+
