@@ -1,0 +1,17 @@
+* Binary Tree Zigzag Level Order Traversal
+
+** BFS
+
+*** Algorithm
+    Use BFS, flip when level is odd
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 5 ms, faster than 29.15% of Go online submissions for Binary Tree Zigzag Level Order Traversal.
+    - Memory Usage: 2.6 MB, less than 33.95% of Go online submissions for Binary Tree Zigzag Level Order Traversal.
+
+*** Code
+    - Go: {@ main.go}
