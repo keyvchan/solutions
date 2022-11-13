@@ -1,0 +1,17 @@
+* Find the Index of the First Occurrence in a String
+
+** std functions
+
+*** Algorithm
+    Use strings.Index() to find the index of the first occurrence of a substring in a string.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 1 ms, faster than 48.69% of Go online submissions for Find the Index of the First Occurrence in a String.
+    - Memory Usage: 1.8 MB, less than 94.59% of Go online submissions for Find the Index of the First Occurrence in a String.
+
+*** Code
+    - Go: {@ main.go}

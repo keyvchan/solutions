@@ -52,6 +52,7 @@ version: 0.0.15
     - [-] {:medium/1996/1996:* The Number of Weak Characters in the Game}[The Number of Weak Characters in the Game]
     - [-] {:medium/334/334:* Increasing Triplet Subsequence}[Increasing Triplet Subsequence]
     - [x] {:easy/1544/1544:* Make The String Great}[Make The String Great]
+    - [-] {:medium/28/28:* Find the Index of the First Occurrence in a String}[Find the Index of the First Occurrence in a String]
 
 *** 2D Array
     - [x] {:easy/867/867:* Transpose Matrix}[Transpose Matrix]
