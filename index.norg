@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2022-11-10
+updated: 2022-11-13
 version: 0.0.15
 @end
 
@@ -173,6 +173,7 @@ version: 0.0.15
     - [-] {:medium/96/96:* Unique Binary Search Trees}[Unique Binary Search Trees]
     - [x] {:medium/107/107:* Binary Tree Level Order Traversal II}[Binary Tree Level Order Traversal II]
     - [x] {:medium/103/103:* Binary Tree Zigzag Level Order Traversal}[Binary Tree Zigzag Level Order Traversal]
+    - [x] {:medium/1609/1609:* Even Odd Tree}[Even Odd Tree]
 
 *** Trie
     - [ ] {:medium/208/208:* Implement Trie (Prefix Tree)}[Implement Trie (Prefix Tree)]

@@ -1,0 +1,17 @@
+* Even Odd Tree
+
+** BFS
+
+*** Algorithm
+    Use BFS to check wether the each level is satisfied the condition.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 435 ms, faster than 40.00% of Go online submissions for Even Odd Tree.
+    - Memory Usage: 19.4 MB, less than 40.00% of Go online submissions for Even Odd Tree.
+
+*** Code
+    - Go: {@ main.go}
