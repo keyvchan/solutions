@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-02-13
+updated: 2023-02-20
 version: 0.0.15
 @end
 
@@ -112,6 +112,7 @@ version: 0.0.15
     - (x) {:medium/981/981:* Time Based Key-Value Store}[Time Based Key-Value Store] 
     - (-) {:medium/162/162:* Find a Peak Element}[Find a Peak Element]
     - (-) {:medium/1901/1901:* Find a Peak Element II}[Find a Peak Element II]
+    - (x) {:easy/35/35:* Search Insert Position}[Search Insert Position]
 
 *** Linked List
     - (x) {:easy/206/206:* Reverse Linked List}[Reverse Linked List]

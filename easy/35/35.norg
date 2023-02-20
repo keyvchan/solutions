@@ -1,0 +1,17 @@
+* Search Insert Position
+
+** Binary Search
+
+*** Algorithm
+    Use binary search to find the right position.
+
+*** Complexity
+    - Time: O(nlogn)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 5 ms, faster than 59.16% of Go online submissions for Search Insert Position.
+    - Memory Usage: 2.9 MB, less than 16.70% of Go online submissions for Search Insert Position.
+
+*** Code
+    - Go: {main.go}
