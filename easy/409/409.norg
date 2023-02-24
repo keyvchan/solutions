@@ -1,0 +1,23 @@
+* Longest Palindrome
+
+** Mathmatical
+
+*** Algorithm
+    Observating that the longest palindrome is the sum of all the even number of characters 
+    and the odd number of characters minus 1 if there is any odd number of characters.
+
+    Usually, the result is made up by three parts:
+    - The even number of characters
+    - The largest odd number of characters
+    - The odd number of characters minus 1
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 3 ms, faster than 47.14% of Go online submissions for Longest Palindrome.
+    - Memory Usage: 2.1 MB, less than 20.40% of Go online submissions for Longest Palindrome.
+
+*** Code
+    - Go: {/ main.go}
