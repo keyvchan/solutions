@@ -1,0 +1,21 @@
+* Second Largest Digit in a String
+
+** Brute Force
+
+*** Algorithm
+
+    Loop through the string, find the largest digit and second largest digit
+
+    *Note*:
+    - second != largest, so we need to consider the duplicate case
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Time
+    - Runtime: 2 ms, faster than 68.18% of Go online submissions for Second Largest Digit in a String.
+    - Memory Usage: 4.6 MB, less than 9.09% of Go online submissions for Second Largest Digit in a String.
+
+*** Code
+    - Go: {/ main.go}
