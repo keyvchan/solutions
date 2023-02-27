@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-02-24
+updated: 2023-02-27
 version: 0.0.15
 @end
 
@@ -54,7 +54,8 @@ version: 0.0.15
     - (x) {:easy/1544/1544:* Make The String Great}[Make The String Great]
     - (-) {:medium/28/28:* Find the Index of the First Occurrence in a String}[Find the Index of the First Occurrence in a String]
     - (x) {:easy/2278/2278:* Percentage of Letter in String}[Percentage of Letter in String]
-    - (x)  {:easy/1796/1796:* Second Largest Digit in a String}[Second Largest Digit in a String]
+    - (x) {:easy/1796/1796:* Second Largest Digit in a String}[Second Largest Digit in a String]
+    - (x) {:easy/925/925:* Long Pressed Name}[Long Pressed Name]
 
 *** 2D Array
     - (x) {:easy/867/867:* Transpose Matrix}[Transpose Matrix]

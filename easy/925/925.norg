@@ -1,0 +1,23 @@
+* Long Pressed Name
+
+** Count Frequency
+
+*** Algorithm
+    Imagine that the `name` can be split into multiple parts, 
+    and each part is a continuous sequence of the same character.
+
+    For example, `name = "alex"`, then `name` can be split into `["a", "l", "e", "x"]`.
+    The `typed` can be split as the same way.
+
+    Every parts of `name` should be a subsequence of `typed`.
+
+*** Complexity
+    - Time: O(n + m + u), n is the length of `name`, m is the length of `typed`, `u` is the number of parts of `name`.
+    - Space: O(u)
+
+*** Result
+    - Runtime: 0 ms, faster than 100.00% of Go online submissions for Long Pressed Name.
+    - Memory Usage: 2.3 MB, less than 19.51% of Go online submissions for Long Pressed Name.
+
+*** Code
+    - Go: {/ main.go}
