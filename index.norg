@@ -97,6 +97,7 @@ version: 0.0.15
     - (-) {:easy/1475/1475:* Final Prices With a Special Discount in a Shop}[Final Prices With a Special Discount in a Shop]
     - (x) {:easy/1047/1047:* Remove All Adjacent Duplicates In String}[Remove All Adjacent Duplicates In String]
     - (x) {:medium/1209/1209:* Remove All Adjacent Duplicates In String II}[Remove All Adjacent Duplicates In String II]
+    - (-) {:easy/496/496:* Next Greater Element I}[Next Greater Element I]
 
 *** Sort
     #contexts = [pigeonhole sorting]

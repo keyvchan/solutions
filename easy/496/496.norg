@@ -1,0 +1,17 @@
+* Next Greater Element I
+
+** Brute Force
+
+*** Algorithm
+    Use `Brute Force`. Two loops to find the next greater element.
+
+*** Complexity
+    - Time: O(n^2)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 5 ms, faster than 51.75% of Go online submissions for Next Greater Element I.
+    - Memory Usage: 2.8 MB, less than 92.98% of Go online submissions for Next Greater Element I.
+
+*** Code
+    - Go: {/ main.go}
