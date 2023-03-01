@@ -1,20 +1,24 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"math"
+)
 
 func main() {
 	fmt.Println(integerBreak(2))
 	fmt.Println(integerBreak(10))
+	fmt.Println(integerBreak(120))
 }
 
-func max(a, b int) int {
+func max(a, b float64) float64 {
 	if a > b {
 		return a
 	}
 	return b
 }
 
-func dfs(n int, memo map[int]int) int {
+func dfs(n int, memo map[int]float64) float64 {
 	if n == 1 {
 		return 1
 	}
@@ -22,12 +26,12 @@ func dfs(n int, memo map[int]int) int {
 		return val
 	}
 
-	result := 0
+	result := 0.0
 	for i := 1; i < n; i++ {
 		result = max(result, dfs(i, memo)*dfs(n-i, memo))
-		result = max(result, dfs(i, memo)*(n-i))
-		result = max(result, i*dfs(n-i, memo))
-		result = max(result, i*(n-i))
+		result = max(result, dfs(i, memo)*float64(n-i))
+		result = max(result, float64(i)*dfs(n-i, memo))
+		result = max(result, float64(i)*float64(n-i))
 	}
 	memo[n] = result
 
@@ -36,8 +40,8 @@ func dfs(n int, memo map[int]int) int {
 }
 
 func integerBreak(n int) int {
-	memo := map[int]int{}
+	memo := map[int]float64{}
 
-	return dfs(n, memo)
+	return int(math.Mod(dfs(n, memo), 1000000007))
 
 }
