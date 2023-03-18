@@ -10,28 +10,35 @@ func main() {
 	fmt.Println(subsets([]int{1, 2, 3, 4, 5, 6, 7, 8, 10, 0}))
 }
 
-func backtracking(nums []int, current []int, all_subsets *[][]int) {
-	// fmt.Println(current)
+func backtracking(nums []int, current []int, all_subsets *[][]int, index int, length int) {
 
-	if len(nums) == 0 {
-		*all_subsets = append(*all_subsets, current)
+	// early return when length > what we need
+	if len(current) > length {
 		return
 	}
 
-	// choose
-	choose_current := make([]int, len(current))
-	copy(choose_current, current)
-	backtracking(nums[1:], append(choose_current, nums[0]), all_subsets)
+	if len(current) == length {
+		new_subset := make([]int, len(current))
+		copy(new_subset, current)
+		*all_subsets = append(*all_subsets, new_subset)
+		return
+	}
 
-	// not choose
-	backtracking(nums[1:], current, all_subsets)
+	for i := index; i < len(nums); i++ {
+		current = append(current, nums[i])
+		backtracking(nums, current, all_subsets, i+1, length)
+		current = current[:len(current)-1]
+	}
 
 }
 
 func subsets(nums []int) [][]int {
 
 	all_subsets := make([][]int, 0, 100)
-	backtracking(nums, []int{}, &all_subsets)
+
+	for k := 0; k < len(nums)+1; k++ {
+		backtracking(nums, []int{}, &all_subsets, 0, k)
+	}
 
 	return all_subsets
 }

@@ -2,20 +2,7 @@
 
 ** Recursive 
 *** Description
-    Use recursive, loop through the array
-
-*** Complexity: 
-    - Time: O(n^2)
-    - Space: O(n)
-
-*** Result:
-    - Runtime: 3 ms, faster than 36.76% of Go online submissions for Subsets.
-    - Memory Usage: 2.4 MB, less than 26.00% of Go online submissions for Subsets.
-*** Code
-    - Go: {@ recursive.go}[recursive.go]
-
-** Backtracking
-*** Description
+    It's just like a buttom-up tree, we can choose the element or not choose the element.
     Follow the descsion tree, DFS
 
 *** Complexity: 
@@ -25,6 +12,24 @@
 *** Result:
     - Runtime: 0 ms, faster than 100.00% of Go online submissions for Subsets.
     - Memory Usage: 2.4 MB, less than 24.85% of Go online submissions for Subsets.
+
+*** Code
+    - Go: {@ recursive.go}[recursive.go]
+
+** Backtracking
+*** Description
+    Enumerate all the possible subsets, and add them to the result.
+    We first try to enumerate all the subsets that size is 0, then 1, then 2, and so on.
+    We can use backtracking to enumerate all the subsets.
+
+*** Complexity: 
+    - Time: O(2^n)
+    - Space: O(n)
+
+*** Result:
+    - Runtime: 0 ms, faster than 100.00% of Go online submissions for Subsets.
+    - Memory Usage: 2.4 MB, less than 21.07% of Go online submissions for Subsets.
+
 *** Code:
     - Go: {@ backtracking.go}[backtracking.go]
 
