@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-03-13
+updated: 2023-03-18
 version: 0.0.15
 @end
 
@@ -141,6 +141,7 @@ version: 0.0.15
     - (x) {:medium/24/24:* Swap Nodes in Pairs}[Swap Nodes in Pairs]
     - (x) {:medium/237/237:* Delete Node in a Linked List}[Delete Node in a Linked List]
     - (x) {:medium/2095/2095:* Delete the Middle Node of a Linked List}[Delete the Middle Node of a Linked List]
+    - (x) {:medium/1472/1472:* Design Browser History}[Design Browser History]
 
 *** Tree
     - (x) {:easy/144/144:* Binary Tree Preorder Traversal}[Binary Tree Preorder Traversal]

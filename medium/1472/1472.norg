@@ -1,0 +1,23 @@
+* Design Browser History
+
+** Note
+   - The `container/list` in golang does not support `remove` part of the list
+   - `Visit` means we clear all forward history, and start recording new history from the current page
+
+** Linked List
+
+*** Algorithm
+    Use a linked list to store history, and a pointer to the current page.
+
+*** Complexity
+    - Time: 
+    -- O(n) when visiting, it can be O(1) if we can clear part of a list.
+    -- O(1) other operations
+    - Space: O(n)
+
+*** Result
+    - Runtime: 100 ms, faster than 33.33% of Go online submissions for Design Browser History.
+    - Memory Usage: 8.2 MB, less than 20.83% of Go online submissions for Design Browser History.
+
+*** Code
+    - Go: {/ main.go}
