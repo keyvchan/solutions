@@ -1,0 +1,18 @@
+* Plus One
+
+** Big Number
+
+*** Algorithm
+    Use internal representation of big number.
+    Convert original array to big number.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 0 ms, faster than 100.00% of Go online submissions for Plus One.
+    - Memory Usage: 2.3 MB, less than 43.93% of Go online submissions for Plus One.
+
+*** Code
+    - Go: {/ main.go}
