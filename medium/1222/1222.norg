@@ -1,0 +1,19 @@
+* Queens That Can Attack the King
+
+
+** Brute Force
+*** Algorithm
+    Visit from 8 directions, and check if there is a queen in the way
+
+*** Complexity
+    - Time: O(8 * 8) = O(64)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 4 ms, faster than 71.43% of Go online submissions for Queens That Can Attack the King.
+    - Memory Usage: 2.7 MB, less than 14.29% of Go online submissions for Queens That Can Attack the King.
+
+*** Code
+    - Go: {/ main.go}
+
+

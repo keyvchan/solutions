@@ -58,6 +58,7 @@ version: 0.0.15
     - (x) {:easy/925/925:* Long Pressed Name}[Long Pressed Name]
     - (!) {:medium/912/912:* Sort an Array}[Sort an Array]
     - (x) {:easy/1281/1281:* Product and Sum of Digits of an Integer}[Product and Sum of Digits of an Integer]
+    - (x) {:medium/1222/1222:* Queens That Can Attack the King}[Queens That Can Attack the King]
 
 *** 2D Array
     - (x) {:easy/867/867:* Transpose Matrix}[Transpose Matrix]
