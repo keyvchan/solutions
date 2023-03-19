@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-03-18
+updated: 2023-03-19
 version: 0.0.15
 @end
 
@@ -189,6 +189,7 @@ version: 0.0.15
 
 *** Trie
     - ( ) {:medium/208/208:* Implement Trie (Prefix Tree)}[Implement Trie (Prefix Tree)]
+    - (x) {:medium/211/211:* Design Add and Search Words Data Structure}[Design Add and Search Words Data Structure]
 
 *** Heap/Priority Queue
     - (x) {:easy/703/703:* Kth Largest Element in an Stream}[Kth Largest Element in an Stream]

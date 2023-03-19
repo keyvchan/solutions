@@ -1,0 +1,20 @@
+* Design Add and Search Words Data Structure
+
+** Trie (Prefix Tree)
+
+*** Algorithm
+    Use a trie to store the words. 
+    When searching, if the character is not a dot, then search for the character in the trie. 
+    If the character is a dot, then search for all the possible characters in the trie.
+    It will require a helper function to search for all the possible characters in the trie.
+
+*** Complexity
+    - Time: O(n) where n is the number of words in the trie
+    - Space: O(n) where n is the number of words in the trie
+
+*** Result
+    - Runtime: 1286 ms, faster than 44.63% of Go online submissions for Design Add and Search Words Data Structure.
+    - Memory Usage: 51.5 MB, less than 76.27% of Go online submissions for Design Add and Search Words Data Structure.
+
+*** Code
+    - Go: {/ main.go}

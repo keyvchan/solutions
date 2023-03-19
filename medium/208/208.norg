@@ -19,4 +19,4 @@
     - Memory Usage: 12.1 MB, less than 83.78% of Go online submissions for Implement Trie (Prefix Tree).
 
 *** Code
-    - Go: {@ main.go}[main.go]
+    - Go: {/ main.go}
