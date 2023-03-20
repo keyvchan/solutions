@@ -1,0 +1,20 @@
+* Can Place Flowers
+
+** Brute Force
+
+*** Algorithm
+    Loop through the flowerbed, 
+    if the current position is 0, 
+    check if the previous and next position is 0, 
+    if so, set the current position to 1 and count++
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 12 ms, faster than 90.83% of Go online submissions for Can Place Flowers.
+    - Memory Usage: 6.3 MB, less than 50.83% of Go online submissions for Can Place Flowers.
+
+*** Code
+    - Go: {/ main.go}, {/ optimized.go}
