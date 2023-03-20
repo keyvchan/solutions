@@ -1,0 +1,24 @@
+* Broken Calculator
+
+** Greedy
+
+*** Algorithm
+    Instead from `startValue` to `target`, we can think from `target` to `startValue`.
+
+    *explaination*:
+    When addition/substraction in the middle, the effect can be magnified by multiplication.
+    But the effect make smaller by division.
+
+    If current is even, we can divide it by 2.
+    If current is odd, we can add 1 then divide it by 2.
+
+*** Complexity
+    - Time: O(log(target))
+    - Space: O(1)
+
+*** Result
+    - Runtime: 2 ms, faster than 40.00% of Go online submissions for Broken Calculator.
+    - Memory Usage: 1.9 MB, less than 70.00% of Go online submissions for Broken Calculator.
+
+*** Code
+    - Go: {/ main.go}

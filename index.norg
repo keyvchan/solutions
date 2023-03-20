@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-03-19
+updated: 2023-03-20
 version: 0.0.15
 @end
 
@@ -300,6 +300,7 @@ version: 0.0.15
     - (x) {:medium/1338/1338:* Reduce Array Size to The Half}[Reduce Array Size to The Half] 
     - (-) {:medium/948/948:* Bag of Tokens}[Bag of Tokens]
     - (-) {:medium/665/665:* Non-decreasing Array}[Non-decreasing Array]
+    - (-) {:medium/991/991:* Broken Calculator}[Broken Calculator]
 
 *** Interval
     - ( ) {:medium/57/57:* Insert Interval}[Insert Interval]
