@@ -1,0 +1,21 @@
+* Zero-Filled Subarrays
+
+** Mathmatical 
+
+*** Algorithm
+    Notice that the number of zero-filled subarrays equals to the consecutive number of zeros at this index plus one.
+
+    *example*:
+    ~ `[1,0,0,0,1]` -> $1 + 2 + 3 = 7$
+    ~ `[1,0,0,0,0,1]` -> $1 + 2 + 3 + 4 = 10$
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 153 ms, faster than 14.29% of Go online submissions for Number of Zero-Filled Subarrays.
+    - Memory Usage: 10.3 MB, less than 14.29% of Go online submissions for Number of Zero-Filled Subarrays.
+
+*** Code
+    - Go: {/ main.go}

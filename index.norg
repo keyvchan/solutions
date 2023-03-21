@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-03-20
+updated: 2023-03-21
 version: 0.0.15
 @end
 
@@ -326,6 +326,7 @@ version: 0.0.15
     - ( ) {:medium/264/264:* Ugly Number II}[Ugly Number II]
     - (-) {:medium/31/31:* Next Permutation}[Next Permutation]
     - (x) {:easy/66/66:* Plus One}[Plus One]
+    - (x) {:medium/2348/2348:* Zero-Filled Subarrays}[Zero-Filled Subarrays]
 
 *** Bit Manipulation
     - (x) {:easy/1290/1290:* Convert Binary Number in a Linked List to Integer}[Convert Binary Number in a Linked List to Integer]
