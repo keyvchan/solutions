@@ -1,0 +1,23 @@
+* Minimum Score of a Path Between Two Cities
+
+  *Note*:
+  - It can have multiple back edges
+
+** DFS
+
+*** Algorithm
+    The real question is to find if we can reach the smallest distance edge from `1`.
+    There is nothing to do with `n`
+    So, the goal is to find the smallest distance edge from connected component of `1`.
+
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 335 ms, faster than 7.14% of Go online submissions for Minimum Score of a Path Between Two Cities.
+    - Memory Usage: 27.5 MB, less than 28.57% of Go online submissions for Minimum Score of a Path Between Two Cities.
+
+*** Code
+    - Go: {/ main.go}

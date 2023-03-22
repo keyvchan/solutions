@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-03-21
+updated: 2023-03-22
 version: 0.0.15
 @end
 
@@ -234,6 +234,7 @@ version: 0.0.15
     - (x) {:medium/286/286:* Walls and Gates}[Walls and Gates]
     - (x) {:medium/207/207:* Course Schedule}[Course Schedule]
     - (-) {:medium/210/210:* Course Schedule II}[Course Schedule II]
+    - (x) {:medium/2492/2492:* Minimum Score of a Path Between Two Cities}[Minimum Score of a Path Between Two Cities]
 
 *** 1-D Dynamic Programming
     #contexts = [DP[i] = DP[i-1] + DP[i-2]]
@@ -272,7 +273,7 @@ version: 0.0.15
     - (x) {:medium/343/343:* Integer Break}[Integer Break]
 
 *** 2-D Dynamic Programming
-    - (x) {:medium/62/62:* Unique Paths }[Unique Paths] 
+    - (x) {:medium/62/62:* Unique Paths}[Unique Paths] 
     - (x) {:medium/63/63:* Unique Paths II}[Unique Paths II] 
     - (-) {:medium/1143/1143:* Longest Common Subsequence}[Longest Common Subsequence] 
     - (x) {:medium/583/583:* Delete Operation for Two Strings}[Delete Operation for Two Strings]
