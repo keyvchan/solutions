@@ -1,0 +1,18 @@
+* Number of Operations to Make Network Connected
+
+** DFS
+
+*** Algorithm
+    The problem can be reinterpret as finding the number of connected components in the graph.
+    `n` nodes are connected if and only if we have `n - 1` edges.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    Runtime: 107 ms, faster than 11.76% of Go online submissions for Number of Operations to Make Network Connected.
+    Memory Usage: 21 MB, less than 5.88% of Go online submissions for Number of Operations to Make Network Connected.
+
+*** Code
+    - Go: {/ main.go}

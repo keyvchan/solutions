@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-03-22
+updated: 2023-03-23
 version: 0.0.15
 @end
 
@@ -235,6 +235,7 @@ version: 0.0.15
     - (x) {:medium/207/207:* Course Schedule}[Course Schedule]
     - (-) {:medium/210/210:* Course Schedule II}[Course Schedule II]
     - (x) {:medium/2492/2492:* Minimum Score of a Path Between Two Cities}[Minimum Score of a Path Between Two Cities]
+    - (x) {:1319:* Number of Operations to Make Network Connected}[Number of Operations to Make Network Connected]
 
 *** 1-D Dynamic Programming
     #contexts = [DP[i] = DP[i-1] + DP[i-2]]
