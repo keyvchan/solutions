@@ -1,0 +1,16 @@
+* Reorder Routes to Make All Paths Lead to the City Zero
+
+** DFS
+*** Algorithm
+    Start from city 0, and DFS to all the cities that can be reached from city 0.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 235 ms, faster than 48.00% of Go online submissions for Reorder Routes to Make All Paths Lead to the City Zero.
+    - Memory Usage: 25.2 MB, less than 20.00% of Go online submissions for Reorder Routes to Make All Paths Lead to the City Zero.
+
+*** Code
+    - Go: {/ main.go}
