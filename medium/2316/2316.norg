@@ -1,0 +1,18 @@
+* Count Unreachable Pairs of Nodes in an Undirected Graph
+
+** DFS
+
+*** Algorithm
+    Use dfs to find connected components.
+    Then we can calculate the number of unreachable pairs by multiply it up.
+
+*** Complexity
+    - Time: O(n^2)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 3541 ms, faster than 14.29% of Go online submissions for Count Unreachable Pairs of Nodes in an Undirected Graph.
+    - Memory Usage: 41 MB, less than 28.57% of Go online submissions for Count Unreachable Pairs of Nodes in an Undirected Graph.
+
+*** Code
+    - Go: {/ main.go}

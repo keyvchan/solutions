@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-03-24
+updated: 2023-03-25
 version: 0.0.15
 @end
 
@@ -237,6 +237,7 @@ version: 0.0.15
     - (x) {:medium/2492/2492:* Minimum Score of a Path Between Two Cities}[Minimum Score of a Path Between Two Cities]
     - (x) {:1319:* Number of Operations to Make Network Connected}[Number of Operations to Make Network Connected]
     - (-) {:1446:* Reorder Routes to Make All Paths Lead to the City Zero}[Reorder Routes to Make All Paths Lead to the City Zero]
+    - (x) {:2316:* Count Unreachable Pairs of Nodes in an Undirected Graph}[Count Unreachable Pairs of Nodes in an Undirected Graph]
 
 *** 1-D Dynamic Programming
     #contexts = [DP[i] = DP[i-1] + DP[i-2]]
