@@ -1,0 +1,22 @@
+* Longest Cycle in a Graph
+
+** DFS
+
+*** Algorithm
+    Start from each node, do DFS, and record the longest path.
+
+    *NOTE*: 
+    ~ The cycle must start and end at the same node.
+    ~ One node can only be in one cycle.
+
+*** Complexity
+    - Time: O(n^2)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 665 ms, faster than 8.33% of Go online submissions for Longest Cycle in a Graph.
+    - Memory Usage: 49.9 MB, less than 8.33% of Go online submissions for Longest Cycle in a Graph.
+
+*** Code
+    - Go: {/ main.go}
+

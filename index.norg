@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-03-25
+updated: 2023-03-26
 version: 0.0.15
 @end
 
@@ -238,6 +238,7 @@ version: 0.0.15
     - (x) {:1319:* Number of Operations to Make Network Connected}[Number of Operations to Make Network Connected]
     - (-) {:1446:* Reorder Routes to Make All Paths Lead to the City Zero}[Reorder Routes to Make All Paths Lead to the City Zero]
     - (x) {:2316:* Count Unreachable Pairs of Nodes in an Undirected Graph}[Count Unreachable Pairs of Nodes in an Undirected Graph]
+    - (-) {:2360:* Longest Cycle in a Graph}[Longest Cycle in a Graph]
 
 *** 1-D Dynamic Programming
     #contexts = [DP[i] = DP[i-1] + DP[i-2]]
