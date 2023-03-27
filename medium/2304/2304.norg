@@ -1,0 +1,18 @@
+* Minimum Path Cost in a Grid
+
+** DFS + Memoization
+
+*** Algorithm
+    Use DFS, and memoization to store the minimum cost from the current cell to the end cell.
+    Note that `cost = min(cost, dfs(i, j) + grid[i][j])`
+
+*** Complexity
+    - Time: O(mn)
+    - Space: O(mn)
+
+*** Result
+    - Runtime: 396 ms, faster than 10.00% of Go online submissions for Minimum Path Cost in a Grid.
+    - Memory Usage: 8.9 MB, less than 80.00% of Go online submissions for Minimum Path Cost in a Grid.
+
+*** Code
+    - Go: {/ main.go}
