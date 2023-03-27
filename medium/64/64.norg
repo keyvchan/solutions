@@ -1,0 +1,19 @@
+* Minimum Path Sum
+
+** DFS + Memoization
+
+*** Algorithm
+    Firstly, there is a brute force way, which is to use dfs to calculate all sum of paths then find the minimum.
+    But it is not efficient, because there are many duplicate calculation.
+    So we can use memoization to store the sum of each path, then we can use it directly when we need it.
+
+*** Complexity
+    - Time: O(mn)
+    - Space: O(mn)
+
+*** Result
+    - Runtime: 8 ms, faster than 57.92% of Go online submissions for Minimum Path Sum.
+    - Memory Usage: 7.2 MB, less than 8.20% of Go online submissions for Minimum Path Sum.
+
+*** Code
+    - Go: {/ main.go}

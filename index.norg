@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-03-26
+updated: 2023-03-27
 version: 0.0.15
 @end
 
@@ -80,9 +80,7 @@ version: 0.0.15
     - ( ) {:medium/424/424:* Longest Repeating Character Replacement}[Longest Repeating Character Replacement]
     - ( ) {:medium/567/567:* Permutation in String}[Permutation in String]
     - ( ) {:medium/1461/1461:* Check If a String Contains All Binary Codes of Size K}[Check If a String Contains All Binary Codes of Size K]
-    #contexts Fixed Window
     - (x) {:medium/1343/1343:* Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold}[Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold]
-    #contexts Variable Window
     - (x) {:easy/485/485:* Max Consecutive Ones}[Max Consecutive Ones]
     - (x) {:medium/1004/1004:* Max Consecutive Ones III}[Max Consecutive Ones III]
 
@@ -91,11 +89,10 @@ version: 0.0.15
     - (x) {:easy/155/155:* Min Stack}[Min Stack]
     - ( ) {:medium/150/150:* Evaluate Reverse Polish Notation}[Evaluate Reverse Polish Notation]
     - (x) {:medium/22/22:* Generate Parentheses}[Generate Parentheses]
-    - (-) {:739:* Daily Temeratures}[Daily Temeratures]
+    - (-) {:medium/739/739:* Daily Temeratures}[Daily Temeratures]
     - ( ) {:medium/853/853:* Car Fleet}[Car Fleet]
     - (x) {:medium/946/946:* Validate Stack Sequences}[Validate Stack Sequences]
     - (x) {:medium/82/82:* Remove Duplicates from Sorted Linked List II}[Remove Duplicates from Sorted Linked List II]
-    #contexts Monotonic Stack
     - (-) {:medium/456/456:* 132 Pattern}[132 Pattern]
     - (-) {:easy/1475/1475:* Final Prices With a Special Discount in a Shop}[Final Prices With a Special Discount in a Shop]
     - (x) {:easy/1047/1047:* Remove All Adjacent Duplicates In String}[Remove All Adjacent Duplicates In String]
@@ -103,7 +100,6 @@ version: 0.0.15
     - (-) {:easy/496/496:* Next Greater Element I}[Next Greater Element I]
 
 *** Sort
-    #contexts = [pigeonhole sorting]
     - (x) {:medium/1465/1465:* Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts}[Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts] 
     - (-) {:hard/164/164:* Maximum Gap}[Maximum Gap] 
 
@@ -204,7 +200,7 @@ version: 0.0.15
     - (x) {:medium/78/78:* Subsets}[Subsets]
     - (x) {:medium/39/39:* Combination Sum}[Combination Sum]
     - (x) {:medium/46/46:* Permutation}[Permutation]
-    - (x) {:47:* Permutations II}[Permutations II]
+    - (x) {:medium/47/47:* Permutations II}[Permutations II]
     - (x) {:medium/90/90:* Subsets II}[Subsets II]
     - (x) {:medium/40/40:* Combination Sum II}[Combination Sum II]
     - (x) {:medium/216/216:* Combination Sum III}[Combination Sum III]
@@ -235,13 +231,12 @@ version: 0.0.15
     - (x) {:medium/207/207:* Course Schedule}[Course Schedule]
     - (-) {:medium/210/210:* Course Schedule II}[Course Schedule II]
     - (x) {:medium/2492/2492:* Minimum Score of a Path Between Two Cities}[Minimum Score of a Path Between Two Cities]
-    - (x) {:1319:* Number of Operations to Make Network Connected}[Number of Operations to Make Network Connected]
-    - (-) {:1446:* Reorder Routes to Make All Paths Lead to the City Zero}[Reorder Routes to Make All Paths Lead to the City Zero]
-    - (x) {:2316:* Count Unreachable Pairs of Nodes in an Undirected Graph}[Count Unreachable Pairs of Nodes in an Undirected Graph]
-    - (-) {:2360:* Longest Cycle in a Graph}[Longest Cycle in a Graph]
+    - (x) {:medium/1319/1319:* Number of Operations to Make Network Connected}[Number of Operations to Make Network Connected]
+    - (-) {:/medium/1446/1446:* Reorder Routes to Make All Paths Lead to the City Zero}[Reorder Routes to Make All Paths Lead to the City Zero]
+    - (x) {:medium/2316/2316:* Count Unreachable Pairs of Nodes in an Undirected Graph}[Count Unreachable Pairs of Nodes in an Undirected Graph]
+    - (-) {:hard/2360/2360:* Longest Cycle in a Graph}[Longest Cycle in a Graph]
 
 *** 1-D Dynamic Programming
-    #contexts = [DP[i] = DP[i-1] + DP[i-2]]
     - (x) {:easy/509/509:* Fibonacci Number}[Fibonacci Number]
     - (x) {:easy/1137/1137:* N-th Tribonacci Number}[N-th Tribonacci Number]
     - (x) {:easy/1480/1480:* Running Sum of 1d Array}[Running Sum of 1d Array]
@@ -259,19 +254,15 @@ version: 0.0.15
     - (x) {:easy/53/53:* Maximum Subarray}[Maximum Subarray]
     - ( ) {:medium/918/918:* Maximum Sum Circular Subarray}[Maximum Sum Circular Subarray]
     - (-) {:medium/416/416:* Partition Equal Subset Sum}[Partition Equal Subset Sum] 
-    #contexts = [DP[i] = max(DP[i-1], DP[i-2] + nums[i])]
     - (x) {:medium/376/376:* Wiggle Subsequence}[Wiggle Subsequence] 
     - (x) {:medium/1029/1029:* Two City Scheduling}[Two City Scheduling]
-    #contexts = [O(n^2) optimization, max of DP[i] + DP[j] ]
     - (-) {:medium/1014/1014:* Best Sightseeing Pair}[Best Sightseeing Pair] 
     - ( ) {:easy/121/121:* Best Time to Buy and Sell Stock}[Best Time to Buy and Sell Stock]
     - ( ) {:medium/122/122:* Best Time to Buy and Sell Stock II}[Best Time to Buy and Sell Stock II] 
-    #contexts = [Caching]
     - (-) {:medium/309/309:* Best Time to Buy and Sell Stock with Cooldown}[Best Time to Buy and Sell Stock with Cooldown] 
     - (x) {:medium/714/714:* Best Time to Buy and Sell Stock with Transaction Fee}[Best Time to Buy and Sell Stock with Transaction Fee] 
     - ( ) {:medium/139/139:* Word Break}[# Word Break] 
     - (x) {:medium/1048/1048:* Longest String Chain}[Longest String Chain] 
-    #contexts = [DP[i] = max(1, DP[i+1], ... DP[i+k])]
     - (-) {:medium/300/300:* Longest Increasing Subsequence}[Longest Increasing Subsequence] 
     - ( ) {:medium/823/823:* Binary Trees With Factors}[Binary Trees With Factors]
     - (x) {:medium/343/343:* Integer Break}[Integer Break]
@@ -281,15 +272,14 @@ version: 0.0.15
     - (x) {:medium/63/63:* Unique Paths II}[Unique Paths II] 
     - (-) {:medium/1143/1143:* Longest Common Subsequence}[Longest Common Subsequence] 
     - (x) {:medium/583/583:* Delete Operation for Two Strings}[Delete Operation for Two Strings]
-    #contexts = [using two variable as key in cache]
     - (-) {:medium/518/518:* Coin Change 2}[Coin Change 2] 
     - (x) {:medium/494/494:* Target Sum}[Target Sum] 
     - (x) {:hard/115/115:* Distinct Subsequences}[Distinct Subsequences]
     - (-) {:medium/1654/1654:* Minimum Jumps to Reach Home}[Minimum Jumps to Reach Home]
-    #contexts = [using multiple variable as key in cache]
     - (-) {:medium/97/97:* Interleaving String}[Interleaving String] 
     - (x) {:hard/123/123:* Best Time to Buy and Sell Stocks III}[Best Time to Buy and Sell Stocks III]
     - (x) {:hard/188/188:* Best Time to Buy and Sell Stock IV}[Best Time to Buy and Sell Stock IV]
+    - (x) {:medium/64/64:* Minimum Path Sum}[Minimum Path Sum]
 
 *** Greedy
     - (x) {:easy/1710/1710:* Maximum Units on a Truck}[Maximum Units on a Truck] 
