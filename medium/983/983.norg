@@ -1,0 +1,23 @@
+* Minimum Cost For Tickets
+
+** DFS + Memoization
+
+*** Algorithm
+    Use DFS + Memoization to solve this problem.
+    At each day, we have 3 options:
+    - Buy a 1-day ticket, skip 1 day
+    - Buy a 7-day ticket, skip 7 days
+    - Buy a 30-day ticket, skip 30 days
+
+    We can use memoization to store the minimum cost for each day.
+
+*** Complexity
+    - Time: O(N)
+    - Space: O(N)
+
+*** Result
+    - Runtime: 116 ms, faster than 6.98% of Go online submissions for Minimum Cost For Tickets.
+    - Memory Usage: 9.7 MB, less than 6.98% of Go online submissions for Minimum Cost For Tickets.
+
+*** Code
+    - Go: {/ main.go}
