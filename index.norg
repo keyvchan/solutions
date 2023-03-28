@@ -195,6 +195,7 @@ version: 0.0.15
     - (x) {:medium/215/215:* Kth Largest Element in an Array}[Kth Largest Element in an Array]
     - (x) {:medium/870/870:* Advantage Shuffle}[Advantage Shuffle]
     - (x) {:medium/658/658:* Find K Closest Elements}[Find K Closest Elements]
+    - (-) {:medium/373/373:* Find K Pairs with Smallest Sums}[Find K Pairs with Smallest Sums]
 
 *** Backtracking
     - (x) {:medium/78/78:* Subsets}[Subsets]

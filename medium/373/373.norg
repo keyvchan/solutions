@@ -1,0 +1,33 @@
+* Find K Pairs with Smallest Sums
+
+** Brute Force
+
+*** Algorithm
+    Make every pairs, sort it by its sum
+
+*** Complexity
+    - Time: O(n*m)
+    - Space: O(n*m)
+
+*** Result
+    - TLE
+
+** Heap
+
+*** Algorithm
+    We will use a `max heap` to store all the sums.
+    If we encounter a new sum that is smaller than the top of the heap, we will pop the top and push the new sum.
+    Since we already know the nums1 and nums2 are sorted, we don't need to worry about the smallness of the sum.
+
+*** Complexity
+    - Time: O(nlogk)
+    - Space: O(k)
+
+*** Result
+    - Runtime: 247 ms, faster than 27.27% of Go online submissions for Find K Pairs with Smallest Sums.
+    - Memory Usage: 10.8 MB, less than 52.73% of Go online submissions for Find K Pairs with Smallest Sums.
+
+*** Code
+    - Go: {/ main.go}
+
+
