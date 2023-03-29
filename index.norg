@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-03-28
+updated: 2023-03-29
 version: 0.0.15
 @end
 
@@ -267,6 +267,7 @@ version: 0.0.15
     - (-) {:medium/300/300:* Longest Increasing Subsequence}[Longest Increasing Subsequence] 
     - ( ) {:medium/823/823:* Binary Trees With Factors}[Binary Trees With Factors]
     - (x) {:medium/343/343:* Integer Break}[Integer Break]
+    - (x) {:hard/1402/1402:* Reducing Dishes}[Reducing Dishes]
 
 *** 2-D Dynamic Programming
     - (x) {:medium/62/62:* Unique Paths}[Unique Paths] 

@@ -1,0 +1,18 @@
+* Reducing Dishes
+
+** DFS + Memoization
+
+*** Algorithm
+    Typical DFS + Memoization problem. 
+    The memo key is `time` and index.
+
+*** Complexity
+    - Time: O(n^2), since time is n, and we have n choices for each time
+    - Space: O(n^2)
+
+*** Result
+    - Runtime: 243 ms, faster than 51.61% of Go online submissions for Reducing Dishes.
+    - Memory Usage: 30.7 MB, less than 51.61% of Go online submissions for Reducing Dishes.
+
+*** Code
+    - Go: {/ main.go}
