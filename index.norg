@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-03-29
+updated: 2023-03-30
 version: 0.0.15
 @end
 
@@ -60,6 +60,7 @@ version: 0.0.15
     - (x) {:easy/1281/1281:* Product and Sum of Digits of an Integer}[Product and Sum of Digits of an Integer]
     - (x) {:medium/1222/1222:* Queens That Can Attack the King}[Queens That Can Attack the King]
     - ( ) {:easy/344/344:* Reverse String}[Reverse String]
+    - (x) {:medium/2452/2452:* Words Within Two Edits of Dictionary}[Words Within Two Edits of Dictionary]
 
 *** 2D Array
     - (x) {:easy/867/867:* Transpose Matrix}[Transpose Matrix]

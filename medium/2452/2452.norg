@@ -1,0 +1,18 @@
+* Words Within Two Edits of Dictionary
+
+** Brute Force
+
+*** Algorithm
+    Brute force, for each word in the queries, check if it is satisfied the condition.
+
+*** Complexity
+    - Time: O(n * m * l)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 0 ms, faster than 100.00% of Go online submissions for Words Within Two Edits of Dictionary.
+    - Memory Usage: 3.3 MB, less than 30.00% of Go online submissions for Words Within Two Edits of Dictionary.
+
+*** Code
+    - Go: {/ main.go}
+
