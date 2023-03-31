@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-03-30
+updated: 2023-03-31
 version: 0.0.15
 @end
 
@@ -61,6 +61,7 @@ version: 0.0.15
     - (x) {:medium/1222/1222:* Queens That Can Attack the King}[Queens That Can Attack the King]
     - ( ) {:easy/344/344:* Reverse String}[Reverse String]
     - (x) {:medium/2452/2452:* Words Within Two Edits of Dictionary}[Words Within Two Edits of Dictionary]
+    - (x) {:easy/1678/1678:* Goal Parser Interpretation}[Goal Parser Interpretation]
 
 *** 2D Array
     - (x) {:easy/867/867:* Transpose Matrix}[Transpose Matrix]

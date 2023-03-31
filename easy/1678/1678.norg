@@ -1,0 +1,19 @@
+* Goal Parser Interpretation
+
+** Brute Force
+
+*** Algorithm
+    Loop through the string, add char according to the rules.
+
+    Noted that the string is assume always valid, so we don't need to check the index.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 2 ms, faster than 54.72% of Go online submissions for Goal Parser Interpretation.
+    - Memory Usage: 2 MB, less than 61.64% of Go online submissions for Goal Parser Interpretation.
+
+*** Code
+    - Go: {/ main.go}
