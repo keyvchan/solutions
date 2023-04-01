@@ -1,0 +1,16 @@
+* Length of Last Word
+
+** String Split
+*** Algorithm
+    Split string by space, update the length when token is not empty.
+
+*** Complexity
+    - Time: O(n)
+    - space: O(1), since we use `sting_view`, it can be assumed no extra space used.
+
+*** Result
+    - Runtime: 0 ms, faster than 100.00% of C++ online submissions for Length of Last Word.
+    - Memory Usage: 6.6 MB, less than 59.05% of C++ online submissions for Length of Last Word.
+
+*** Code
+    - CPP: {/ main.cpp}
