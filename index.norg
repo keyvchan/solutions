@@ -78,6 +78,7 @@ version: 0.0.15
     - (x) {:hard/42/42:* Trapping Rain Water}[Trapping Rain Water]
     - (x) {:medium/2130/2130:* Maximum Twin Sum of a Linked List}[Maximum Twin Sum of a Linked List]
     - (x) {:medium/1877/1877:* Minimize Pair Sum in Array}[Minimize Pair Sum in Array]
+    - ( ) {:easy/27/27:* Remove Element}[Remove Element]
 
 *** Sliding Window
     - ( ) {:medium/3/3:* Longest Substring Without Repeating Characters}[Longest Substring Without Repeating Characters]

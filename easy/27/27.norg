@@ -1,0 +1,17 @@
+* Remove Element
+
+** Two Pointers
+
+*** Algorithm
+    Use two pointers, replace every val element with non-val element
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 0 ms, faster than 100.00% of C++ online submissions for Remove Element.
+    - Memory Usage: 8.8 MB, less than 47.60% of C++ online submissions for Remove Element.
+
+*** Code
+    - CPP: {/ main.cpp}
