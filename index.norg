@@ -332,6 +332,7 @@ version: 0.0.15
     - (-) {:medium/31/31:* Next Permutation}[Next Permutation]
     - (x) {:easy/66/66:* Plus One}[Plus One]
     - (x) {:medium/2348/2348:* Zero-Filled Subarrays}[Zero-Filled Subarrays]
+    - ( ) {:easy/67/67:* Add Binary}[Add Binary]
 
 *** Bit Manipulation
     - (x) {:easy/1290/1290:* Convert Binary Number in a Linked List to Integer}[Convert Binary Number in a Linked List to Integer]
