@@ -1,15 +1,19 @@
 * Binary Search
 
 ** Binary Search
+*** Algorithm
+    *Note:*
+    @code go
+    mid := left + (right - left) / 2 // overflow prevention
+    @end
 
-   @code go
-   mid := left + (right - left) / 2 // overflow prevention
-   @end
-
-   *** Complexity
-      - Time: O(log(n))
-       - Space: O(1)
+*** Complexity
+    - Time: O(logn)
+    - Space: O(1)
 
 *** Result
-    Runtime: 28 ms, faster than 95.96% of Go online submissions for Binary Search.
-    Memory Usage: 7.1 MB, less than 29.76% of Go online submissions for Binary Search.
+    - Runtime: 28 ms, faster than 95.96% of Go online submissions for Binary Search.
+    - Memory Usage: 7.1 MB, less than 29.76% of Go online submissions for Binary Search.
+
+*** Code
+    - Go: {/ main.go}
