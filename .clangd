@@ -1,2 +1,2 @@
 CompileFlags:
-  add: [-std=c++11]
+  add: [-std=c++17]

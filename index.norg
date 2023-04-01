@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-03-31
+updated: 2023-04-01
 version: 0.0.15
 @end
 
@@ -62,6 +62,7 @@ version: 0.0.15
     - ( ) {:easy/344/344:* Reverse String}[Reverse String]
     - (x) {:medium/2452/2452:* Words Within Two Edits of Dictionary}[Words Within Two Edits of Dictionary]
     - (x) {:easy/1678/1678:* Goal Parser Interpretation}[Goal Parser Interpretation]
+    - (x) {:easy/9/9:* Palindrome Number}[Palindrome Number]
 
 *** 2D Array
     - (x) {:easy/867/867:* Transpose Matrix}[Transpose Matrix]

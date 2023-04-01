@@ -1,0 +1,16 @@
+* Palindrome Number
+
+** Convert to string
+*** Algorithm
+    Convert the number to string, and then compare the first half and the second half of the string.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Code
+    - Runtime: 0 ms, faster than 100.00% of C++ online submissions for Palindrome Number.
+    - Memory Usage: 6 MB, less than 14.96% of C++ online submissions for Palindrome Number.
+
+*** Code
+    - CPP: {/ main.cpp}
