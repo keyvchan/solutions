@@ -64,6 +64,7 @@ version: 0.0.15
     - (x) {:easy/1678/1678:* Goal Parser Interpretation}[Goal Parser Interpretation]
     - (x) {:easy/9/9:* Palindrome Number}[Palindrome Number]
     - (x) {:easy/58/58:* Length of Last Word}[Length of Last Word]
+    - (x) {:medium/2300/2300:* Successful Pairs of Spells and Potions}[Successful Pairs of Spells and Potions]
 
 *** 2D Array
     - (x) {:easy/867/867:* Transpose Matrix}[Transpose Matrix]

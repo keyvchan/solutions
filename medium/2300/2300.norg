@@ -1,0 +1,21 @@
+* Successful Pairs of Spells and Potions
+
+** Bound Check
+
+*** Algorithm
+    Find the lower bound and upper bound of the $success / spells[i]$.
+
+    *Note:*
+    - When the reminder is not zero, we use the upper bound.
+    - When the reminder is zero, we use the lower bound.
+
+*** Complexity
+    - Time: O(nlogn)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 279 ms, faster than 21.85% of C++ online submissions for Successful Pairs of Spells and Potions.
+    - Memory Usage: 99.7 MB, less than 63.36% of C++ online submissions for Successful Pairs of Spells and Potions.
+
+*** Code
+    - CPP: {/ main.cpp}
