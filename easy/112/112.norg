@@ -1,0 +1,20 @@
+* Path Sum
+
+** DFS
+
+*** Algorithm
+
+    Use `DFS` to traverse the tree, and check if the sum of the path is equal to the target sum.
+
+    Noted that the leaf node is the node that has no child node, we should stop there.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 13 ms, faster than 41.11% of C++ online submissions for Path Sum.
+    - Memory Usage: 21.3 MB, less than 76.93% of C++ online submissions for Path Sum.
+
+*** Code
+    - CPP: {/ main.cpp}
