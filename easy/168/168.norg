@@ -1,0 +1,17 @@
+* Excel Sheet Column Title
+
+** Brute Force
+
+*** Algorithm
+    Build it in reverse order, then reverse the string.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 0 ms, faster than 100.00% of C++ online submissions for Excel Sheet Column Title.
+    - Memory Usage: 6 MB, less than 52.29% of C++ online submissions for Excel Sheet Column Title.
+
+*** Code
+    - Go: {/ main.cpp}
