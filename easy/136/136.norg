@@ -1,0 +1,17 @@
+* Single Number
+
+** XOR
+
+*** Algorithm
+    XOR all numbers, the result is the single number
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 15 ms, faster than 90.75% of C++ online submissions for Single Number.
+    - Memory Usage: 17 MB, less than 57.34% of C++ online submissions for Single Number.
+
+*** Code
+    - CPP: {/ main.cpp}
