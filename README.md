@@ -1,5 +1,7 @@
 # Index
 
+NOTE: this list is not complete, for the complete list, please see [index.norg](index.norg)
+
 ## Algorithm
 
 ### Array and Hash
