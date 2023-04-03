@@ -1,0 +1,19 @@
+* Boats to Save People 
+
+** Sliding Window
+
+*** Algorithm
+    Use `sliding window` to tracking which people can be taken by the boat.
+    We noticed that a boat can take at most 2 people, which means we could be able to take the lightest person and the heaviest person at the same time.
+
+*** Complexity
+    - Time: O(NlogN)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 76 ms, faster than 95.37% of C++ online submissions for Boats to Save People.
+    - Memory Usage: 41.9 MB, less than 59.84% of C++ online submissions for Boats to Save People.
+
+*** Code
+    - CPP: {/ main.cpp}
+
