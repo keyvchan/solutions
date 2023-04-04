@@ -1,0 +1,17 @@
+* Optimal Partition of String
+
+** Set
+
+*** Algorithm
+    Use a set to track the unique characters in the string. And clear when the character is repeated.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 243 ms, faster than 39.06% of C++ online submissions for Optimal Partition of String.
+    - Memory Usage: 44.6 MB, less than 56.56% of C++ online submissions for Optimal Partition of String.
+
+*** Code
+    - Go: {/ main.cpp}
