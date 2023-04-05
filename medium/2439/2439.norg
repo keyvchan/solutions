@@ -1,0 +1,18 @@
+* Minimize Maximum of Array
+
+** Running Sum
+
+*** Algorithm
+    This question may be a little confusing at first, but it is actually very simple.
+    What we really want to do is to find the smallest number that is greater than or equal to the average of the array.
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 146 ms, faster than 63.04% of C++ online submissions for Minimize Maximum of Array.
+    - Memory Usage: 71.3 MB, less than 90.47% of C++ online submissions for Minimize Maximum of Array.
+
+*** Code
+    - CPP: {/ main.cpp}

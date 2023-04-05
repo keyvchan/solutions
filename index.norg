@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-04-04
+updated: 2023-04-05
 version: 0.0.15
 @end
 
@@ -66,6 +66,7 @@ version: 0.0.15
     - (x) {:easy/58/58:* Length of Last Word}[Length of Last Word]
     - (x) {:medium/2300/2300:* Successful Pairs of Spells and Potions}[Successful Pairs of Spells and Potions]
     - (x) {:medium/2405/2405:* Optimal Partition of String}[Optimal Partition of String]
+    - (-) {:medium/2439/2439:* Minimize Maximum of Array}[Minimize Maximum of Array]
 
 *** 2D Array
     - (x) {:easy/867/867:* Transpose Matrix}[Transpose Matrix]
