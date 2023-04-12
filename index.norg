@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-04-05
+updated: 2023-04-12
 version: 0.0.15
 @end
 
@@ -348,5 +348,8 @@ version: 0.0.15
 
 *** Simulation
     - (x) {:medium/1441/1441:* Build a Array With Stack Operations}[Build a Array With Stack Operations]
+
+*** JavaScript/TypeScript
+    - ( ) {:easy/2620/2620:* Counter}[Counter]
 
 ** {:coding_interview🤺/index:* Coding Interview 🤺}[Coding Interview 🤺] 
