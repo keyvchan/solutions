@@ -69,6 +69,7 @@ version: 0.0.15
     - (-) {:medium/2439/2439:* Minimize Maximum of Array}[Minimize Maximum of Array]
     - (x) {:medium/73/73:* Set Matrix Zeroes}[Set Matrix Zeroes]
     - (x) {:easy/1929/1929:* Concatenation of Array}[Concatenation of Array]
+    - (x) {:easy/1299/1299:* Replace Elements with Greatest Element on Right Side}[Replace Elements with Greatest Element on Right Side]
 
 *** 2D Array
     - (x) {:easy/867/867:* Transpose Matrix}[Transpose Matrix]
