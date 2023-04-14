@@ -68,6 +68,7 @@ version: 0.0.15
     - (x) {:medium/2405/2405:* Optimal Partition of String}[Optimal Partition of String]
     - (-) {:medium/2439/2439:* Minimize Maximum of Array}[Minimize Maximum of Array]
     - (x) {:medium/73/73:* Set Matrix Zeroes}[Set Matrix Zeroes]
+    - (x) {:easy/1929/1929:* Concatenation of Array}[Concatenation of Array]
 
 *** 2D Array
     - (x) {:easy/867/867:* Transpose Matrix}[Transpose Matrix]

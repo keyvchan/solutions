@@ -1,0 +1,18 @@
+* Concatenation of Array
+
+** Reversed Vector
+
+*** Algorithm
+    Create a new vector with the size of the original vector * 2
+    Copy the original vector to the new vector from the beginning
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 13 ms, faster than 32.46% of C++ online submissions for Concatenation of Array.
+    - Memory Usage: 12.5 MB, less than 71.51% of C++ online submissions for Concatenation of Array.
+
+*** Code
+    - CPP: {/ main.cpp}
