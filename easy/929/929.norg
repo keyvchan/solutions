@@ -1,0 +1,18 @@
+* Unique Email Addresses
+
+** Build New Email Address
+
+*** Algorithm
+    Build a new email address by ignoring everything after a '+' and removing all '.'s
+
+*** Complexity
+    - Time: O(N) where N is the number of emails
+    - Space: O(N) where N is the number of emails
+
+*** Result
+    - Runtime: 20 ms, faster than 89.12% of C++ online submissions for Unique Email Addresses.
+    - Memory Usage: 15.2 MB, less than 23.54% of C++ online submissions for Unique Email Addresses.
+
+*** Code
+    - CPP: {/ main.cpp}
+
