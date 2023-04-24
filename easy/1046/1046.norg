@@ -16,5 +16,5 @@
     - Memory Usage: 2 MB, less than 81.82% of Go online submissions for Last Stone Weight.
 
 *** Code
-    - Go: {@ main.go}[main.go]
+    - Go: {/ main.go}[main.go]
 
