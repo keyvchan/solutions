@@ -1,0 +1,25 @@
+* Find the Difference of Two Arrays
+
+** Set
+
+*** Algorithm
+    ~ Create a set for nums1
+    ~ Create a set for nums2
+    ~ Iterate through nums1 and add each element to the set
+    ~ Iterate through nums2 and add each element to the set
+    ~ Iterate through nums1 and check if each element is in the set
+    ~ If it is not in the set, add it to the result
+    ~ Iterate through nums2 and check if each element is in the set
+    ~ If it is not in the set, add it to the result
+    ~ Return the result
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(n)
+
+*** Result
+    - Runtime: 46 ms, faster than 89.69% of C++ online submissions for Find the Difference of Two Arrays.
+    - Memory Usage: 31.7 MB, less than 64.86% of C++ online submissions for Find the Difference of Two Arrays.
+
+*** Code
+    - CPP: {/ main.cpp}

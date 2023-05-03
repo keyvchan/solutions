@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-04-16
+updated: 2023-05-03
 version: 0.0.15
 @end
 
@@ -71,6 +71,7 @@ version: 0.0.15
     - (x) {:easy/1929/1929:* Concatenation of Array}[Concatenation of Array]
     - (x) {:easy/1299/1299:* Replace Elements with Greatest Element on Right Side}[Replace Elements with Greatest Element on Right Side]
     - ( ) {:easy/929/929:* Unique Email Addresses}[Unique Email Addresses]
+    - ( ) {:easy/2215/2215:* Find the Difference of Two Arrays}[Find the Difference of Two Arrays]
 
 *** 2D Array
     - (x) {:easy/867/867:* Transpose Matrix}[Transpose Matrix]
