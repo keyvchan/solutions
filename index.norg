@@ -4,7 +4,7 @@ description: Overview of Solved Problems
 authors: keyv
 categories: 
 created: 2022-7-01
-updated: 2023-05-03
+updated: 2023-05-08
 version: 0.0.15
 @end
 
@@ -76,6 +76,7 @@ version: 0.0.15
 *** 2D Array
     - (x) {:easy/867/867:* Transpose Matrix}[Transpose Matrix]
     - (-) {:medium/304/304:* Range Sum Query 2D - Immutable}[Range Sum Query 2D - Immutable]
+    - (x) {:easy/1572/1572:* Matrix Diagonal Sum}[Matrix Diagonal Sum]
 
 *** Two Pointers
     - (x) {:easy/392/392:* Is Subsequence}[Is Subsequence] 

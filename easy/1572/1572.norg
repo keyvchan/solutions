@@ -1,0 +1,20 @@
+* Matrix Diagonal Sum
+
+** Array
+*** Algorithm
+    Sum the primary diagonal and secondary diagonal.
+    If the matrix is odd, the middle element will be counted twice, so we need to subtract it.
+
+*** Complexity
+    - Time Complexity: O(n)
+    - Space Complexity: O(1)
+
+*** Result
+    - Runtime: 15 ms, faster than 56.74% of C++ online submissions for Matrix Diagonal Sum.
+    - Memory Usage: 11.3 MB, less than 64.67% of C++ online submissions for Matrix Diagonal Sum.
+
+*** Code
+    - CPP: {/ main.cpp}
+
+
+
