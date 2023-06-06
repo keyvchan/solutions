@@ -1,0 +1,17 @@
+* Can Make Arithmetic Progression From Sequence
+
+** Sort
+*** Algorithm
+    - Sort the array
+    - Check if the difference between each element is the same
+
+*** Complexity
+    - Time: O(nlogn)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 4 ms, faster than 74.54% of C++ online submissions for Can Make Arithmetic Progression From Sequence. 
+    - Memory Usage: 9.1 MB, less than 28.46% of C++ online submissions for Can Make Arithmetic Progression From Sequence.
+
+*** Code
+    - CPP: {/ main.cpp}
