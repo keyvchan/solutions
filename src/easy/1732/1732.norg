@@ -1,0 +1,25 @@
+@document.meta
+title: Find the Highest Altitude
+description: 
+authors: keyv
+categories: array
+created: 2023-06-20
+updated: 2023-06-20
+version: 1.1.1
+@end
+
+* Range Maximum
+
+** Algorithm
+   Calculate the current altitude on the way.
+
+** Complexity
+   - Time: O(n)
+   - Space: O(1)
+
+** Result
+   - Runtime: 0 ms, faster than 100.00% of C++ online submissions for Find the Highest Altitude.
+   - Memory Usage: 7.9 MB, less than 93.43% of C++ online submissions for Find the Highest Altitude.
+
+** Code
+   - Cpp: {/ main.cpp}
