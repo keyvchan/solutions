@@ -1,0 +1,18 @@
+* Excel Sheet Column Title
+
+** Brute Force
+
+*** Algorithm
+    Using a Map to store maps of char and index
+    Calculate the result by loop through the string
+
+*** Complexity
+    - Time: O(n)
+    - Space: O(1)
+
+*** Result
+    - Runtime: 3 ms, faster than 22.04% of Go online submissions for Excel Sheet Column Number.
+    - Memory Usage: 2.7 MB, less than 8.57% of Go online submissions for Excel Sheet Column Number.
+
+*** Code
+    - Go: {/ main.go}
